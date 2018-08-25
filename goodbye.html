@@ -10,7 +10,12 @@
         <p>Thanks, Goodbye!</p>
       </header>
       <footer>
-        <a href="index.html">Oh, wait, there was something else...</a>
+        <form>
+          <input type="button" value="Go back" onclick="history.go(-1)">
+        </form>
+        <form>
+          <input type="button" value="Oh, wait there was something else..." onclick="window.location.href='index.html'">
+        </form>
       </footer>
     </body>
 </html>
