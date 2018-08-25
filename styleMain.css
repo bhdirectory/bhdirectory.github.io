@@ -1,0 +1,265 @@
+/*FONTS*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, nav {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(0, 130, 116);
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+h4 {
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+.subheading {
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+article > header {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+section > header {
+  border-top: 1px solid black;
+}
+
+blockquote {
+  font-weight: bold;
+}
+
+article > footer {
+  border-bottom: 1px solid black;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.notabene {
+  font-weight: stronger;
+  font-style: italic;
+  background-color: #d3d3d3;
+}
+
+dfn {
+  font-style: italic;
+  color: rgb(61, 114, 153);
+}
+
+/*LINKS*/
+
+a:link {
+  color: rgb(20, 126, 204);
+}
+
+a:visited {
+  color: rgb(20, 126, 204);
+}
+
+a:hover {
+  color: rgb(255, 80, 0);
+}
+
+a:active {
+
+}
+
+a.linkButton {
+  border: 2px solid rgb(0, 130, 116, 0.75);
+  border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(0, 130, 116);
+  background-color: white;
+  padding: 7.5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-variant: small-caps;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+a.linkButton:hover {
+  background-color: rgb(0, 130, 116);
+  color: white;
+}
+
+a.linkButton:active {
+  background-color: rgb(0, 130, 116, 0.75);
+}
+
+a.legislation {
+  border: 2px solid rgba(130, 0, 13, 0.75);
+  border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(130, 0, 13);
+  background-color: white;
+  padding: 7.5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+a.legislation:hover {
+  background-color: rgb(130, 0, 13);
+  color: white;
+}
+
+a.legislation:active {
+  background-color: rgba(130, 0, 13, 0.75);
+}
+
+table {
+    font-family: "Open Sans", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid rgb(0, 130, 116);
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 130, 116, 0.2);
+}
+
+.headerTable {
+    font-family: "Open Sans", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.headerTable td, .headerTable th, .headerTable tr {
+    border: 1px solid rgb(204, 167, 20);
+    text-align: left;
+    padding: 8px;
+}
+
+.headerTable tr:nth-child(odd) {
+    background-color: white;
+}
+
+.headerTable tr:nth-child(even) {
+    background-color: rgba(204, 167, 20, 0.35);
+}
+
+.fireSafetyTable {
+    font-family: "Open Sans", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.fireSafetyTable td, .fireSafetyTable th, .fireSafetyTable tr {
+    border: 1px solid rgb(143, 7, 7);
+    text-align: left;
+    padding: 8px;
+}
+
+.fireSafetyTable tr:nth-child(odd) {
+    background-color: white;
+}
+
+.fireSafetyTable tr:nth-child(even) {
+    background-color: rgba(143, 7, 7, 0.35);
+}
+
+.notesTable {
+    font-family: "Open Sans", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.notesTable td, .notesTable th, .notesTable tr {
+    border: 1px solid rgb(130, 130, 116);
+    text-align: left;
+    padding: 8px;
+}
+
+.notesTable tr:nth-child(odd) {
+    background-color: white;
+}
+
+.notesTable tr:nth-child(even) {
+    background-color: rgba(130, 130, 116, 0.35);
+}
+
+caption {
+  color: rgb(0, 130, 116);
+  font-size: 1em;
+  padding: 1.25em;
+}
+
+/*PAGE LAYOUT*/
+
+body {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+article {
+  page-break-before: always;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+.content {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+aside {
+  background-color: rgba(204, 167, 20, 0.2);
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.fireSafety {
+  background-color: rgba(143, 7, 7, 0.1);
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.notes {
+  background-color: rgba(130, 130, 116, 0.2);
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+footer {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+dfn {
+  cursor: help;
+}
