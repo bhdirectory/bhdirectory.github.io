@@ -1,2 +1,2 @@
-# timsdw.github.io
+# bhdirectory.github.io
 first attempt
