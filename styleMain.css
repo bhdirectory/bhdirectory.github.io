@@ -43,7 +43,8 @@ section > header {
 }
 
 blockquote {
-  font-weight: bold;
+  font-weight: lighter;
+  font-size: 1.25em
 }
 
 article > footer {
