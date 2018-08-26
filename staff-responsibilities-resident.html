@@ -8,6 +8,7 @@
   </head>
     <body>
       <header>
+        <p id="currentDateTime"></p>
         <img src="BirtleyHouseLogo.png"/>
         <p>
           <blockquote><q>Let me help you find the right person to answer your question or give you advice.</q></blockquote>
@@ -34,4 +35,10 @@
         </form>
       </footer>
     </body>
+
+    <script>
+    var d = new Date();
+    document.getElementById("currentDateTime").innerHTML = d.toDateString();
+    </script>
+
 </html>
