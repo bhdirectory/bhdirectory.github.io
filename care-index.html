@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Care Index</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Cabin" rel="stylesheet">
+    <link rel="stylesheet" href="styleMain.css">
+  </head>
+    <body>
+      <header>
+        <p id="currentDateTime"></p>
+        <img src="BirtleyHouseLogo.png"/>
+        <p>
+          <blockquote><q>Of course, this is central to everything that happens at Birtley.  Can you be more specific?</q></blockquote>
+        </p>
+        <aside>You may find it helpful to understand the <a href="orgChart.html">organisational structure</a> of the business</aside>
+        <nav>
+          <ol>
+            <li><a href="care-general.html">I can't really be specific, my question is about care in general</a></li>
+            <li><a href="care-personal">I want to talk about the personal care you provide</a></li>
+            <li><a href="">I'm interested in the pastoral care you provide</a></li>
+            <li><a href="">I have a question about the third-party service providers you partner with</a></li>
+            <li><a href="">I've got a clinical question concerning the nursing side of the service</a></li>
+            <li><a href="">My question concerns the manual handling aspects of care</a></li>
+            <li><a href="feedback-index.html">I'd like to give feedback or make a complaint</a></li>
+          </ol>
+        </nav>
+      </header>
+      <footer>
+        <form>
+          <input type="button" value="Go back" onclick="history.go(-1)">
+        </form>
+        <form>
+          <input type="button" value="Return to Main Index" onclick="window.location.href='index.html'">
+        </form>
+      </footer>
+    </body>
+
+    <script>
+    var d = new Date();
+    document.getElementById("currentDateTime").innerHTML = d.toDateString();
+    </script>
+
+</html>
