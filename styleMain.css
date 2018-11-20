@@ -29,6 +29,7 @@ h4 {
 }
 
 .subheading {
+  color: grey;
   font-weight: lighter;
   font-size: smaller;
 }
@@ -255,8 +256,8 @@ aside {
 }
 
 footer {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 0px;
+  padding-right: 0px;
   padding-top: 2em;
   padding-bottom: 2em;
 }
