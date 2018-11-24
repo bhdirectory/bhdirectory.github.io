@@ -168,24 +168,85 @@ tr:nth-child(even) {
     background-color: rgba(204, 167, 20, 0.35);
 }
 
-.fireSafetyTable {
+.yellow {
     font-family: "Open Sans", sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
-.fireSafetyTable td, .fireSafetyTable th, .fireSafetyTable tr {
-    border: 1px solid rgb(143, 7, 7);
+.yellow td, .yellow th, .yellow tr {
+    border: 1px solid rgb(188, 188, 0);
     text-align: left;
     padding: 8px;
 }
 
-.fireSafetyTable tr:nth-child(odd) {
+.yellow tr:nth-child(odd) {
     background-color: white;
 }
 
-.fireSafetyTable tr:nth-child(even) {
-    background-color: rgba(143, 7, 7, 0.35);
+.yellow tr:nth-child(even) {
+    background-color: rgba(188, 188, 0, 0.35);
+}
+
+
+.blue {
+    font-family: "Open Sans", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.blue td, .blue th, .blue tr {
+    border: 1px solid rgb(10, 145, 255);
+    text-align: left;
+    padding: 8px;
+}
+
+.blue tr:nth-child(odd) {
+    background-color: white;
+}
+
+.blue tr:nth-child(even) {
+    background-color: rgba(10, 145, 255, 0.35);
+}
+
+.red {
+    font-family: "Open Sans", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.red td, .red th, .red tr {
+    border: 1px solid rgb(204, 24, 20);
+    text-align: left;
+    padding: 8px;
+}
+
+.red tr:nth-child(odd) {
+    background-color: white;
+}
+
+.red tr:nth-child(even) {
+    background-color: rgba(204, 24, 20, 0.35);
+}
+
+.orange {
+    font-family: "Open Sans", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.orange td, .orange th, .orange tr {
+    border: 1px solid rgb(255, 125, 25);
+    text-align: left;
+    padding: 8px;
+}
+
+.orange tr:nth-child(odd) {
+    background-color: white;
+}
+
+.orange tr:nth-child(even) {
+    background-color: rgba(255, 125, 25, 0.35);
 }
 
 .notesTable {
@@ -242,7 +303,7 @@ aside {
 }
 
 .fireSafety {
-  background-color: rgba(143, 7, 7, 0.1);
+  background-color: rgba(188, 188, 0, 0.1);
   padding: 15px;
   padding-left: 25px;
   padding-right: 25px;
