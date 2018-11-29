@@ -327,6 +327,11 @@ dfn {
   cursor: help;
 }
 
+.datatrain {
+  font-family: "Helvetica";
+  font-size: smaller;
+}
+
 script {
   display: none;
 }
