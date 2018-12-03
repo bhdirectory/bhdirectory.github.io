@@ -3,15 +3,15 @@
 10003,request a brochure,legitimate interest;
 10004,opt-in to one of our mailing lists,consent;
 10005,fill out a job application form,consent;
-10006,are employed by us;
+10006,are employed by us, ;
 10007,require a pre-admission assessment,consent;
 10008,are admitted as a Resident,contract,legitimate interest;
-10009,
+10009, , ,;
 10010,are registered as a representative of a Resident,consent;
 10011,make a payment to us,legitimate interest;
 10012,visit our property or use our grounds,legitimate interest;
-10013,work with us as a third-party service provider,;
+10013,work with us as a third-party service provider, ;
 10014,leave feedback or make a complaint,legitimate interest/public interest;
 10015,correspond with us in any way,legitimate interest;
-10016,
-10017,
+10016, , ,;
+10017, , ,;
