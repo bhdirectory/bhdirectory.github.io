@@ -10,19 +10,42 @@
       "@context": "http://schema.org",
       "@type": "IndividualProduct",
         "name": "Consumer Unit (DB6)",
-        "category": "Consumer Unit",
+        "category": {
+          "name": "Consumer Unit",
+          "url": "https://www.wikidata.org/wiki/Q2912534"
+        },
+        "relatedTo": {
+          "name": "Distribution Board 3",
+          "alternateName": "DB3",
+          "url": "https://bhdirectory.github.io/asset/electrical-register/db3.html"
+        },
         "description": "This 14-way consumer unit distributes power to circuits around the Central Office and Drawing Room.  It is located in a false ceiling accessed via a drop-down ceiling panel in the corridor outside the Central Office",
         "productID": "DB6",
+        "manufacturer": {
+          "name": "Honeywell",
+          "url": "https://www.honeywell.com/"
+        },
+        "model": {
+          "name": "MK Consumer Unit",
+          "url": "https://www.mkelectric.com/en-gb/Products/CP/sentry/Consumerunits/Pages/default.aspx"
+        },
         "image": "images/db6.jpg",
-        "itemCondition": "Satisfactory",
-        "location": "Housekeeping Corridor"
+        "itemCondition": {
+          "@type": "QualitativeValue",
+          "equals": "Unsatisfactory",
+          "description": "An unsatisfactory assessment indicates that dangerous (code C1) and/or potentially dangerous (code C2) conditions have been identified"
+        },
+        "location": {
+          "name": "Housekeeping Corridor",
+          "url": "https://bhdirectory.github.io/location/0069.html"
+        }
     }
-  </script>
-  <script type="application/ld+json">
-  {
+    </script>
+    <script type="application/ld+json">
+    {
      "@context": "http://schema.org",
      "@type": "CreativeWork",
-     "@id": "https://bhdirectory.github.io/asset/electrical-register/db3.html",
+     "@id": "https://bhdirectory.github.io/asset/electrical-register/db6.html",
        "author": {
          "@type": "Organization",
            "name": "DataTrain",
@@ -31,8 +54,8 @@
        "dateCreated": "2018-11-30",
        "isPartOf": "Birtley House Directory",
        "headline": "Consumer Unit (DB6)"
-   }
-  </script>
+    }
+    </script>
   </head>
     <body>
 
@@ -41,7 +64,7 @@
 
         <h3>Consumer Unit (DB6)</h3>
         <aside>
-          <p>This 14-way consumer unit distributes power to circuits Around the Central Office and Drawing Room.  It is located in a flase ceiling accessed via a drop-down ceiling panel in the corridor outside the Central Office</p>
+          <p>This 14-way consumer unit distributes power to circuits around the Central Office and Drawing Room.  It is located in a false ceiling accessed via a drop-down ceiling panel in the corridor outside the Central Office</p>
           <p>You may wish to reference the relevant <a href="">Floor Plans</a></p>
         </aside>
       </header>
@@ -55,7 +78,7 @@
           </tr>
           <tr>
             <th>Board Type</th>
-            <td>Consumer Unit | 14-way | 14 Non RCD Circuits</td>
+            <td>Consumer Unit | 14-way | 12 Non-RCD Circuits</td>
           </tr>
           <tr>
             <th>Installation Date</th>
@@ -63,7 +86,7 @@
           </tr>
           <tr>
             <th>Last Periodic Inspection</th>
-            <td><a href="periodic-inspection/db6.pdf">November 2018</a></td>
+            <td><a href="periodic-inspection/db6.pdf">November 2018</a> | <a href="archive/db6.pdf">Archive Reports</a></td>
           </tr>
           <tr>
             <th>Next Inspection Due</th>
@@ -108,7 +131,7 @@
             <th>Outstanding Issues</th>
             <td>
               <ol>
-                <li>Circuit 4 - Hole above light switch outside 'Terrace' apartment allowing finger access (C2)</li>
+                <li>Circuit 4 - Hole above light switch outside Terrace Apartment allowing finger access (C2)</li>
                 <li>Circuit 6 - Rear of light switch in cupboard allowing finger access (C2)</li>
                 <li>Grommets not used in metal backboxes (C3)</li>
                 <li>Switched live conductors not marked with brown or red sleeving/tape (C3)</li>
