@@ -9,11 +9,19 @@
     "@context": "http://schema.org",
     "@type": "IndividualProduct",
       "productID": "2005",
-      "category": "Water Services",
+      "category": [ {
+        "name": "Water Storage Tank",
+        "url": "https://www.wikidata.org/wiki/Q6501028"
+      },
+      {
+        "name": "Mains Cold Water Services (MCWS)",
+        "url": "https://bhdirectory.github.io/asset/water-register/m-c-w-s.html"
+      } ],
       "name": "Cold Water Storage Tank (CWST) 4",
-      "serialNumber": "",
-      "isSimilarTo": "Mains Cold Water Services (MCWS)",
-      "location": "Mews Tank Room"
+      "location": {
+        "name": "Mews Tank Room",
+        "url": "https://bhdirectory.github.io/location/mews-tank-room.html"
+      }
   }
 </script>
 <script type="application/ld+json">
@@ -35,7 +43,7 @@
 <body>
   <header>
   <img src="https://bhdirectory.github.io/birtleyhouse.png" width="100" height="85"/>
-    
+
     <h3>Cold Water Storage Tank (CWST) 4</h3>
   </header>
     <table class="blue">
@@ -50,6 +58,10 @@
       <tr>
         <th>Type</th>
         <td>Storage Tank</td>
+      </tr>
+      <tr>
+        <th>Sentinel Outlet</th>
+        <td>N/A</td>
       </tr>
       <tr>
         <th>Serial Number</th>

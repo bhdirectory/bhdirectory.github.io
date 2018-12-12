@@ -9,11 +9,19 @@
     "@context": "http://schema.org",
     "@type": "IndividualProduct",
       "productID": "2001",
-      "category": "Water Services",
+      "category": [ {
+        "name": "Tap",
+        "url": "https://www.wikidata.org/wiki/Q656656"
+      },
+      {
+        "name": "Mains Cold Water Services (MCWS)",
+        "url": "https://bhdirectory.github.io/asset/water-register/m-c-w-s.html"
+      } ],
       "name": "Mains Inlet 1",
-      "serialNumber": "",
-      "isSimilarTo": "Mains Cold Water Services (MCWS)",
-      "location": "Main Plant Room"
+      "location": {
+        "name": "Main Plant Room",
+        "url": "https://bhdirectory.github.io/location/main-plant-room.html"
+      }
   }
 </script>
 <script type="application/ld+json">
@@ -52,8 +60,12 @@
         <td>Mains Inlet</td>
       </tr>
       <tr>
+        <th>Sentinel Outlet</th>
+        <td>N/A</td>
+      </tr>
+      <tr>
         <th>Serial Number</th>
-        <td></td>
+        <td>unspecified</td>
       </tr>
       <tr>
         <th>Location</th>
@@ -64,7 +76,7 @@
         <td>B</td>
       </tr>
       <tr>
-        <th>Purchase Date*</th>
+        <th>Purchase Date</th>
         <td><a href=""></a></td>
       </tr>
       <tr>
@@ -76,9 +88,6 @@
         <td></td>
       </tr>
     </table>
-    <div>
-      <p>* link to invoice where available</p>
-    </div>
 
     <footer>
       <div class="subheading">
