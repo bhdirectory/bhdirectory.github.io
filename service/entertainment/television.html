@@ -8,47 +8,52 @@
   {
     "@context": "http://schema.org",
     "@type": "Service",
-      "serviceType": {
-        "name": "Television",
-        "alternateName": "TV",
-        "url": "https://www.wikidata.org/wiki/Q289"
-      },
-      "category": [ {
-        "name": "Entertainment",
-        "url": "https://www.wikidata.org/wiki/Q173799"
-      },
-      {
-        "name": "digital terrestrial television",
-        "url": "https://www.wikidata.org/wiki/Q1083894"
+      "serviceType": [ {
+        "name": "digital terrestrial television (DTT)",
+        "url": "https://www.wikidata.org/wiki/Q1083894",
+        "availableChannel": {
+          "name": "Freeview",
+          "url": "http://www.digitaluk.co.uk/"
+        }
       },
       {
         "name": "satellite television",
-        "url": "https://www.wikidata.org/wiki/Q209588"
+        "url": "https://www.wikidata.org/wiki/Q209588",
+        "availableChannel": {
+          "name": "Sky TV",
+          "url": "https://www.sky.com/"
+        }
       } ],
+      "category": {
+        "name": "Entertainment",
+        "url": "https://www.wikidata.org/wiki/Q173799"
+      },
       "audience": {
         "name": "Residents",
-        "url": ""
+        "url": "https://bhdirectory.github.io/glossary/service-user.html"
       },
-      "description": "A television set is provided in each room but residents are welcome to bring their own set if they wish. Birtley House has a communal dish for residents wishing to have access to satellite television.",
+      "termsOfService": "A television set is provided in each room but residents are welcome to bring their own set if they wish. Birtley House has a communal dish for residents wishing to have access to satellite television.",
       "provider": {
         "name": "Birtley House Group Limited",
         "url": "https:bhdirectory.github.io/organisation/birtley-house-group.html"
-      },
-
+      }
   }
 </script>
 <script type="application/ld+json">
 {
    "@context": "http://schema.org",
    "@type": "CreativeWork",
-   "@id": "https://bhdirectory.github.io/asset/fire-register/devices/television.html",
+   "@id": "https://bhdirectory.github.io/service/entertainment/television.html",
    "author": {
      "@type": "Organization",
        "name": "DataTrain",
        "url": "https://www.datatrain.co.uk/"
      },
      "dateCreated": "2018-12-14",
-     "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+     "isPartOf": {
+       "name": "Birtley House Directory",
+       "url": "https://bhdirectory.github.io/"
+     },
      "headline": "Television"
  }
 </script>
