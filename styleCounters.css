@@ -1,0 +1,32 @@
+body, nav ol {
+  counter-reset: articleCount;
+}
+
+article, nav ol li {
+  counter-increment: articleCount;
+}
+
+section, nav ol ol {
+  counter-reset: sectionCount;
+}
+
+section, nav ol ol li {
+  counter-increment: sectionCount;
+  counter-reset: subsectionCount;
+}
+
+h4 {
+  counter-increment: subsectionCount;
+}
+
+article h2::before, nav ol li::before {
+  content: counter(articleCount) ". ";
+}
+
+h3::before, nav ol ol li::before {
+  content: counter(articleCount) "." counter(sectionCount) " ";
+}
+
+h4::before {
+  content: counter(articleCount) "." counter(sectionCount) "." counter(subsectionCount) " ";
+}
