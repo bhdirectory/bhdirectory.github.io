@@ -321,6 +321,10 @@ aside {
   padding-right: 25px;
 }
 
+.testing {
+  background-color: rgba(130, 130, 116, 0.2); 
+}
+
 footer {
   padding-left: 0px;
   padding-right: 0px;
