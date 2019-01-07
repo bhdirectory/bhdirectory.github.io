@@ -132,6 +132,30 @@ a.linkButton-red:active {
   background-color: rgba(176, 66, 67, 0.75);
 }
 
+a.linkButton-blue {
+  border: 2px solid rgba(10, 145, 255, 0.75);
+  border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(10, 145, 255);
+  background-color: white;
+  padding: 7.5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+a.linkButton-blue:hover {
+  background-color: rgb(10, 145, 255);
+  color: white;
+}
+
+a.linkButton-blue:active {
+  background-color: rgba(10, 145, 255, 0.75);
+}
+
 table {
     font-family: "Open Sans", sans-serif;
     border-collapse: collapse;
