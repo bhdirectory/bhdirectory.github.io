@@ -405,6 +405,5 @@ script {
 .dropdown:hover .dropbtn {background-color: rgb(0,130,116);}
 
 #status {
-  color: rgb(0, 102, 204);
   text-transform: uppercase;
 }
