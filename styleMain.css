@@ -403,7 +403,3 @@ script {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: rgb(0,130,116);}
-
-#status {
-  text-transform: uppercase;
-}
