@@ -406,5 +406,5 @@ script {
 
 #status {
   text-transform: uppercase;
-  font-weight: lighter;
+  color: rgb(0, 130, 116);
 }
