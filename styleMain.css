@@ -411,5 +411,7 @@ script {
 }
 
 .w3-bar {
-  font-size: 3em;
+  color: rgb(0,130,116);
+  font-size: 2.5em;
+  text-decoration: none;
 }
