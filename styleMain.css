@@ -412,6 +412,7 @@ script {
 
 .fa-bars {
   color: rgb(0,130,116);
-  font-size: 5em;
+  font-size: 25em;
+  padding-right: 15px;
   float: right;
 }
