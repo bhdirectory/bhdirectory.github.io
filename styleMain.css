@@ -409,3 +409,7 @@ script {
   text-transform: uppercase;
   color: rgb(0, 130, 116);
 }
+
+.w3-bar w3-black {
+  font-size: 3em;
+}
