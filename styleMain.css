@@ -351,6 +351,7 @@ aside {
 }
 
 footer {
+  font-size: 0.75em;
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 2em;
@@ -407,4 +408,11 @@ script {
 #status {
   text-transform: uppercase;
   color: rgb(0, 130, 116);
+}
+
+.fa-bars {
+  color: rgb(0,130,116);
+  text-decoration: none;
+  padding-right: 15px;
+  float: right;
 }
