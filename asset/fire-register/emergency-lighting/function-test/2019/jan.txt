@@ -8,7 +8,7 @@ Importance:	High
 Reason for failure: indicator light faulty 
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:28
@@ -20,7 +20,7 @@ Importance:	High
 Reason for failure: indicator light faulty 
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:32
@@ -32,7 +32,7 @@ Importance:	High
 Reason for failure: faulty 
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:36
@@ -42,7 +42,7 @@ Subject:	Function Test EL005 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:37
@@ -52,7 +52,7 @@ Subject:	Function Test EL007 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:38
@@ -62,7 +62,7 @@ Subject:	Function Test EL008 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:39
@@ -72,7 +72,7 @@ Subject:	Function Test EL009 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:39
@@ -82,7 +82,7 @@ Subject:	Function Test EL010 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:40
@@ -92,7 +92,7 @@ Subject:	Function Test EL011 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:40
@@ -102,7 +102,7 @@ Subject:	Function Test EL012 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:42
@@ -112,7 +112,7 @@ Subject:	Function Test EL013 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:42
@@ -122,7 +122,7 @@ Subject:	Function Test EL014 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:43
@@ -132,7 +132,7 @@ Subject:	Function Test EL015 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:43
@@ -142,7 +142,7 @@ Subject:	Function Test EL016 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:44
@@ -152,7 +152,7 @@ Subject:	Function Test EL017 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:46
@@ -162,7 +162,7 @@ Subject:	Function Test EL018 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:46
@@ -172,7 +172,7 @@ Subject:	Function Test EL019 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:47
@@ -182,7 +182,7 @@ Subject:	Function Test EL020 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:48
@@ -192,7 +192,7 @@ Subject:	Function Test EL021 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:49
@@ -202,7 +202,7 @@ Subject:	Function Test EL022 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:58
@@ -212,7 +212,7 @@ Subject:	Function Test EL023 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:53
@@ -222,7 +222,7 @@ Subject:	Function Test EL024 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:51
@@ -232,7 +232,7 @@ Subject:	Function Test EL025 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:51
@@ -242,7 +242,7 @@ Subject:	Function Test EL026 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 11:59
@@ -252,7 +252,7 @@ Subject:	Function Test EL027 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:00
@@ -262,7 +262,7 @@ Subject:	Function Test EL028 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:00
@@ -272,7 +272,7 @@ Subject:	Function Test EL029 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:01
@@ -282,7 +282,7 @@ Subject:	Function Test EL030 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:01
@@ -292,7 +292,7 @@ Subject:	Function Test EL031 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Tim Whalley
 Sent:	17 January 2019 22:13
@@ -305,23 +305,6 @@ No action required
 
 
 
- 
-
-Registered in England:
-
-Birtley House Group Ltd (5814316)
-
-Eyhurst Court Ltd (00279010)
-
-Birtley Mews Ltd (03515716)
-
-Birtley Brook Estates LLP 
-
- 
-
-DISCLAIMER: This email and any attachments is confidential and  intended solely for the use of the individual to whom it is addressed. Any views or opinions presented are solely those of the author and do not necessarily represent those of Birtley House Group Ltd or any subsidiary companies. If you are not the intended recipient, be advised that you have received this email in error and that any use, dissemination, forwarding, printing, or copying of this email is strictly prohibited. If this transmission is received in error please notify the sender immediately and delete this message from your email system. All electronic transmissions to and from Birtley House Group Ltd and any subsidiary companies are recorded and may be monitored.
-WARNING: Although Birtley House Group Ltd and any subsidiary companies have taken reasonable precautions to ensure no viruses are present in this email, the company cannot accept responsibility for any loss or damage arising from the use of this email or attachments.
-
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:01
 To:	Birtley House Maintenance
@@ -330,7 +313,7 @@ Subject:	Function Test EL032 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:02
@@ -340,7 +323,7 @@ Subject:	Function Test EL033 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:03
@@ -350,7 +333,7 @@ Subject:	Function Test EL034 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:04
@@ -360,7 +343,7 @@ Subject:	Function Test EL035a PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:04
@@ -370,7 +353,7 @@ Subject:	Function Test EL035b PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:20
@@ -380,7 +363,7 @@ Subject:	Function Test EL062 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:19
@@ -390,7 +373,7 @@ Subject:	Function Test EL063 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:18
@@ -400,7 +383,7 @@ Subject:	Function Test EL064 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:18
@@ -410,7 +393,7 @@ Subject:	Function Test EL065 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:17
@@ -420,7 +403,7 @@ Subject:	Function Test EL066 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:16
@@ -430,7 +413,7 @@ Subject:	Function Test EL067 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:16
@@ -440,7 +423,7 @@ Subject:	Function Test EL068 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:15
@@ -450,7 +433,7 @@ Subject:	Function Test EL069 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:14
@@ -460,7 +443,7 @@ Subject:	Function Test EL070 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:13
@@ -470,7 +453,7 @@ Subject:	Function Test EL071 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:12
@@ -480,7 +463,7 @@ Subject:	Function Test EL072 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:12
@@ -490,7 +473,7 @@ Subject:	Function Test EL073 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:10
@@ -500,7 +483,7 @@ Subject:	Function Test EL074 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:11
@@ -510,7 +493,7 @@ Subject:	Function Test EL075 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:09
@@ -520,7 +503,7 @@ Subject:	Function Test EL076 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:08
@@ -530,7 +513,7 @@ Subject:	Function Test EL077 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:09
@@ -540,7 +523,7 @@ Subject:	Function Test EL078 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:08
@@ -550,7 +533,7 @@ Subject:	Function Test EL079 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:07
@@ -560,7 +543,7 @@ Subject:	Function Test EL080 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:07
@@ -570,7 +553,7 @@ Subject:	Function Test EL081 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:06
@@ -580,7 +563,7 @@ Subject:	Function Test EL082 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 12:05
@@ -590,7 +573,7 @@ Subject:	Function Test EL083 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 17:28
@@ -600,7 +583,7 @@ Subject:	Function Test EL084 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 17:31
@@ -610,7 +593,7 @@ Subject:	Function Test EL085 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 17:31
@@ -620,7 +603,7 @@ Subject:	Function Test EL086 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 17:31
@@ -630,7 +613,7 @@ Subject:	Function Test EL087 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 17:32
@@ -640,7 +623,7 @@ Subject:	Function Test EL088 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 17:32
@@ -650,7 +633,7 @@ Subject:	Function Test EL089 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 17:32
@@ -660,7 +643,7 @@ Subject:	Function Test EL090 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 17:33
@@ -670,7 +653,7 @@ Subject:	Function Test EL091 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 17:33
@@ -680,7 +663,7 @@ Subject:	Function Test EL091 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 17:33
@@ -690,7 +673,7 @@ Subject:	Function Test EL092 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 17:33
@@ -700,7 +683,7 @@ Subject:	Function Test EL093 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 17:34
@@ -710,7 +693,7 @@ Subject:	Function Test EL094 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
 From:	Birtley House Maintenance
 Sent:	24 January 2019 17:34
@@ -720,5 +703,5 @@ Subject:	Function Test EL095 PASS
 No action required
 
 
-Get Outlook for Android <https://aka.ms/ghei36> 
+
 
