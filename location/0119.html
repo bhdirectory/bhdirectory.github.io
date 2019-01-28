@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="UTF-8">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Cabin" rel="stylesheet">
-  <link rel="stylesheet" href="../../styleMain.css">
+  <script src="/head.js"></script>
   <title>Room 19</title>
   <script type="application/ld+json">
   {
@@ -10,7 +8,6 @@
     "@type": "Room",
     "@id": "https://bhdirectory.github.io/location/residential-room/0119.html",
       "name": "Room 19",
-      "description": "Room 19 is located on the First Floor of the House",
       "telephone": ["219", "01483899519"],
       "photo": ["images/0119-main.jpg", "images/0119-ensuite.jpg"],
       "amenityFeature": [{
@@ -70,7 +67,7 @@
         "name": "DataTrain",
         "url": "https://www.datatrain.co.uk/"
       },
-    "dateCreated": "2018-11-29",
+    "dateCreated": "2019-01-26",
     "isPartOf": "Birtley House Directory",
     "headline": "Room 19"
   }
@@ -79,9 +76,13 @@
 
 <body>
   <header>
-  <img src="https://bhdirectory.github.io/birtleyhouse.png" width="100" height="85"/>
+  <script src="/header.js"></script>
     <h3>Room 19</h3>
+      <aside>
+        <p>Room 19 is located on the first floor of the House, along the link corridor between the House and Annexe.<br />It is a large nursing home room with ensuite shower room<br />It is south-facing with a view over the main lawn, parkland and lake<br />The room was refurbished in 2017 and is in excellent condition with new furniture.<br />It has a double-glazed window and a ceiling hoist.</p>
+      </aside>
   </header>
+  <section>
     <table class="">
       <tr>
         <th>LocationID</th>
@@ -89,16 +90,19 @@
       </tr>
       <tr>
         <th>Area</th>
-        <td>House First Floor</td>
+        <td>House First Floor | Link Corridor</td>
       </tr>
       <tr>
-        <th>Floor Plan</th>
-        <td><img src="" alt="room-19-floorplan" height="100" width="100"></td>
-      </tr>
-      <tr>
-        <th>Description</th>
+        <th>Photos</th>
         <td>
-          <p>Room 19 is located on the first floor of the House, along the link corridor between the House and Annexe.<br />It is a large nursing home room with ensuite shower room<br />It is south-facing with a view over the main lawn, parkland and lake<br />The room was refurbished in 2017 and is in excellent condition with new furniture.<br />It has a double-glazed window and a ceiling hoist.</p>
+          <details>
+            <summary>Bedroom</summary>
+              <img src="images/0119-ensuite.jpg" alt="Room 19 Ensuite" height="100" width="100">
+          </details>
+          <details>
+            <summary>Ensuite</summary>
+              <img src="images/0119-main.jpg" alt="Room 19 Bedroom" height="100" width="100">
+          </details>
         </td>
       </tr>
       <tr>
@@ -110,36 +114,50 @@
         <td>1 <i>+ ensuite</i></td>
       </tr>
       <tr>
-        <th>Floor Size</th>
+        <th>Specification</th>
         <td>16sqM <i>+ 4sqM</i></td>
       </tr>
       <tr>
         <th>Telephone</th>
-        <td>
-          <ol>
-            <li>Extension: 219</li>
-            <li>Direct Dial: 01483 899519</li>
-          </ol>
-        </td>
+        <td>Direct Dial: 01483 899519 (Extension 219)</td>
       </tr>
       <tr>
-        <th>Photos</th>
-        <td><img src="../images/0119-main.jpg" alt="Room 19 Bedroom" height="100" width="100"> <img src="../images/0119-ensuite.jpg" alt="Room 19 Bedroom" height="100" width="100"></td>
-      </tr>
-      <tr>
-        <th>Assets</th>
+        <th>Facilities</th>
         <td>
-          <ol>
-            <li><a href="../asset/fire-register/detector-point/dp0119.html">Detector Point</a></li>
-            <li><a href="../asset/fire-register/fire-door/fd0119.html">Fire Door(s)</a></li>
-            <li><a href="../asset/water-register/">Hand Wash Basin</a></li>
-            <li><a href="../asset/water-distribution-register/ms0119.html">Mixer Shower</a></li>
-            <li><a href="../asset/bed-register/6002.html">Electric Profiling Bed</a></li>
-            <li><a href="../asset/hoist-register/8002.html">Ceiling Hoist</a></li>
-            <li><a href="../asset/">Television</a></li>
-            <li>Window</li>
-            <li></li>
-          </ol>
+          <details>
+            <summary>Fire Safety</summary>
+              <ol>
+                <li><a href="../asset/fire-register/alarm-system/loop-2/9200.html">Detector Point</a></li>
+                <li><a href="../asset/fire-register/fire-door/9600.html">Fire Door(s)</a></li>
+              </ol>
+          </details>
+          <details>
+            <summary>Water Supply</summary>
+              <ol>
+                <li><a href="../asset/water-register/20000.html">Hand Wash Basin</a></li>
+                <li><a href="../asset/water-register/20000.html">Mixer Shower</a></li>
+              </ol>
+          </details>
+          <details>
+            <summary>Heating</summary>
+              <ol>
+                <li><a href="../asset/radiator-register/20000.html">Radiator</a></li>
+                <li><a href="../asset/radiator-register/20000.html">Towel Rail</a></li>
+              </ol>
+          </details>
+          <details>
+            <summary>Moving & Handling Equipment</summary>
+              <ol>
+                <li><a href="../asset/bed-register/6002.html">Electric Profiling Bed</a></li>
+                <li><a href="../asset/loler-register/8002.html">Ceiling Hoist</a></li>
+              </ol>
+          </details>
+          <details>
+            <summary>TV</summary>
+              <ol>
+                <li><a href="../asset/tv-register/">Television</a></li>
+              </ol>
+          </details>
         </td>
       </tr>
       <tr>
@@ -147,17 +165,9 @@
         <td></td>
       </tr>
     </table>
+  </section>
 
-  <footer>
-    <div class="subheading">
-      <p>This web page is part of the <a href="">Birtley House Directory</a> intended for employees of Birtley House Group Ltd and its subsidiary companies and provide information about the operations of Birtley House Nursing Home. While using this site, you agree to have read and accepted our terms of use, cookie and <a href="">privacy policy</a>.</p>
-    </div>
-  </footer>
-</body>
-  <footer>
-    <div class="datatrain">
-      <img src="../datatrain.png" height="50" width="50">
-        <figcaption>&copy; 2018 by <a href="https://www.datatrain.co.uk"/>DataTrain</a>. All Rights Reserved.</figcaption>
-    </div>
-  </footer>
-</html>
+        <script src="/footer.js"></script>
+
+    </body>
+    </html>
