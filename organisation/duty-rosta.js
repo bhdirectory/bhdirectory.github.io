@@ -1,4 +1,4 @@
-document.getElementById("duty-director").innerHTML = "<img src='/people/tim-whalley.png' height='85' width='50'>", "Frank Whalley";
+document.getElementById("duty-director").innerHTML = "<img src='/people/tim-whalley.jpg' height='85' width='50'><br /><p>Frank Whalley</p>";
 document.getElementById("rm-in").innerHTML = "IN";
 document.getElementById("rgn-house").innerHTML = "Mirela Simion, Senior RGN";
 document.getElementById("rgn-annexe").innerHTML = "Manisha Gurung, RGN";
