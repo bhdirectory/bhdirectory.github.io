@@ -24,7 +24,7 @@
   <header>
     <script src="/header.js"></script>
 
-    <h3>Staff on Duty: <span id="demo" class="subheading"></span></h3>
+    <h3><span id="demo" class="subheading"></span><br />Staff on Duty</h3>
     <script>
       var d = new Date();
       document.getElementById("demo").innerHTML = d.toDateString();
@@ -41,16 +41,17 @@
       </tr>
       <tr>
         <th>Care Supervisor(s)</th>
-        <td>Michaela Pollard</td>
+        <td><p id="care-supervisor"></p></td>
       </tr>
       <tr>
         <th>Senior Care Staff (House)</th>
-        <td>Anna Smith</td>
+        <td><p id="senior-carer-house"></p></td>
       </tr>
       <tr>
         <th>Senior Care Staff (Annexe)</th>
-        <td>Bridget Jones</td>
+        <td><p id="senior-carer-annexe"></p></td>
       </tr>
+      <script src="duty-rosta.js"></script>
     </table>
 
     <script src="/footer.js"></script>
