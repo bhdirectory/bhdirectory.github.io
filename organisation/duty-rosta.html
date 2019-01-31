@@ -24,7 +24,11 @@
   <header>
     <script src="/header.js"></script>
 
-    <h3>Duty Rosta</h3>
+    <h3>Staff on Duty Today, <span id="demo" class="subheading"></span></h3>
+    <script>
+      var d = new Date();
+      document.getElementById("demo").innerHTML = d.toDateString();
+    </script>
   </header>
     <table>
       <tr>
