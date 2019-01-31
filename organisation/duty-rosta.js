@@ -5,4 +5,4 @@ document.getElementById("rgn-annexe").innerHTML = "RGN Manisha Gurung";
 document.getElementById("care-supervisor").innerHTML = "Michaela Pollard";
 document.getElementById("senior-carer-house").innerHTML = "Anna Fulton";
 document.getElementById("senior-carer-annexe").innerHTML = "Barbara Bassett";
-ocument.getElementById("out-of-hours").innerHTML = "Tim Whalley";
+document.getElementById("out-of-hours").innerHTML = "Tim Whalley";
