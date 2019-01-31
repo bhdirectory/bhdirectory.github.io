@@ -1,4 +1,4 @@
-document.getElementById("duty-director").innerHTML = "<iframe src='https://bhdirectory.github.io/people/tim-whalley.html></iframe>";
+document.getElementById("duty-director").innerHTML = "<iframe src='https://www.w3schools.com'></iframe>";
 document.getElementById("rm-in").innerHTML = "IN";
 document.getElementById("rgn-house").innerHTML = "Mirela Simion, Senior RGN";
 document.getElementById("rgn-annexe").innerHTML = "Manisha Gurung, RGN";
