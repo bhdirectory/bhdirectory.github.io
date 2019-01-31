@@ -1,4 +1,5 @@
 document.getElementById("duty-director").innerHTML = "Frank Whalley";
+document.getElementById("rm-in").innerHTML = "IN";
 document.getElementById("rgn-house").innerHTML = "Senior RGN Mirela Simion";
 document.getElementById("rgn-annexe").innerHTML = "RGN Manisha Gurung";
 document.getElementById("care-supervisor").innerHTML = "Michaela Pollard";
