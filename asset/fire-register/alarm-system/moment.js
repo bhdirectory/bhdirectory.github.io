@@ -10,3 +10,5 @@ Date.prototype.getWeek = function() {
   return 1 + Math.round(((date.getTime() - week1.getTime()) / 86400000
                         - 3 + (week1.getDay() + 6) % 7) / 7);
 }
+
+mydate.getWeek();
