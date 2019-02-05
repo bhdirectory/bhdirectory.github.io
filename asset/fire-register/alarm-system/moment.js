@@ -12,4 +12,4 @@ Date.prototype.getWeek = function () {
 }
 
 var d= new Date();
-document.getElemenyById("moment").innerHTML=(d.getWeek());
+console.log(d.getWeek());
