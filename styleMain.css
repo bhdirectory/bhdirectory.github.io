@@ -34,6 +34,12 @@ h4 {
   font-size: smaller;
 }
 
+.testPoints {
+  color: rgb(176, 66, 67);
+  font-weight: lighter;
+  font-size: smaller;
+}
+
 article > header {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
