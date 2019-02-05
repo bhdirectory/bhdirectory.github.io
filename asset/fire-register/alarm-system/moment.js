@@ -12,4 +12,4 @@ Date.prototype.getWeek = function () {
 }
 
 var d= new Date();
-console.log(d.getWeek());
+document.write(d.getWeek());
