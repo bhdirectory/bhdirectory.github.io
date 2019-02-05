@@ -86,4 +86,4 @@ switch (d.getWeek()) {
     testPoint = "L04 D036 | North Wing Corridor (Escape Ramp) & L04 D037 | North Wing Corridor (Fire Panel)";
     break;
 }
-document.getElementById("testPoint").innerHTML = "Test Points " + testPoint;
+document.write(testPoint);
