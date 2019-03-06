@@ -1,1 +1,1 @@
-document.write("Periodic inspections continue.  There remain 5 overdue inspections that are scheduled to be completed in the first half of this year.  There is a major circuit improvement planned for the feed to the Annexe Pantry");
+document.write("Periodic inspections continue.  There remain 5 overdue inspections that are scheduled to be completed in the first half of this year.  There is a major circuit improvement planned for the feed to the Annexe Pantry.");
