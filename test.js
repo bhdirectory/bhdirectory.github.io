@@ -1,1 +1,2 @@
-document.getElementById('test').innerHTML = '<ol><li>html data</li></ol>';
+var x = document.getElementByTagName("title");
+document.getElementById('test').innerHTML = x;
