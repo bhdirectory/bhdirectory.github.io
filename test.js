@@ -1,4 +1,4 @@
 function myFunction() {
-  var x = document.getElementsByTagName("TITLE");
-  document.getElementById("test").innerHTML = x.[0]innerHTML;
+  var x = document.getElementsByTagName("TITLE")[0];
+  document.getElementById("test").innerHTML = x.innerHTML;
 }
