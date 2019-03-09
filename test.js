@@ -9,7 +9,10 @@ function myFunction() {
 
   var make = JSON.parse(document.querySelector('#datablock1').innerText);
   document.getElementById('make').innerText=make.manufacturer.name;
-  
+
+  var model = JSON.parse(document.querySelector('#datablock1').innerText);
+  document.getElementById('model').innerText=model.name;
+
 }
 
 myFunction();
