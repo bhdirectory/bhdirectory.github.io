@@ -13,6 +13,9 @@ function myFunction() {
   var model = JSON.parse(document.querySelector('#datablock1').innerText);
   document.getElementById('model').innerText=model.model.name;
 
+  var sn = JSON.parse(document.querySelector('#datablock1').innerText);
+  document.getElementById('sn').innerText=sn.serialNumber;
+
 }
 
 myFunction();
