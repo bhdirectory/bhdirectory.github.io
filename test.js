@@ -1,6 +1,6 @@
 function myFunction() {
-  var x = document.getElementsByTagName('TITLE');
-  document.getElementById("test").innerHTML = x[0].innerHTML;
+  var x = JSON.parse(document.querySelector('script[type="application/ld+json"]').innerText);
+  document.getElementById('test').innerText=json.headline;
 }
 
 myFunction();
