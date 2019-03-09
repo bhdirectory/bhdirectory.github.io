@@ -16,6 +16,12 @@ function myFunction() {
   var sn = JSON.parse(document.querySelector('#datablock1').innerText);
   document.getElementById('sn').innerText=sn.serialNumber;
 
+  var handsetMake = JSON.parse(document.querySelector('#datablock2').innerText);
+  document.getElementById('handsetMake').innerText=handsetMake.manufacturer.name;
+
+  var handsetModel = JSON.parse(document.querySelector('#datablock2').innerText);
+  document.getElementById('handsetModel').innerText=handsetModel.model.name;
+
 }
 
 myFunction();
