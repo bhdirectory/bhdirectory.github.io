@@ -4,7 +4,7 @@
 
 function myFunction() {
   var headline = JSON.parse(document.querySelector('#datablock3').innerText);
-  document.getElementByTagName('title')[0].innerText=headline.headline;
+  document.getElementByTagName('TITLE').innerText=headline.headline;
 }
 
 myFunction();
