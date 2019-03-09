@@ -11,7 +11,7 @@ function myFunction() {
   document.getElementById('make').innerText=make.manufacturer.name;
 
   var model = JSON.parse(document.querySelector('#datablock1').innerText);
-  document.getElementById('model').innerText=model.name;
+  document.getElementById('model').innerText=model.model.name;
 
 }
 
