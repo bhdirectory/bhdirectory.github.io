@@ -1,6 +1,6 @@
 function myFunction() {
-  var jsonld = JSON.parse(document.querySelectorAll('script[type="application/ld+json"]').innerText);
-  document.getElementById('test').innerText=jsonld.headline;
+  var jsonld = JSON.parse(document.querySelector('script[type="application/ld+json"]').innerText);
+  document.getElementById('test').innerText=jsonld.manufacturer.name;
 }
 
 myFunction();
