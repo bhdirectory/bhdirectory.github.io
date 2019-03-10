@@ -3,28 +3,25 @@
 */
 
 function myFunction() {
-  var title = JSON.parse(document.querySelector('#datablock3').innerText);
-  document.getElementById('title').innerText=title.headline;
-  document.getElementById('headerTitle').innerText=title.headline;
+  var dbthree = JSON.parse(document.querySelector('#datablock3').innerText);
+  document.getElementById('title').innerText=dbthree.headline;
+  document.getElementById('headerTitle').innerText=dbthree.headline;
 
-  var make = JSON.parse(document.querySelector('#datablock1').innerText);
-  document.getElementById('make').innerText=make.manufacturer.name;
-  document.getElementById('make').href=make.manufacturer.url;
-  document.getElementById('location').innerText=make.location.name;
-  document.getElementById('location').href=make.location.url;
+  var dbone = JSON.parse(document.querySelector('#datablock1').innerText);
+  document.getElementById('make').innerText=dbone.manufacturer.name;
+  document.getElementById('make').href=dbone.manufacturer.url;
+  document.getElementById('model').innerText=dbone.model.name;
+  document.getElementById('model').href=dbone.model.url;
+  document.getElementById('sn').innerText=dbone.serialNumber;
+  document.getElementById('location').innerText=dbone.location.name;
+  document.getElementById('location').href=dbone.location.url;
+  document.getElementById('condition').innerText=dbone.itemCondition;
 
-  var model = JSON.parse(document.querySelector('#datablock1').innerText);
-  document.getElementById('model').innerText=model.model.name;
-  document.getElementById('model').href=model.model.url;
 
-  var sn = JSON.parse(document.querySelector('#datablock1').innerText);
-  document.getElementById('sn').innerText=sn.serialNumber;
-
-  var handsetMake = JSON.parse(document.querySelector('#datablock2').innerText);
-  document.getElementById('handsetMake').innerText=handsetMake.manufacturer.name;
-
-  var handsetModel = JSON.parse(document.querySelector('#datablock2').innerText);
-  document.getElementById('handsetModel').innerText=handsetModel.model.name;
+  var dbtwo = JSON.parse(document.querySelector('#datablock2').innerText);
+  document.getElementById('handsetMake').innerText=dbtwo.manufacturer.name;
+  document.getElementById('handsetModel').innerText=dbtwo.model.name;
+  document.getElementById('handsetCondition').innerText=dbtwo.itemCondition;
 
 }
 
