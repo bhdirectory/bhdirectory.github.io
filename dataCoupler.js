@@ -24,7 +24,7 @@ function myFunction() {
   document.getElementById('handsetCondition').innerText=coachTwo.itemCondition;
 
   var coachThree = JSON.parse(document.querySelector('#coachThree').innerText);
-  document.getElementById('title').innerText=coachThree.headline;
+  document.title=coachThree.headline;
   document.getElementById('headerTitle').innerText=coachThree.headline;
 }
 
