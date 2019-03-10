@@ -16,7 +16,7 @@ function myFunction() {
   document.getElementById('location').innerText=dbone.location.name;
   document.getElementById('location').href=dbone.location.url;
   document.getElementById('condition').innerText=dbone.itemCondition;
-
+  document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Bed%20Check%20PASS%20" + dbone.identifier.value + "&body=No%20action%20required";
 
   var dbtwo = JSON.parse(document.querySelector('#datablock2').innerText);
   document.getElementById('handsetMake').innerText=dbtwo.manufacturer.name;
