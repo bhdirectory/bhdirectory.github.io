@@ -8,6 +8,7 @@ function myFunction() {
   document.getElementById('headerTitle').innerText=dbthree.headline;
 
   var dbone = JSON.parse(document.querySelector('#datablock1').innerText);
+  document.getElementById('assetId').innerText=dbone.identifier.value;
   document.getElementById('make').innerText=dbone.manufacturer.name;
   document.getElementById('make').href=dbone.manufacturer.url;
   document.getElementById('model').innerText=dbone.model.name;
