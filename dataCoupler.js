@@ -2,7 +2,7 @@
 - - - get data from json-ld and set in HTML - - -
 */
 
-function myFunction() {
+function dataCouple() {
   var coachOne = JSON.parse(document.querySelector('#coachOne').innerText);
   document.getElementById('assetId').innerText=coachOne.identifier.value;
   document.getElementById('make').innerText=coachOne.manufacturer.name;
@@ -28,4 +28,4 @@ function myFunction() {
   document.getElementById('headerTitle').innerText=coachThree.headline;
 }
 
-myFunction();
+dataCouple();
