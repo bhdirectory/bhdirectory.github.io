@@ -22,7 +22,9 @@ function myFunction() {
 
   var dbtwo = JSON.parse(document.querySelector('#datablock2').innerText);
   document.getElementById('handsetMake').innerText=dbtwo.manufacturer.name;
+  document.getElementById('handsetMake').href=dbtwo.manufacturer.url;
   document.getElementById('handsetModel').innerText=dbtwo.model.name;
+  document.getElementById('handsetModel').href=dbtwo.model.url;
   document.getElementById('handsetCondition').innerText=dbtwo.itemCondition;
 
 }
