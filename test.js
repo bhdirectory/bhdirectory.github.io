@@ -12,6 +12,7 @@ function myFunction() {
 
   var model = JSON.parse(document.querySelector('#datablock1').innerText);
   document.getElementById('model').innerText=model.model.name;
+  document.getElementById('model').href=model.model.url;
 
   var sn = JSON.parse(document.querySelector('#datablock1').innerText);
   document.getElementById('sn').innerText=sn.serialNumber;
