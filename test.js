@@ -9,6 +9,7 @@ function myFunction() {
 
   var make = JSON.parse(document.querySelector('#datablock1').innerText);
   document.getElementById('make').innerText=make.manufacturer.name;
+  document.getElementById('make').href=make.manufacturer.url;
 
   var model = JSON.parse(document.querySelector('#datablock1').innerText);
   document.getElementById('model').innerText=model.model.name;
