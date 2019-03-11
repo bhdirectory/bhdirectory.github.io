@@ -1,0 +1,18 @@
+From:	Birtley House Maintenance
+Sent:	13 February 2019 16:23
+To:	Birtley House Maintenance
+Subject:	Alarm Test FAIL 9232
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+Reason for failure door nr didn't close 42 40 35 30
+From:	Birtley House Maintenance
+Sent:	13 February 2019 16:12
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9192
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required

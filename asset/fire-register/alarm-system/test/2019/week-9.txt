@@ -1,0 +1,20 @@
+From:	Birtley House Maintenance
+Sent:	20 February 2019 16:26
+To:	Birtley House Maintenance
+Subject:	Alarm Test FAIL 9236
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+Reason for failure
+
+Door didn't shut during fire alarm testing nr 33, 29, 27, 26, 21. 
+From:	Birtley House Maintenance
+Sent:	20 February 2019 16:19
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9235
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required
