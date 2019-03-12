@@ -364,7 +364,11 @@ article {
   page-break-before: always;
 }
 
-.listNoStyle nav ol {
+nav ol {
+  list-style-type: none;
+}
+
+.listNoStyle {
   list-style-type: none;
 }
 
