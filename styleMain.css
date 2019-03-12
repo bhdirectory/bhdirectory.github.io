@@ -90,16 +90,16 @@ a:active {
 }
 
 a.acknowledgementButton {
-  border: 2px solid rgb(0, 130, 116, 0.75);
+  border: 2px solid rgb(176, 66, 67, 0.75);
   border-radius: 15px;
   font-family: "Open Sans", sans-serif;
-  color: rgb(0, 130, 116);
+  color: rgb(176, 66, 67);
   background-color: white;
   padding: 7.5px 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
+  font-size: 24px;
   margin: 4px 2px;
   cursor: pointer;
 }
