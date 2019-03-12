@@ -93,8 +93,8 @@ a.acknowledgementButton {
   border: 2px solid rgb(176, 66, 67, 0.75);
   border-radius: 15px;
   font-family: "Open Sans", sans-serif;
-  color: rgb(176, 66, 67);
-  background-color: white;
+  color: white;
+  background-color: rgb(176, 66, 67);
   padding: 7.5px 16px;
   text-align: center;
   text-decoration: none;
@@ -105,8 +105,8 @@ a.acknowledgementButton {
 }
 
 a.acknowledgementButton:hover {
-  background-color: rgb(176, 66, 67);
-  color: white;
+  background-color: white;
+  color: rgb(176, 66, 67);
 }
 
 a.acknowledgementButton:active {
