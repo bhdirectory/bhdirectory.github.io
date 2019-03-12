@@ -364,7 +364,7 @@ article {
   page-break-before: always;
 }
 
-nav ol {
+.listNoStyle nav ol {
   list-style-type: none;
 }
 
