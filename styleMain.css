@@ -471,6 +471,10 @@ script {
   float: right;
 }
 
+.overdue {
+  color: rgb(176, 66, 67);
+}
+
 #divCentre {
     text-align: center;
     padding: 2.5em;
