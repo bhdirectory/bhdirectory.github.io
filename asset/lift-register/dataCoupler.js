@@ -7,8 +7,7 @@ function dataCouple() {
   document.getElementById('assetId').innerText=coachOne.identifier.value;
   document.getElementById('make').innerText=coachOne.manufacturer.name;
   document.getElementById('make').href=coachOne.manufacturer.url;
-  document.getElementById('model').innerText=coachOne.model.name;
-  document.getElementById('model').href=coachOne.model.url;
+  document.getElementById('model').innerText=coachOne.model;
   document.getElementById('sn').innerText=coachOne.serialNumber;
   document.getElementById('location').innerText=coachOne.location.name;
   document.getElementById('location').href=coachOne.location.url;
