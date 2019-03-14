@@ -13,8 +13,8 @@ function dataCouple() {
   document.getElementById('location').innerText=coachOne.location.name;
   document.getElementById('location').href=coachOne.location.url;
   document.getElementById('condition').innerText=coachOne.itemCondition;
-  document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Hoist%20Check%20PASS%20" + coachOne.identifier.value + coachOne.location.name + "&body=No%20action%20required";
-  document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Hoist%20Check%20FAIL%20" + coachOne.identifier.value + coachOne.location.name + "&body=Reason%20for%20failure:&20";
+  document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Hoist%20Check%20PASS%20" + coachOne.identifier.value + " | " + coachOne.location.name + "&body=No%20action%20required";
+  document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Hoist%20Check%20FAIL%20" + coachOne.identifier.value + " | " + coachOne.location.name + "&body=Reason%20for%20failure:&20";
 
   var coachThree = JSON.parse(document.querySelector('#coachThree').innerText);
   document.title=coachThree.headline;
