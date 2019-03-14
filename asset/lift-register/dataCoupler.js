@@ -13,7 +13,7 @@ function dataCouple() {
   document.getElementById('location').innerText=coachOne.location.name;
   document.getElementById('location').href=coachOne.location.url;
   document.getElementById('condition').innerText=coachOne.itemCondition;
-  document.getElementById('mailReport').href="mailto:maintenance@birtleyhouse.co.uk?subject=Lift%20Issue%20REPORT%20" + coachOne.identifier.value + "&body=";
+  document.getElementById('mailReport').href="mailto:maintenance@birtleyhouse.co.uk?subject=Lift%20Issue%20REPORT%20" + coachOne.manufacturer.name + "&body=";
 
   var coachThree = JSON.parse(document.querySelector('#coachThree').innerText);
   document.title=coachThree.headline;
