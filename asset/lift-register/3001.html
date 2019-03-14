@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <head>
   <script src="/head.js"></script>
-  <title>Stannah Passenger Lift</title>
-  <script type="application/ld+json">
+  <title></title>
+  <script type="application/ld+json" id="coachOne">
   {
     "@context": "http://schema.org",
     "@type": "IndividualProduct",
@@ -19,13 +19,21 @@
       },
       "model": "Passenger System 21",
       "serialNumber": "270423",
+      "identifier": {
+        "@type": "text",
+          "propertyID": "AssetID",
+          "value":  "3001"
+        },
       "itemCondition": "B",
-      "location": "West Wing",
+      "location": {
+        "name": "Orangery Dining Room",
+        "url": "https://bhdirectory.github.io/location/0073.html"
+      },
       "productionDate": "",
       "purchaseDate": "2008"
   }
 </script>
-<script type="application/ld+json">
+<script type="application/ld+json" id="coachThree">
 {
    "@context": "http://schema.org",
    "@type": "CreativeWork",
@@ -36,8 +44,9 @@
        "url": "https://www.datatrain.co.uk/"
      },
      "dateCreated": "2018-12-10",
+     "dateModified": "2019-03-14",
      "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-     "headline": "Stannah Passenger Lift"
+     "headline": "Stannah Passenger 'West Wing' Lift"
  }
 </script>
 </head>
@@ -45,32 +54,43 @@
   <header>
   <script src="/header.js"></script>
 
-    <h3>Stannah "West Wing" Passenger Lift</h3>
+    <h3 id="headerTitle"></h3>
   </header>
     <table class="orange">
       <tr>
         <th>AssetID</th>
-        <td>3001</td>
+        <td id="assetId"></td>
       </tr>
       <tr>
         <th>Manufacturer</th>
-        <td>Stannah Lifts</td>
+        <td><a href="#" id="make"></a></td>
       </tr>
       <tr>
         <th>Model</th>
-        <td>Passenger System 21</td>
+        <td><a href="#" id="model"></a></td>
       </tr>
       <tr>
         <th>Serial Number</th>
-        <td>270423</td>
+        <td id="sn"></td>
+      </tr>
+      <tr>
+        <th>Condition</th>
+        <td id="condition"></td>
       </tr>
       <tr>
         <th>Location</th>
-        <td>House Ground Floor | <a href="../location/0189.html">Orangery Dining Room</a></td>
+        <td><a href="#" id="location"></a></td>
       </tr>
       <tr>
         <th>Condition</th>
         <td>B</td>
+      </tr>
+      <tr>
+        <th>Report a issue with the lift:</th>
+          <td>
+            <a class="linkButton" href="#" id="mailReport">REPORT</a>
+          </td>
+        </td>
       </tr>
       <tr>
         <th>Service Engineers</th>
@@ -81,68 +101,16 @@
         <td><a href="https://www.allianzengineering.co.uk/">Allianz Engineering</a></td>
       </tr>
       <tr>
-        <th>Quality Assurance</th>
-        <td>
-          <details>
-            <summary>LOLER Inspection Records</summary>
-              <ol>
-                <li><a href="lift-inspection/2019/inspection-a.pdf">Inspection 2019</a></li>
-                <li><a href="lift-inspection/2018/inspection-a.pdf">Inspection 2018</a></li>
-              </ol>
-          </details>
-
-          <details>
-            <summary>Monthly Service Records</summary>
-              <details>
-                <summary>2019 (not yet uploaded)</summary>
-                  <ol>
-                    <li><a href="lift/2019/3001-jan.pdf">January</a></li>
-                    <li><a href="lift/2019/3001-feb.pdf">February</a></li>
-                    <li><a href="lift/2019/3001-mar.pdf">March</a></li>
-                    <li><a href="lift/2019/3001-apr.pdf">April</a></li>
-                    <li><a href="lift/2019/3001-may.pdf">May</a></li>
-                    <li><a href="lift/2019/3001-jun.pdf">June</a></li>
-                    <li><a href="lift/2019/3001-jul.pdf">July</a></li>
-                    <li><a href="lift/2019/3001-aug.pdf">August</a></li>
-                    <li><a href="lift/2019/3001-sep.pdf">September</a></li>
-                    <li><a href="lift/2019/3001-oct.pdf">October</a></li>
-                    <li><a href="lift/2019/3001-nov.pdf">November</a></li>
-                    <li><a href="lift/2019/3001-dec.pdf">December</a></li>
-                  </ol>
-              </details>
-              <details open>
-                <summary>2018</summary>
-                  <ol>
-                    <li><a href="lift/2018/3001-jan.pdf">January</a>  (previous contract)</li>
-                    <li><a href="lift/2018/3001-feb.pdf">February</a></li>
-                    <li><a href="lift/2018/3001-mar.pdf">March</a></li>
-                    <li><a href="lift/2018/3001-apr.pdf">April</a></li>
-                    <li><a href="lift/2018/3001-may.pdf">May</a></li>
-                    <li><a href="lift/2018/3001-jun.pdf">June</a></li>
-                    <li><a href="lift/2018/3001-jul.pdf">July</a></li>
-                    <li><a href="lift/2018/3001-aug.pdf">August</a></li>
-                    <li><a href="lift/2018/3001-sep.pdf">September</a></li>
-                    <li><a href="lift/2018/3001-oct.pdf">October</a></li>
-                    <li><a href="lift/2018/3001-nov.pdf">November</a></li>
-                    <li><a href="lift/2018/3001-dec.pdf">December</a></li>
-                  </ol>
-              </details>
-            </details>
-            <details>
-              <summary>Archive Records</summary>
-                <ol>
-                  <li><a href="lift/archive/">Monthly Check Records</a></li>
-                </ol>
-            </details>
-        </td>
-      </tr>
-      <tr>
         <th>Notes</th>
-        <td></td>
+        <td id="note"></td>
       </tr>
     </table>
 
-    <script src="/footer.js"></script>
+    <div id="divCentre">
+      <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
+    </div>
 
+    <script src="/footer.js"></script>
+    <script src="dataCoupler.js"></script>
 </body>
 </html>
