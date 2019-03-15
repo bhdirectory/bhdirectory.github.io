@@ -1,0 +1,60 @@
+From:	Birtley House Maintenance
+Sent:	27 February 2019 16:13
+To:	Birtley House Maintenance
+Subject:	Alarm Test FAIL 9133
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+Reason for failure:
+
+During the fire alarm testing rooms doors didn't shut properly 30,
+
+27, 8, 22.
+From:	Birtley House Maintenance
+Sent:	27 February 2019 16:05
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9140
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required
+From:	Birtley House Maintenance
+Sent:	20 February 2019 16:26
+To:	Birtley House Maintenance
+Subject:	Alarm Test FAIL 9236
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+Reason for failure
+
+Door didn't shut during fire alarm testing nr 33, 29, 27, 26, 21. 
+From:	Birtley House Maintenance
+Sent:	20 February 2019 16:19
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9235
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required
+From:	Birtley House Maintenance
+Sent:	13 February 2019 16:23
+To:	Birtley House Maintenance
+Subject:	Alarm Test FAIL 9232
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+Reason for failure door nr didn't close 42 40 35 30
+From:	Birtley House Maintenance
+Sent:	13 February 2019 16:12
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9192
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required
