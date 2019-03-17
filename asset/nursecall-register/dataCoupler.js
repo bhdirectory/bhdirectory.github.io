@@ -3,9 +3,9 @@
 */
 
 function dataCouple() {
-  var coachThree = JSON.parse(document.querySelector('#coachThree').innerText);
-  document.title=coachThree.headline;
-  document.getElementById('headerTitle').innerText=coachThree.headline;
+  var coach = JSON.parse(document.querySelector('#coach').innerText);
+  document.title=coach.headline;
+  document.getElementById('headerTitle').innerText=coach.headline;
 }
 
 dataCouple();
