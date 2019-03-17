@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Birtley House Directory</title>
+    <title></title>
     <script src="/head.js"></script>
-    <script type="application/ld+json">
+    <script type="application/ld+json" id="coach">
     {
        "@context": "http://schema.org",
-       "@type": "CreativeWork",
+       "@type": "WebPage",
        "@id": "https://bhdirectory.github.io/index.html",
-       "author": {
-         "@type": "Organization",
-           "name": "DataTrain",
-           "url": "https://www.datatrain.co.uk/"
-       },
+         "breadcrumb": "Birtley House Directory",
+         "author": {
+           "@type": "Organization",
+             "name": "DataTrain",
+             "url": "https://www.datatrain.co.uk/"
+         },
          "dateCreated": "2019-01-15",
-         "dateModified": "2019-03-12",
+         "dateModified": "2019-03-17",
          "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
          "headline": "Birtley House Directory"
      }
@@ -23,7 +24,7 @@
     <body>
       <header>
         <script src="/header.js"></script>
-        <h3>Birtley House Directory</h3>
+        <h3 id="headerTitle"></h3>
           <aside>
             <p>The Birtley House Directory is being developed as an INTRAnet site for Birtley House Nursing Home.  As a living and evolving set of pages, it is by no means comprehensive and you will find many links broken and plenty of pages under development.  The priority has been to gather as much of the Health & Safety Management System together within the site to produce a site around which one can navigate to find how the Company manages H&S risks, the arrangements it has in place and the evidence to support enquiries into safety and compliance.  At the heart of this is an asset register of the essential plant and equipment that operates on the premises.</p>
           </aside>
@@ -52,6 +53,6 @@
       </header>
 
       <script src="/footer.js"></script>
-
+      <script src="dataCoupler.js"></script>
 </body>
 </html>
