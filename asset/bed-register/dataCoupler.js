@@ -3,6 +3,10 @@
 */
 
 function dataCouple() {
+  var coachThree = JSON.parse(document.querySelector('#coachThree').innerText);
+  document.title=coachThree.headline;
+  document.getElementById('headerTitle').innerText=coachThree.headline;
+  
   var coachOne = JSON.parse(document.querySelector('#coachOne').innerText);
   document.getElementById('assetId').innerText=coachOne.identifier.value;
   document.getElementById('make').innerText=coachOne.manufacturer.name;
@@ -23,9 +27,6 @@ function dataCouple() {
   document.getElementById('handsetModel').href=coachTwo.model.url;
   document.getElementById('handsetCondition').innerText=coachTwo.itemCondition;
 
-  var coachThree = JSON.parse(document.querySelector('#coachThree').innerText);
-  document.title=coachThree.headline;
-  document.getElementById('headerTitle').innerText=coachThree.headline;
 }
 
 dataCouple();
