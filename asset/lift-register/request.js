@@ -1,11 +1,11 @@
 function loadXMLDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-    document.getElementById('index').innerText=this.responseText;
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+    document.getElementById('index').innerText=xhttp.responseText;
     }
   };
-  xhttp.open("GET", "3001.html#coachThree", true);
+  xhttp.open("GET", "3001.html", true);
   xhttp.send();
 }
 
