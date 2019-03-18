@@ -4,7 +4,7 @@ function loadXMLDoc() {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
     var coachThree = JSON.parse(document.querySelector('#coachThree').innerText);
-    document.getElementById('index').innerText=coachThree.headline;
+    document.getElementById('index').innerText=coachThree.headline.responseText;
     }
   };
   xhttp.send();
