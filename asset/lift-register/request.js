@@ -6,7 +6,7 @@ function loadXMLDoc() {
     document.getElementById('index').innerText=coachThree.headline;
     }
   };
-  xhttp.open("GET", "https://bhdirectory.github.io/asset/lift-register/3001.html", true);
+  xhttp.open("GET", "3001.html#coachThree", true);
   xhttp.send();
 }
 
