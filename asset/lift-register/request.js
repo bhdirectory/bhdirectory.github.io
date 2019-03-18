@@ -2,7 +2,7 @@ function loadXMLDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (xhttp.readyState == 4 && xhttp.status == 200) {
-      var response = JSON.parse(xttp.querySelector('#coachThree').responseText);
+      var response = JSON.parse(xhttp.querySelector('#coachThree').responseText);
     document.getElementById('index').innerText=response.headline;
     }
   };
