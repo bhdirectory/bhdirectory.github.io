@@ -6,7 +6,7 @@ function loadXMLDoc() {
     document.getElementById('index').innerText=coachThree.headline;
     }
   };
-  xhttp.open("GET", "3001.html#coachThree", true);
+  xhttp.open("GET", "3001.html", true);
   xhttp.send();
 }
 
