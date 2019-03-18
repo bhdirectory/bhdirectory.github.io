@@ -2,7 +2,7 @@ function loadXMLDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (xhttp.readyState == 4 && xhttp.status == 200) {
-      var response = JSON.parse('xhttp').innerText);
+      var response = JSON.parse('xhttp'.innerText);
     document.getElementById('index').innerText=response.headline;
     }
   };
