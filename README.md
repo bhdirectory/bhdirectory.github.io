@@ -1,5 +1,6 @@
 # bhdirectory.github.io
-Welcome to the online Directory for Birtley House.  Here you'll find information relating to all aspects of managing our property and business.
+This is a Services Directory for Birtley House Nursing Home.  It is mainly intended for internal use, but is visible in the public domain for ease of access and in the interests of transparency.  It is similar in concept to an Intranet, being, as it is, focussed on the operational aspects of the company and you'll find information relating to all aspects of managing our property and business.
+
 Please note the following file-naming convention:
 Organisation (00-99);
 People (000-999);
