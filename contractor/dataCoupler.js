@@ -4,7 +4,7 @@
 
 function dataCouple() {
   var coaches = JSON.parse(document.querySelector('#coaches').innerText);
-  document.title=coaches.headline;
+  document.title=coaches.mainEntityOfPage.headline;
   document.getElementById('headerTitle').innerText=coaches.headline;
   document.getElementById('contractorId').innerText=coaches.identifier.value;
   document.getElementById('companyName').innerText=coaches.provider.legalName;
