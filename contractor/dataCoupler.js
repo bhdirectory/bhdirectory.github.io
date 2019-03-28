@@ -11,8 +11,8 @@ function dataCouple() {
   document.getElementById('service').innerText=coaches.serviceType;
   document.getElementById('contactName').innerText=coaches.provider.employee.name;
   document.getElementById('jobTitle').innerText=coaches.provider.employee.jobTitle;
-  document.getElementById('mobile').innerText=coaches.provider.employee.telephone;
   document.getElementById('telephone').innerText=coaches.provider.telephone;
+  document.getElementById('mobile').innerText=coaches.provider.employee.telephone;
   document.getElementById('website').innerText=coaches.provider.url;
   document.getElementById('email').innerText=coaches.provider.email;
 
