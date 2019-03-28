@@ -16,7 +16,7 @@ function dataCouple() {
   document.getElementById('telephone').innerText=coaches.provider.telephone;
   document.getElementById('mobile').innerText=coaches.provider.employee.telephone;
   document.getElementById('email').innerText=coaches.provider.email;
-  document.getElementById('email').href="mailto:" + coaches.provider.email + "&body=Birtley House%20|%20";
+  document.getElementById('email').href="mailto:" + coaches.provider.email + "?subject=Birtley House%20|%20";
 
 }
 
