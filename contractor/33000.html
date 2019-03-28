@@ -2,55 +2,43 @@
 <head>
   <script src="/head.js"></script>
   <title></title>
-  <script type="application/ld+json" id="coachOne">
+  <script type="application/ld+json" id="coaches">
   {
     "@context": "http://schema.org",
-    "@type": "IndividualProduct",
-      "manufacturer": {
+    "@type": "Service",
+    "@id": "https://bhdirectory.github.io/contractor/330001.html",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "breadcrumb": "Health & Safety > Approved Contractors > A & S Pest Control",
+          "author": {
+            "@type": "Organization",
+              "name": "DataTrain",
+              "url": "https://www.datatrain.co.uk/"
+          },
+            "dateCreated": "2019-03-28",
+            "dateModified": "2019-03-28",
+            "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+            "headline": "A & S Pest Control"
+      },
+      "serviceType": "Pest Control",
+      "provider": {
         "@type": "Organization",
-          "name": "Nexus",
-          "logo": "http://www.nexusdms.co.uk/images/logo.gif",
-          "url": "http://www.nexusdms.co.uk/"
-      },
-      "category": {
-        "name": "Electric Profiling Bed (EPB)",
-        "alternateName": "Nursing Care Bed",
-        "url": "https://www.wikidata.org/wiki/Q2084099"
-      },
-      "model": {
-        "name": "Pro Care",
-        "url": "http://www.nexusdms.co.uk/professional-care-products/nursing-bed-pro-care"
-      },
-      "serialNumber": "030267",
+        "legalName": "A & S Pest Control Services",
+        "url": "",
+        "email": "aspestcontrol@btinternet.com",
+        "telephone": "01483 208490",
+        "contactPoint": {
+          "@type": "Person",
+          "name": "Kate Brown",
+          "jobTitle": "Secretary",
+          "telephone": "07767 756852"
+        },
       "identifier": {
         "@type": "text",
-          "propertyID": "AssetID",
-          "value":  "33000"
-        },
-      "itemCondition": "B",
-      "location": {
-        "name": "Room 38",
-        "url": "https://bhdirectory.github.io/location/1038.html"
-      },
-      "purchaseDate": ""
+          "propertyID": "ContractorID",
+          "value":  "330001"
+        }
   }
-  </script>
-  <script type="application/ld+json" id="coachThree">
-  {
-     "@context": "http://schema.org",
-     "@type": "WebPage",
-     "@id": "https://bhdirectory.github.io/contractor/33000.html",
-       "breadcrumb": "Birtley House Directory > Approved Contractor & Third-party Service Provider Register > A & S Pest Control",
-       "author": {
-         "@type": "Organization",
-           "name": "DataTrain",
-           "url": "https://www.datatrain.co.uk/"
-       },
-       "dateCreated": "2010-03-20",
-       "dateModified": "2019-03-20",
-       "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-       "headline": "A & S Pest Control"
-   }
   </script>
 
 </head>
@@ -75,8 +63,8 @@
       <td><a href="#" id="service"></a></td>
     </tr>
     <tr>
-      <th>Contact Name</th>
-      <td id="contactName"></td>
+      <th>Primary Contact</th>
+      <td><span id="contactName"></span>, <span id="jobTitle"><i></i></span></td>
     </tr>
     <tr>
       <th>Contact Number</th>
@@ -97,10 +85,6 @@
     <tr>
       <th>Supervising Team</th>
       <td id="supervisor"></td>
-    </tr>
-    <tr>
-      <th>Location</th>
-      <td><a href="#" id="location"></a></td>
     </tr>
     <tr>
       <th>Notes</th>
