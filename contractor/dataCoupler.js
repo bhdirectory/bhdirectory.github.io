@@ -8,13 +8,13 @@ function dataCouple() {
   document.getElementById('headerTitle').innerText=coaches.mainEntityOfPage.headline;
   document.getElementById('contractorId').innerText=coaches.identifier.value;
   document.getElementById('companyName').innerText=coaches.provider.legalName;
+  document.getElementById('companyName').href=coaches.provider.url;
   document.getElementById('service').innerText=coaches.serviceType;
   document.getElementById('description').innerText=coaches.description;
   document.getElementById('contactName').innerText=coaches.provider.employee.name;
   document.getElementById('jobTitle').innerText=coaches.provider.employee.jobTitle;
   document.getElementById('telephone').innerText=coaches.provider.telephone;
   document.getElementById('mobile').innerText=coaches.provider.employee.telephone;
-  document.getElementById('website').innerText=coaches.provider.url;
   document.getElementById('email').innerText=coaches.provider.email;
   document.getElementById('email').href="mailto:" + coaches.provider.email + "&body=Birtley House%20|%20";
 
