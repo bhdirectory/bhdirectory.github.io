@@ -9,6 +9,7 @@ function dataCouple() {
   document.getElementById('contractorId').innerText=coaches.identifier.value;
   document.getElementById('companyName').innerText=coaches.provider.legalName;
   document.getElementById('service').innerText=coaches.serviceType;
+  document.getElementById('description').innerText=coaches.description;
   document.getElementById('contactName').innerText=coaches.provider.employee.name;
   document.getElementById('jobTitle').innerText=coaches.provider.employee.jobTitle;
   document.getElementById('telephone').innerText=coaches.provider.telephone;
