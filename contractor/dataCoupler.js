@@ -19,14 +19,12 @@ function dataCouple() {
   document.getElementById('mobile').innerText=coaches.provider.employee[0].telephone;
   document.getElementById('mobileAlt').href="tel:" + coaches.provider.employee[1].telephone;
   document.getElementById('mobileAlt').innerText=coaches.provider.employee[1].telephone;
-  document.getElementById('contactEmail').innerText=coaches.provider.employee[0].email;
-  document.getElementById('contactEmail').href="mailto:" + coaches.provider.employee[0].email + "?subject=Birtley House%20|%20";
-  document.getElementById('contactEmailAlt').innerText=coaches.provider.employee[1].email;
-  document.getElementById('contactEmailAlt').href="mailto:" + coaches.provider.employee[1].email + "?subject=Birtley House%20|%20";
+  document.getElementById('email').innerText=coaches.provider.employee[0].email;
+  document.getElementById('email').href="mailto:" + coaches.provider.employee[0].email + "?subject=Birtley House%20|%20";
+  document.getElementById('emailAlt').innerText=coaches.provider.employee[1].email;
+  document.getElementById('emailAlt').href="mailto:" + coaches.provider.employee[1].email + "?subject=Birtley House%20|%20";
   document.getElementById('telephone').href="tel:" + coaches.provider.telephone;
   document.getElementById('telephone').innerText=coaches.provider.telephone;
-  document.getElementById('email').innerText=coaches.provider.email;
-  document.getElementById('email').href="mailto:" + coaches.provider.email + "?subject=Birtley House%20|%20";
   document.getElementById('termsOfService').innerText=coaches.termsOfService.name;
   document.getElementById('termsOfService').href=coaches.termsOfService.url;
 
