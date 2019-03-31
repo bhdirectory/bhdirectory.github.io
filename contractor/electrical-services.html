@@ -18,20 +18,34 @@
           "dateCreated": "2019-03-29",
           "dateModified": "2019-03-29",
           "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-          "headline": "Electrician | Facilities"
+          "headline": "Electrician"
       },
-      "description": "Mason Voller are a large firm of electricians providing all electrical services.",
+      "description": "Mason Voller are a large firm of electricians providing a full range of electrical services.",
       "provider": {
         "@type": "Organization",
           "legalName": "Mason Voller Limited",
+          "identifier": {
+            "@type": "PropertyValue",
+              "propertyID": "Company Number",
+              "value": "02752613",
+              "url": "https://beta.companieshouse.gov.uk/company/02752613"
+          },
           "url": "http://www.masonvoller.co.uk/",
-          "email": "nick@masonvoller.co.uk",
-          "telephone": "+441483 572763",
+          "email": "",
+          "telephone": "+44 1483 572763",
           "employee": {
             "@type": "Person",
-              "name": "Nick Voller",
+              "name": "Caroline Heater",
+              "jobTitle": "Administrator",
+              "telephone": "",
+              "email": "caroline.heater@masonvoller.co.uk"
+          },
+          "employee": {
+            "@type": "Person",
+              "name": "Tony Voller",
               "jobTitle": "Owner",
-              "telephone": ""
+              "telephone": "",
+              "email": "tony.vollerr@masonvoller.co.uk"
           }
       },
       "identifier": {
@@ -39,63 +53,58 @@
           "propertyID": "ContractorID",
           "value": "AC004"
         },
-      "serviceType": "Electrical Services",
+      "category": "Facilities > Electrical services",
+      "serviceType": [ "", "Contractor", "Business critical service" ],
       "termsOfService": { "name": "hourly rate", "url": "" }
   }
   </script>
 
-</head>
-<body>
-  <header>
-    <script src="/header.js"></script>
+  </head>
+  <body>
+    <header>
+      <script src="/header.js"></script>
 
-    <h3 id="headerTitle"></h3>
-  </header>
+      <h3 id="headerTitle"></h3>
+    </header>
 
-  <table>
-    <tr>
-      <th>ContractorID</th>
-      <td id="contractorId"></td>
-    </tr>
-    <tr>
-      <th>Company Name</th>
-      <td><a href="#" id="companyName"></a></td>
-    </tr>
-    <tr>
-      <th>Service Provided</th>
-      <td id="service"></td>
-    </tr>
-    <tr>
-      <th>Service Description</th>
-      <td id="description"></td>
-    </tr>
-    <tr>
-      <th>Primary Contact</th>
-      <td><span id="contactName"></span>, <i id="jobTitle"></i></td>
-    </tr>
-    <tr>
-      <th>Contact Number(s)</th>
-      <td><a href="#" id="telephone"></a> | <a href="#" id="mobile"></a></td>
-    </tr>
-    <tr>
-      <th>Email</th>
-      <td><a href="#" id="email"></a></td>
-    </tr>
-    <tr>
-      <th>Contract Information</th>
-      <td><a href="#" id="termsOfService"></a></td>
-    </tr>
-    <tr>
-      <th>Notes</th>
-      <td id="note"></td>
-    </tr>
-  </table>
+    <table>
+      <tr>
+        <th>ContractorID</th>
+        <td id="contractorId"></td>
+      </tr>
+      <tr>
+        <th>Company Name</th>
+        <td><h4 id="companyName"></h4><br /><a href="#" id="website"></a><br /><a href="#" id="companyNumber"></a><br /><a href="#" id="telephone"></a><br /></td>
+      </tr>
+      <tr>
+        <th>Service Type(s)</th>
+        <td id="service"></td>
+      </tr>
+      <tr>
+        <th>Service Description</th>
+        <td id="description"></td>
+      </tr>
+      <tr>
+        <th>Primary Contact</th>
+        <td><span id="contactName"></span><br /><i id="jobTitle"></i><br /><a href="#" id="email"></a><br /><a href="#" id="mobile"></a></td>
+      </tr>
+      <tr>
+        <th>Alternative Contact</th>
+        <td><span id="contactNameAlt"></span><br /><i id="jobTitleAlt"></i><br /><a href="#" id="emailAlt"></a><br /><a href="#" id="mobileAlt"></a></td>
+      </tr>
+      <tr>
+        <th>Contract Information</th>
+        <td><a href="#" id="termsOfService"></a></td>
+      </tr>
+      <tr>
+        <th>Notes</th>
+        <td id="note"></td>
+      </tr>
+    </table>
 
-    <div id="divCentre">
-      <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
-    </div>
 
-    <script src="/footer.js"></script>
-    <script src="dataCoupler.js"></script>
-</body>
-</html>
+      <script src="records.js"></script>
+      <script src="/footer.js"></script>
+      <script src="dataCoupler.js"></script>
+  </body>
+  </html>

@@ -44,58 +44,52 @@
   }
   </script>
 
-</head>
-<body>
-  <header>
-    <script src="/header.js"></script>
+  </head>
+  <body>
+    <header>
+      <script src="/header.js"></script>
 
-    <h3 id="headerTitle"></h3>
-  </header>
+      <h3 id="headerTitle"></h3>
+    </header>
 
-  <table>
-    <tr>
-      <th>ContractorID</th>
-      <td id="contractorId"></td>
-    </tr>
-    <tr>
-      <th>Company Name</th>
-      <td><a href="#" id="companyName"></a></td>
-    </tr>
-    <tr>
-      <th>Service Provided</th>
-      <td id="service"></td>
-    </tr>
-    <tr>
-      <th>Service Description</th>
-      <td id="description"></td>
-    </tr>
-    <tr>
-      <th>Primary Contact</th>
-      <td><span id="contactName"></span>, <i id="jobTitle"></i></td>
-    </tr>
-    <tr>
-      <th>Contact Number(s)</th>
-      <td><a href="#" id="telephone"></a> | <a href="#" id="mobile"></a></td>
-    </tr>
-    <tr>
-      <th>Email</th>
-      <td><a href="#" id="email"></a></td>
-    </tr>
-    <tr>
-      <th>Contract Information</th>
-      <td><a href="#" id="termsOfService"></a></td>
-    </tr>
-    <tr>
-      <th>Notes</th>
-      <td id="note"></td>
-    </tr>
-  </table>
+    <table>
+      <tr>
+        <th>ContractorID</th>
+        <td id="contractorId"></td>
+      </tr>
+      <tr>
+        <th>Company Name</th>
+        <td><h4 id="companyName"></h4><br /><a href="#" id="website"></a><br /><a href="#" id="companyNumber"></a><br /><a href="#" id="telephone"></a><br /></td>
+      </tr>
+      <tr>
+        <th>Service Type(s)</th>
+        <td id="service"></td>
+      </tr>
+      <tr>
+        <th>Service Description</th>
+        <td id="description"></td>
+      </tr>
+      <tr>
+        <th>Primary Contact</th>
+        <td><span id="contactName"></span><br /><i id="jobTitle"></i><br /><a href="#" id="email"></a><br /><a href="#" id="mobile"></a></td>
+      </tr>
+      <tr>
+        <th>Alternative Contact</th>
+        <td><span id="contactNameAlt"></span><br /><i id="jobTitleAlt"></i><br /><a href="#" id="emailAlt"></a><br /><a href="#" id="mobileAlt"></a></td>
+      </tr>
+      <tr>
+        <th>Contract Information</th>
+        <td><a href="#" id="termsOfService"></a></td>
+      </tr>
+      <tr>
+        <th>Notes</th>
+        <td id="note"></td>
+      </tr>
+    </table>
 
-    <div id="divCentre">
-      <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
-    </div>
 
-    <script src="/footer.js"></script>
-    <script src="dataCoupler.js"></script>
-</body>
-</html>
+      <script src="records.js"></script>
+      <script src="/footer.js"></script>
+      <script src="dataCoupler.js"></script>
+  </body>
+  </html>
