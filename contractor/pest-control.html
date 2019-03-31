@@ -18,28 +18,37 @@
           "dateCreated": "2019-03-28",
           "dateModified": "2019-03-28",
           "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-          "headline": "Pest Control | Housekeeping"
+          "headline": "Pest Control"
       },
       "description": "This pest control service covers internal and external areas for the control of House Mouse, Common Rat, Black Ant, German Cockroach, Oriental Cockroach.  It also covers insectocutor units in food preparation areas and a cleaning and servicing agreement for the same.  The contract includes treatment of wasp nests found in and around the main house.",
       "provider": {
         "@type": "Organization",
           "legalName": "A & S Pest Control Services",
+          "identifier": {
+            "@type": "PropertyValue",
+              "propertyID": "Company Number",
+              "value": "",
+              "url": ""
+          },
           "url": "",
           "email": "aspestcontrol@btinternet.com",
           "telephone": "+441483208490",
-          "employee": {
+          "employee": [ {
             "@type": "Person",
               "name": "Kate Brown",
               "jobTitle": "Secretary",
               "telephone": "+447767756852"
-          }
+          },
+          {
+            "@type": "Person",
+              "name": "Alan Hawkins",
+              "jobTitle": "Owner",
+              "telephone": "",
+              "email": ""
+          } ]
       },
-      "identifier": {
-        "@type": "text",
-          "propertyID": "ContractorID",
-          "value": "AC001"
-        },
-      "serviceType": "Pest Control",
+      "category": "Facilities > Pest Control",
+      "serviceType": [ "", "Contractor", "" ],
       "termsOfService": { "name": "annual contract (December)", "url": "" }
   }
   </script>
@@ -55,7 +64,7 @@
     <table>
       <tr>
         <th>ContractorID</th>
-        <td id="contractorId"></td>
+        <td><a href="#" id="companyNumber"></a></td>
       </tr>
       <tr>
         <th>Company Name</th>

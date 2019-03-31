@@ -18,29 +18,38 @@
           "dateCreated": "2019-03-29",
           "dateModified": "2019-03-29",
           "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-          "headline": "Periodic Electrical Inspection | Facilities"
+          "headline": "Periodic Electrical Inspection"
       },
       "description": "This electrical service provides a rolling programme of testing and inspection of the fixed wiring of the premises.  In addition, Derek works as an electrician.  Derek is a sole trader who is not VAT registered.",
       "provider": {
         "@type": "Organization",
           "legalName": "Derek P Brew",
+          "identifier": {
+            "@type": "PropertyValue",
+              "propertyID": "Company Number",
+              "value": "",
+              "url": ""
+          },
           "url": "",
           "email": "derekpbrew@hotmail.com",
           "telephone": "+441420 479292",
-          "employee": {
+          "employee": [ {
             "@type": "Person",
               "name": "Derek Brew",
               "jobTitle": "Owner",
               "telephone": "+447963 482989"
-          }
+          },
+          {
+            "@type": "Person",
+              "name": "",
+              "jobTitle": "",
+              "telephone": "",
+              "email": ""
+          } ]
       },
-      "identifier": {
-        "@type": "text",
-          "propertyID": "ContractorID",
-          "value": "AC002"
-        },
-      "serviceType": "Electrical Services & Periodic Inspection",
-      "termsOfService": { "name": "no contract", "url": "" }
+      "category": "Facilities > Electrical Services & Periodic Inspection",
+      "serviceType": [ "", "Contractor", "Business critical service" ],
+      "termsOfService": { "name": "daily rate", "url": "" }
   }
   </script>
 
@@ -55,7 +64,7 @@
     <table>
       <tr>
         <th>ContractorID</th>
-        <td id="contractorId"></td>
+        <td><a href="#" id="companyNumber"></a></td>
       </tr>
       <tr>
         <th>Company Name</th>
