@@ -9,6 +9,8 @@ function dataCouple() {
   document.getElementById('contractorId').innerText=coaches.identifier.value;
   document.getElementById('companyName').innerText=coaches.provider.legalName;
   document.getElementById('companyName').href=coaches.provider.url;
+  document.getElementById('companyNumber').innerText=coaches.provider.identifier.value;
+  document.getElementById('companyNumber').href=coaches.provider.identifier.url;
   document.getElementById('service').innerText=coaches.serviceType[0] + " | " + coaches.serviceType[1] + " | " + coaches.serviceType[2];
   document.getElementById('description').innerText=coaches.description;
   document.getElementById('contactName').innerText=coaches.provider.employee[0].name;
