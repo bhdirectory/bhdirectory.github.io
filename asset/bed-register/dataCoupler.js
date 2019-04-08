@@ -3,30 +3,25 @@
 */
 
 function dataCouple() {
-  var coachThree = JSON.parse(document.querySelector('#coachThree').innerText);
-  document.title=coachThree.headline;
-  document.getElementById('headerTitle').innerText=coachThree.headline;
-  
-  var coachOne = JSON.parse(document.querySelector('#coachOne').innerText);
-  document.getElementById('assetId').innerText=coachOne.identifier.value;
-  document.getElementById('make').innerText=coachOne.manufacturer.name;
-  document.getElementById('make').href=coachOne.manufacturer.url;
-  document.getElementById('model').innerText=coachOne.model.name;
-  document.getElementById('model').href=coachOne.model.url;
-  document.getElementById('sn').innerText=coachOne.serialNumber;
-  document.getElementById('location').innerText=coachOne.location.name;
-  document.getElementById('location').href=coachOne.location.url;
-  document.getElementById('condition').innerText=coachOne.itemCondition;
-  document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Bed%20Check%20PASS%20" + coachOne.identifier.value + "&body=No%20action%20required";
-  document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Bed%20Check%20FAIL%20" + coachOne.identifier.value + "&body=Reason%20for%20failure:&20";
-
-  var coachTwo = JSON.parse(document.querySelector('#coachTwo').innerText);
-  document.getElementById('handsetMake').innerText=coachTwo.manufacturer.name;
-  document.getElementById('handsetMake').href=coachTwo.manufacturer.url;
-  document.getElementById('handsetModel').innerText=coachTwo.model.name;
-  document.getElementById('handsetModel').href=coachTwo.model.url;
-  document.getElementById('handsetCondition').innerText=coachTwo.itemCondition;
-
+  var coaches = JSON.parse(document.querySelector('#coaches').innerText);
+  document.title=coaches.headline;
+  document.getElementById('headerTitle').innerText=coaches.headline;
+  document.getElementById('assetId').innerText=coaches.identifier.value;
+  document.getElementById('make').innerText=coaches.manufacturer.name;
+  document.getElementById('make').href=coaches.manufacturer.url;
+  document.getElementById('model').innerText=coaches.model.name;
+  document.getElementById('model').href=coaches.model.url;
+  document.getElementById('sn').innerText=coaches.serialNumber;
+  document.getElementById('location').innerText=coaches.location.name;
+  document.getElementById('location').href=coaches.location.url;
+  document.getElementById('condition').innerText=coaches.itemCondition;
+  document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Bed%20Check%20PASS%20" + coaches.identifier.value + "&body=No%20action%20required";
+  document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Bed%20Check%20FAIL%20" + coaches.identifier.value + "&body=Reason%20for%20failure:&20";
+  document.getElementById('handsetMake').innerText=coaches.manufacturer.name;
+  document.getElementById('handsetMake').href=coaches.manufacturer.url;
+  document.getElementById('handsetModel').innerText=coaches.model.name;
+  document.getElementById('handsetModel').href=coaches.model.url;
+  document.getElementById('handsetCondition').innerText=coaches.itemCondition;
 }
 
 dataCouple();
