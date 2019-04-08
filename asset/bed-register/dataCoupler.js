@@ -17,11 +17,11 @@ function dataCouple() {
   document.getElementById('condition').innerText=coaches.itemCondition;
   document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Bed%20Check%20PASS%20" + coaches.identifier.value + "&body=No%20action%20required";
   document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Bed%20Check%20FAIL%20" + coaches.identifier.value + "&body=Reason%20for%20failure:&20";
-  document.getElementById('handsetMake').innerText=coaches.manufacturer.name;
-  document.getElementById('handsetMake').href=coaches.manufacturer.url;
-  document.getElementById('handsetModel').innerText=coaches.model.name;
-  document.getElementById('handsetModel').href=coaches.model.url;
-  document.getElementById('handsetCondition').innerText=coaches.itemCondition;
+  document.getElementById('handsetMake').innerText=coaches.manufacturer[1].name;
+  document.getElementById('handsetMake').href=coaches.manufacturer[1].url;
+  document.getElementById('handsetModel').innerText=coaches.model[1].name;
+  document.getElementById('handsetModel').href=coaches.model[1].url;
+  document.getElementById('handsetCondition').innerText=coaches.itemCondition[1];
 }
 
 dataCouple();
