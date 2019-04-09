@@ -1,0 +1,32 @@
+From:	Birtley House Maintenance
+Sent:	27 March 2019 16:13
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9435
+
+No action required
+From:	Birtley House Maintenance
+Sent:	27 March 2019 16:11
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9397
+
+No action required
+From:	Birtley House Maintenance
+Sent:	06 March 2019 16:30
+To:	Birtley House Maintenance
+Subject:	Alarm Test FAIL 9340
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+Reason for failure: door from room nr 
+
+42 40 29 30 21 didn't close. 
+From:	Birtley House Maintenance
+Sent:	06 March 2019 16:17
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 92103
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required
