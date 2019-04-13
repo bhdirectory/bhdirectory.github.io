@@ -6,6 +6,7 @@ function dataCouple() {
   var coaches = JSON.parse(document.querySelector('#coaches').innerText);
   document.title=coaches.mainEntityOfPage.headline;
   document.getElementById('headerTitle').innerText=coaches.mainEntityOfPage.headline;
+  document.getElementById('one').innerText=coaches.itemListElement.position;
   document.getElementById('assetId').innerText=coaches.identifier.value;
   document.getElementById('make').innerText=coaches.manufacturer.name;
   document.getElementById('make').href=coaches.manufacturer.url;
@@ -22,7 +23,6 @@ function dataCouple() {
   document.getElementById('handsetModel').innerText=coaches.isRelatedTo.model.name;
   document.getElementById('handsetModel').href=coaches.isRelatedTo.model.url;
   document.getElementById('handsetCondition').innerText=coaches.isRelatedTo.itemCondition;
-  document.getElementById('p1').innerText=coaches.itemListElement.position;
 }
 
 dataCouple();
