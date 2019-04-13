@@ -22,7 +22,7 @@ function dataCouple() {
   document.getElementById('handsetModel').innerText=coaches.isRelatedTo.model.name;
   document.getElementById('handsetModel').href=coaches.isRelatedTo.model.url;
   document.getElementById('handsetCondition').innerText=coaches.isRelatedTo.itemCondition;
-  document.getElementById('p1').innerText=coaches.itemListElement[0].position;
+  document.getElementById('p1').innerText=coaches.itemListElement[1].position;
 }
 
 dataCouple();
