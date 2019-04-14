@@ -19,8 +19,14 @@ function dataCouple() {
   document.getElementById('a3').innerText=coaches.itemListElement[3].item.name;
   document.getElementById('a3').href=coaches.itemListElement[3].item.url;
   document.getElementById('p4').innerText=coaches.itemListElement[4].position;
+  document.getElementById('a3').innerText=coaches.itemListElement[4].item.name;
+  document.getElementById('a3').href=coaches.itemListElement[4].item.url;
   document.getElementById('p5').innerText=coaches.itemListElement[5].position;
+  document.getElementById('a3').innerText=coaches.itemListElement[5].item.name;
+  document.getElementById('a3').href=coaches.itemListElement[5].item.url;
   document.getElementById('p6').innerText=coaches.itemListElement[6].position;
+  document.getElementById('a3').innerText=coaches.itemListElement[6].item.name;
+  document.getElementById('a3').href=coaches.itemListElement[6].item.url;
   document.getElementById('p7').innerText=coaches.itemListElement[7].position;
   document.getElementById('p8').innerText=coaches.itemListElement[8].position;
   document.getElementById('p9').innerText=coaches.itemListElement[9].position;
