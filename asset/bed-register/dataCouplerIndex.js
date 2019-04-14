@@ -7,6 +7,7 @@ function dataCouple() {
   document.title=coaches.mainEntityOfPage.headline;
   document.getElementById('headerTitle').innerText=coaches.mainEntityOfPage.headline;
   document.getElementById('p0').innerText=coaches.itemListElement[0].position;
+  document.getElementById('a0').innerText=coaches.itemListElement[0].item.name;
   document.getElementById('p1').innerText=coaches.itemListElement[1].position;
   document.getElementById('p2').innerText=coaches.itemListElement[2].position;
   document.getElementById('p3').innerText=coaches.itemListElement[3].position;
@@ -57,7 +58,7 @@ function dataCouple() {
   document.getElementById('p48').innerText=coaches.itemListElement[48].position;
   document.getElementById('p49').innerText=coaches.itemListElement[49].position;
   document.getElementById('p50').innerText=coaches.itemListElement[50].position;
-  document.getElementById('a0').innerText=coaches.itemListElement[0].item.name;
+
 /*
   document.getElementById('a1').href=coaches.itemListElement[1].item.@id;
   document.getElementById('a2').href=coaches.itemListElement[2].item.@id;
