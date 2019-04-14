@@ -37,7 +37,7 @@ function dataCouple() {
   document.getElementById('p28').innerText=coaches.itemListElement[28].position;
   document.getElementById('p29').innerText=coaches.itemListElement[29].position;
   document.getElementById('p30').innerText=coaches.itemListElement[30].position;
-
+/*
   document.getElementById('p31').innerText=coaches.itemListElement[31].position;
   document.getElementById('p32').innerText=coaches.itemListElement[32].position;
   document.getElementById('p33').innerText=coaches.itemListElement[33].position;
@@ -109,6 +109,7 @@ function dataCouple() {
   document.getElementById('a48').href=coaches.itemListElement[48].item.@id;
   document.getElementById('a49').href=coaches.itemListElement[49].item.@id;
   document.getElementById('a50').href=coaches.itemListElement[50].item.@id;
+*/
 }
 
 dataCouple();
