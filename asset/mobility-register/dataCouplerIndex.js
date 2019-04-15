@@ -159,6 +159,24 @@ function dataCouple() {
   document.getElementById('p50').innerText=coaches.itemListElement[50].position;
   document.getElementById('a50').innerText=coaches.itemListElement[50].item.name;
   document.getElementById('a50').href=coaches.itemListElement[50].item.url;
+  document.getElementById('p51').innerText=coaches.itemListElement[51].position;
+  document.getElementById('a51').innerText=coaches.itemListElement[51].item.name;
+  document.getElementById('a51').href=coaches.itemListElement[51].item.url;
+  document.getElementById('p52').innerText=coaches.itemListElement[52].position;
+  document.getElementById('a52').innerText=coaches.itemListElement[52].item.name;
+  document.getElementById('a52').href=coaches.itemListElement[52].item.url;
+  document.getElementById('p53').innerText=coaches.itemListElement[53].position;
+  document.getElementById('a53').innerText=coaches.itemListElement[53].item.name;
+  document.getElementById('a53').href=coaches.itemListElement[53].item.url;
+  document.getElementById('p54').innerText=coaches.itemListElement[54].position;
+  document.getElementById('a54').innerText=coaches.itemListElement[54].item.name;
+  document.getElementById('a54').href=coaches.itemListElement[54].item.url;
+  document.getElementById('p55').innerText=coaches.itemListElement[55].position;
+  document.getElementById('a55').innerText=coaches.itemListElement[55].item.name;
+  document.getElementById('a55').href=coaches.itemListElement[55].item.url;
+  document.getElementById('p56').innerText=coaches.itemListElement[56].position;
+  document.getElementById('a56').innerText=coaches.itemListElement[56].item.name;
+  document.getElementById('a56').href=coaches.itemListElement[56].item.url;
 }
 
 dataCouple();
