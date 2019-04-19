@@ -6,7 +6,7 @@ function dataCouple() {
   var coaches = JSON.parse(document.querySelector('#coaches').innerText);
   document.title=coaches.mainEntityOfPage.headline;
   document.getElementById('headerTitle').innerText=coaches.mainEntityOfPage.headline;
-  document.getElementById('assetId').innerText=coaches.identifier.value;
+  document.getElementById('assetId').innerText=coaches.alternateName;
   document.getElementById('model').innerText=coaches.model;
   document.getElementById('location').innerText=coaches.location.name;
   document.getElementById('location').href=coaches.location.url;
