@@ -6,7 +6,7 @@ function dataCouple() {
   var coaches = JSON.parse(document.querySelector('#coaches').innerText);
   document.title=coaches.mainEntityOfPage.headline;
   document.getElementById('headerTitle').innerText=coaches.mainEntityOfPage.headline;
-  document.getElementById('assetId').innerText=coaches.alternateName;
+  document.getElementById('assetId').innerText=coaches.identifier;
   document.getElementById('model').innerText=coaches.model;
   document.getElementById('location').innerText=coaches.location.name;
   document.getElementById('location').href=coaches.location.url;
@@ -15,8 +15,8 @@ function dataCouple() {
   document.getElementById('category-1').innerText=coaches.category[1];
   document.getElementById('tmvDetails').innerText=coaches.isRelatedTo.name;
   document.getElementById('tmvDetails').href=coaches.isRelatedTo.url;
-  document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Temperature%20Check%20PASS%20" + coaches.alternateName + "&body=No%20action%20required";
-  document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Temperature%20Check%20FAIL%20" + coaches.alternateName + "&body=Reason%20for%20failure:&20";
+  document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Temperature%20Check%20PASS%20" + coaches.identifier + "&body=No%20action%20required";
+  document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Temperature%20Check%20FAIL%20" + coaches.identifier + "&body=Reason%20for%20failure:&20";
 }
 
 dataCouple();
