@@ -5,63 +5,52 @@
   <script type="application/ld+json" id="coaches">
   {
     "@context": "http://schema.org",
-      "@type": "IndividualProduct",
+    "@type": "IndividualProduct",
+    "@id": "https://bhdirectory.github.io/bed-register/#6001",
       "mainEntityOfPage": {
         "@type": "CreativeWork",
         "@id": "https://bhdirectory.github.io/bed-register/6001.html",
-          "author": {
-            "@type": "Organization",
-              "name": "DataTrain",
-              "url": "https://www.datatrain.co.uk/"
-          },
+          "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
           "dateCreated": "2018-12-04",
           "dateModified": "2019-03-12",
-          "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+          "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
           "headline": "Nexus Pro Care"
       },
       "manufacturer": {
         "@type": "Organization",
+        "@id": "http://www.nexusdms.co.uk/#organisation",
           "name": "Nexus",
           "logo": "http://www.nexusdms.co.uk/images/logo.gif",
           "url": "http://www.nexusdms.co.uk/"
       },
-      "category": {
-        "name": "Electric Profiling Bed (EPB)",
-        "alternateName": "Nursing Care Bed",
-        "url": "https://www.wikidata.org/wiki/Q2084099"
-      },
-      "model": {
-        "name": "Pro Care",
-        "url": "http://www.nexusdms.co.uk/professional-care-products/nursing-bed-pro-care"
-      },
+      "model": { "@id": "http://www.nexusdms.co.uk/professional-care-products/#nursing-bed-pro-care", "name": "Pro Care", "url": "http://www.nexusdms.co.uk/professional-care-products/nursing-bed-pro-care" },
       "serialNumber": "030267",
-      "identifier": {
-        "@type": "text",
-          "propertyID": "AssetID",
-          "value":  "6001"
-        },
+      "identifier": "6001",
       "itemCondition": "B",
       "location": {
-        "name": "Room 38",
-        "url": "https://bhdirectory.github.io/location/1038.html"
+        "@id": "https://bhdirectory.github.io/location/#room38",
+          "name": "Room 38",
+          "url": "https://bhdirectory.github.io/location/1038.html"
       },
       "purchaseDate": "",
       "isRelatedTo": {
         "@type": "IndividualProduct",
+        "@id": "https://bhdirectory.github.io/bed-register/#6001-handset",
           "manufacturer": {
             "@type": "Organization",
+            "@id": "https://www.linak.com/#organisation",
               "name": "Linak",
               "logo": "https://www.linak.com/dist/images/linak_logo.svg",
               "url": "https://www.linak.com/"
           },
-          "category": "EPB Handsets",
           "model": {
-            "name": "HBW073-006",
-            "url": "https://cdn.linak.com/-/media/files/data-sheet-source/en/control-hb70-data-sheet-eng.ashx"
+            "@id": "https://www.linak.com/products/controls/hb70/#handset",
+              "name": "HBW073-006",
+              "url": "https://www.linak.com/products/controls/hb70/"
           },
           "serialNumber": "",
           "itemCondition": "B",
-          "isAccessoryOrSparePartFor": "https://bhdirectory.github.io/bed-register/6001.html",
+          "isAccessoryOrSparePartFor": "https://bhdirectory.github.io/bed-register/#6001",
           "purchaseDate": ""
       }
   }
