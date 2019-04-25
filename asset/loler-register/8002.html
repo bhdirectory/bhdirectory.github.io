@@ -6,39 +6,24 @@
   {
     "@context": "http://schema.org",
     "@type": "IndividualProduct",
+    "@id": "https://bhdirectory.github.io/asset/loler-register/#8002",
       "mainEntityOfPage": {
         "@type": "CreativeWork",
         "@id": "https://bhdirectory.github.io/asset/loler-register/8002.html",
-        "author": {
-          "@type": "Organization",
-            "name": "DataTrain",
-            "url": "https://www.datatrain.co.uk/"
-          },
+          "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
           "dateCreated": "2018-11-29",
-          "dateModified": "2019-03-14",
-          "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+          "dateModified": "2019-04-24",
+          "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
           "headline": "Arjo MaxiSky 600"
       },
-      "manufacturer": {
-        "@type": "Organization",
-          "name": "Arjo",
-          "logo": "https://www.arjo.com/asset/icons/fallback/getinge-logo-white.png",
-          "url": "https://www.arjo.com/int/"
-      },
-      "category": { "name": "Hoist", "url": "https://www.wikidata.org/wiki/Q1411613" },
-      "model": {
-        "name": "MaxiSky 600",
-        "url": "https://www.arjo.com/int/products/patient-transfer-solutions/ceiling-lift/maxi-sky-600-fad3de8a/"
-      },
+      "manufacturer": { "@type": "Organization", "@id": "https://www.arjo.com/#organisation", "name": "Arjo", "logo": "https://www.arjo.com/asset/icons/fallback/getinge-logo-white.png", "url": "https://www.arjo.com/int/" },
+      "model": { "@id": "https://www.arjo.com/int/products/patient-transfer-solutions/ceiling-lift/#maxi-sky-600", "name": "MaxiSky 600", "url": "https://www.arjo.com/int/products/patient-transfer-solutions/ceiling-lift/maxi-sky-600-fad3de8a/" },
       "serialNumber": "LD451289470",
-      "identifier": { "@type": "text", "propertyID": "AssetID", "value":  "8002" },
+      "identifier": "8002",
       "itemCondition": "B",
-      "location": {
-        "name": "Room 19",
-        "url": "https://bhdirectory.github.io/location/0119.html"
-      },
-      "productionDate": "",
-      "purchaseDate": "2015"
+      "location": { "@id": "https://bhdirectory.github.io/location/#room19", "name": "Room 19", "url": "https://bhdirectory.github.io/location/0119.html" },
+      "purchaseDate": "2015",
+      "isRelatedTo": [ { "@type": "Service", "@id": "#service-engineers", "provider": { "@type": "Organization", "@id": "https://www.arjo.com/#organisation", "name": "Arjo", "url": "https://www.arjo.com/int/" } }, { "@type": "Service", "@id": "#insurance-inspector", "provider": { "@type": "Organization", "@id": "https://www.allianzengineering.co.uk/#organisation", "name": "Allianz Engineering", "url": "https://www.allianzengineering.co.uk/" } } ]
   }
 </script>
 
@@ -68,6 +53,10 @@
       <tr>
         <th>Location</th>
         <td><a href="#" id="location"></a></td>
+      </tr>
+      <tr>
+        <th>Purchase Date</th>
+        <td id="date"></td>
       </tr>
       <tr>
         <th>Condition</th>
