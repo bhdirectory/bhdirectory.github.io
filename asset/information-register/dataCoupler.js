@@ -13,6 +13,9 @@ function dataCouple() {
   document.getElementById('toLocation').innerText=coaches.toLocation;
   document.getElementById('instrument').innerText=coaches.instrument;
   document.getElementById('lastReviewed').innerText=coaches.mainEntityOfPage.lastReviewed;
+  document.getElementById('lawfulBasis').innerText=coaches.isRelatedTo[0].name;
+  document.getElementById('legislation').innerText=coaches.isRelatedTo[0].description;
+  document.getElementById('legislation').href=coaches.isRelatedTo[0].url;
 }
 
 dataCouple();
