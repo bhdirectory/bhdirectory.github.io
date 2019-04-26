@@ -13,6 +13,8 @@ function dataCouple() {
   document.getElementById('agent').innerText=coaches.agent;
   document.getElementById('toLocation').innerText=coaches.toLocation;
   document.getElementById('instrument').innerText=coaches.instrument;
+  document.getElementById('transferMethod').innerText=coaches.recipient.name;
+  document.getElementById('transferMethod').href=coaches.recipient.url;
   document.getElementById('lastReviewed').innerText=coaches.mainEntityOfPage.lastReviewed;
   document.getElementById('lawfulBasis').innerText=coaches.isRelatedTo[0].name;
   document.getElementById('legislation').innerText=coaches.isRelatedTo[0].description;
