@@ -16,6 +16,7 @@ function dataCouple() {
   document.getElementById('location').innerText=coaches.potentialAction.location[0].name;
   document.getElementById('url').innerText=coaches.potentialAction.location[1].name;
   document.getElementById('url').href=coaches.potentialAction.location[1].url;
+  document.getElementById('retention').innerText=coaches.potentialAction.result;
   document.getElementById('lastReviewed').innerText=coaches.mainEntityOfPage.lastReviewed;
 
 
