@@ -8,7 +8,8 @@ function dataCouple() {
   document.getElementById('headerTitle').innerText=coaches.mainEntityOfPage.headline;
   document.getElementById('assetId').innerText=coaches.identifier;
   document.getElementById('description').innerText=coaches.description;
-  document.getElementById('object').innerText=coaches.object;
+  document.getElementById('object').innerText=coaches.object.name;
+  document.getElementById('object').href=coaches.object.url;
   document.getElementById('participant').innerText=coaches.participant;
   document.getElementById('agent').innerText=coaches.agent;
   document.getElementById('toLocation').innerText=coaches.toLocation;
