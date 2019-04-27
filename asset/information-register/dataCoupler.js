@@ -19,6 +19,9 @@ function dataCouple() {
   document.getElementById('lawfulBasis').innerText=coaches.isRelatedTo[0].name;
   document.getElementById('legislation').innerText=coaches.isRelatedTo[0].description;
   document.getElementById('legislation').href=coaches.isRelatedTo[0].url;
+  document.getElementById('lawfulCondition').innerText=coaches.isRelatedTo[1].name;
+  document.getElementById('condition').innerText=coaches.isRelatedTo[1].description;
+  document.getElementById('condition').href=coaches.isRelatedTo[1].url;
 }
 
 dataCouple();
