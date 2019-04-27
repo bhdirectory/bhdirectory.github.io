@@ -18,13 +18,14 @@
         "headline": "Criminal Offence Data"
       },
       "identifier": "41101",
+      "category": "Class 0: Sensitive Personal Information",
       "description": "Criminal Offence Data is processed as part of our sfae recruitment policies and ensures that the company only employs fit and proper persons to work within the nursing home.",
       "potentialAction": {
         "@type": "Action",
-        "@id": "",
+        "@id": "#data-processing",
           "agent": "HR Co-ordinator",
-          "participant": "Employee, Volunteer, Contractor",
-          "instrument": "Web application",
+          "participant": "Employees, volunteers & contractors",
+          "instrument": "Paper & electronic records",
           "error": "Personal data breach",
           "location": [ {
             "@id": "#physical-location",
@@ -37,19 +38,11 @@
           } ]
         },
       "isRelatedTo": [ {
-        "@type": "Thing",
-        "@id": "#lawful-basis",
-          "name": "GDPR Article 6: Legal Obligation",
-          "description": "Health and Social Care Act (2014): Regulation 19 | Fit and proper persons employed",
-          "url": "https://www.legislation.gov.uk/ukdsi/2014/9780111117613/regulation/19"
-        },
-        {
-        "@type": "Thing",
-        "@id": "#lawful-condition",
-          "name": "GDPR Article 10: Authorised Processing",
-          "description": "as per GDPR Article 9 (h): the management of health or social care systems and services",
-          "url": "https://gdpr-info.eu/art-10-gdpr/"
-      } ]
+        "@type": "TransferAction",
+        "@id": "#dbs-check",
+          "name": "Employee Criminal Records Data Checking Process (DBS Check)",
+          "url": "https://bhdirectory.github.io/asset/information-register/41000.html"
+        } ]
   }
 </script>
 
@@ -70,12 +63,20 @@
         <td id="description"></td>
       </tr>
       <tr>
-        <th>Process Activity</th>
-        <td><a href="#" id="category"></a></td>
+        <th>Classification</th>
+        <td id="category"></td>
       </tr>
       <tr>
-        <th>Classification</th>
-        <td id=""></td>
+        <th>Information Asset Owner</th>
+        <td id="agent"></td>
+      </tr>
+      <tr>
+        <th>Process Activity</th>
+        <td><a href="#" id="process"></a></td>
+      </tr>
+      <tr>
+        <th>Data Format(s)</th>
+        <td id="instrument"></td>
       </tr>
       <tr>
         <th>Physical Location</th>
@@ -84,10 +85,6 @@
       <tr>
         <th>Electronic Location</th>
         <td><a href="#" id="url"></a></td>
-      </tr>
-      <tr>
-        <th>Information Asset Owner</th>
-        <td id="agent"></td>
       </tr>
       <tr>
         <th>Date of Last Review of Asset</th>
