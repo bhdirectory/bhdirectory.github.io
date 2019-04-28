@@ -10,12 +10,8 @@ function dataCouple() {
   document.getElementById('description').innerText=coaches.description;
   document.getElementById('category').innerText=coaches.category;
   document.getElementById('agent').innerText=coaches.potentialAction.agent;
-  document.getElementById('process-0').innerText=coaches.isRelatedTo[0].name;
-  document.getElementById('process-0').href=coaches.isRelatedTo[0].url;
-  document.getElementById('process-1').innerText=coaches.isRelatedTo[1].name;
-  document.getElementById('process-1').href=coaches.isRelatedTo[1].url;
-  document.getElementById('process-2').innerText=coaches.isRelatedTo[2].name;
-  document.getElementById('process-2').href=coaches.isRelatedTo[2].url;
+  document.getElementById('process').innerText=coaches.isRelatedTo[0].name;
+  document.getElementById('process').href=coaches.isRelatedTo[0].url;
   document.getElementById('instrument').innerText=coaches.potentialAction.instrument;
   document.getElementById('location').innerText=coaches.potentialAction.location[0].name;
   document.getElementById('url').innerText=coaches.potentialAction.location[1].name;
