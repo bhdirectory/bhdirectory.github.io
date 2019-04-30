@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <head>
   <script src="/head.js"></script>
-
-
-  <title>Emergency Light 083 | Annexe First Floor Corridor (North)</title>
-  <script type="application/ld+json">
+  <title></title>
+  <script type="application/ld+json" id="coaches">
   {
     "@context": "http://schema.org",
     "@type": "IndividualProduct",
-    "@id": "https://bhdirectory.github.io/asset/fire-register/emergency-lighting/9583.html",
+    "@id": "https://bhdirectory.github.io/asset/fire-register/emergency-lighting/#9583",
       "manufacturer": {
         "@type": "Organization",
           "name": "Channel Safety Systems",
@@ -48,98 +46,61 @@
  }
 </script>
 </head>
+
 <body>
   <header>
-  <script src="/header.js"></script>
+    <script src="/header.js"></script>
 
-    <h3>Emergency Light 083 | Annexe First Floor Corridor (North)</h3>
+    <h3 id="headerTitle"></h3>
   </header>
-    <table class="red">
+    <table>
       <tr>
         <th>AssetID</th>
-        <td>9583</td>
+        <td id="assetId"></td>
       </tr>
       <tr>
         <th>Manufacturer</th>
-        <td>Channel Safety Systems</td>
+        <td><a href="#" id="make"></a></td>
       </tr>
       <tr>
         <th>Model</th>
-        <td><a href="meteor.pdf">Meteor</a></td>
-      </tr>
-      <tr>
-        <th>Device Name</th>
-        <td>Emergency Light 083</td>
-      </tr>
-      <tr>
-        <th>Location</th>
-        <td>Annexe First Floor | <a href="https://bhdirectory.github.io/location/1164.html">Corridor (North)</a></td>
+        <td><a href="#" id="model"></a></td>
       </tr>
       <tr>
         <th>Condition</th>
-        <td>A</td>
+        <td id="condition"></td>
       </tr>
       <tr>
-        <th>Monthly Function Test</th>
-        <td>
-          <a class="linkButton-red" href="mailto:maintenance@birtleyhouse.co.uk?subject=Function%20Test%20EL083%20PASS&body=No%20action%20required">PASS</a>
-          <a class="linkButton-red" href="mailto:maintenance@birtleyhouse.co.uk?subject=Function%20Test%20EL083%20FAIL&body=Reason%20for%20failure:&20">FAIL</a>
+        <th>Location</th>
+        <td><a href="#" id="location"></a></td>
+      </tr>
+      <tr>
+        <th>Monthly Function Test<br /><span class="subheading"><i><a href="qa/function-checklist.html">Test details</a></i></span></th>
+          <td>
+            <a class="linkButton" href="#" id="mailtoPass-function">PASS</a>
+            <a class="linkButton" href="#" id="mailtoFail-function">FAIL</a>
+          </td>
         </td>
       </tr>
       <tr>
-        <th>Annual Drop Test</th>
-        <td>
-          <a class="linkButton-red" href="mailto:maintenance@birtleyhouse.co.uk?subject=Drop%20Test%20EL083%20PASS&body=No%20action%20required">PASS</a>
-          <a class="linkButton-red" href="mailto:maintenance@birtleyhouse.co.uk?subject=Drop%20Test%20EL083%20FAIL&body=Reason%20for%20failure:&20">FAIL</a>
+        <th>Annual Drop Test<br /><span class="subheading"><i><a href="qa/drop-checklist.html">Test details</a></i></span></th>
+          <td>
+            <a class="linkButton" href="#" id="mailtoPass-drop">PASS</a>
+            <a class="linkButton" href="#" id="mailtoFail-drop">FAIL</a>
+          </td>
         </td>
-      </tr>
-      <tr>
-        <th>Quality Assurance</th>
-        <td>
-          <details>
-            <summary>Monthly Function Test Records <span class="subheading"><i>(current year)</i></span></summary>
-              <ol>
-                <li><a href="function-test/2019/jan.txt">January</a></li>
-                <li><a href="function-test/2019/feb.txt">February</a></li>
-                <li><a href="function-test/2019/mar.txt">March</a></li>
-                <li><a href="function-test/2019/apr.txt">April</a></li>
-                <li><a href="function-test/2019/may.txt">May</a></li>
-                <li><a href="function-test/2019/jun.txt">June</a></li>
-                <li><a href="function-test/2019/jul.txt">July</a></li>
-                <li><a href="function-test/2019/aug.txt">August</a></li>
-                <li><a href="function-test/2019/sep.txt">September</a></li>
-                <li><a href="function-test/2019/oct.txt">October</a></li>
-                <li><a href="function-test/2019/nov.txt">November</a></li>
-                <li><a href="function-test/2019/dec.txt">December</a></li>
-              </ol>
-            </details>
-            <details>
-              <summary>Annual Drop Test Records</summary>
-                <ol>
-                  <li><a href="drop-test/2019/9583.pdf">2019</a></li>
-                  <li><a href="drop-test/2018/9583.pdf">2018</a></li>
-                  <li><a href="drop-test/2017/9583.pdf">2017</a></li>
-                </ol>
-            </details>
-            <details>
-              <summary>Archive Records</summary>
-                <ol>
-                  <li><a href="/archive/check/">Function Test Records</a></li>
-                  <li><a href="/archive/drop-test/">Drop Test Records</a></li>
-                </ol>
-            </details>
-        </td>
-      </tr>
-      <tr>
-        <th>Service Engineers</th>
-        <td><a href="http://www.masonvoller.co.uk/">Mason Voller</a></td>
       </tr>
       <tr>
         <th>Notes</th>
-        <td></td>
+        <td id="note"></td>
       </tr>
     </table>
 
-<script src="/footer.js"></script>
+    <div id="divCentre">
+      <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
+    </div>
+
+    <script src="/footer.js"></script>
+    <script src="dataCoupler.js"></script>
 </body>
 </html>
