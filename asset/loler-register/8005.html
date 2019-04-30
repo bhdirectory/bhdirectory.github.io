@@ -9,36 +9,20 @@
       "mainEntityOfPage": {
         "@type": "CreativeWork",
         "@id": "https://bhdirectory.github.io/asset/loler-register/8005.html",
-        "author": {
-          "@type": "Organization",
-            "name": "DataTrain",
-            "url": "https://www.datatrain.co.uk/"
-          },
+          "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
           "dateCreated": "2018-11-29",
-          "dateModified": "2019-03-14",
-          "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+          "dateModified": "2019-04-29",
+          "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
           "headline": "Oxford Voyager Portable"
       },
-      "manufacturer": {
-        "@type": "Organization",
-          "name": "Joerns Healthcare",
-          "logo": "https://joerns.co.uk/wp-content/uploads/2015/11/cropped-Site-Icon-44x44.jpg",
-          "url": "https://joerns.co.uk/"
-      },
-      "category": { "name": "Hoist", "url": "https://www.wikidata.org/wiki/Q1411613" },
-      "model": {
-        "name": "Voyager Portable",
-        "url": "https://joerns.co.uk/product/voyager-portable/"
-      },
+      "manufacturer": { "@type": "Organization", "@id": "https://joerns.co.uk/#organisation", "name": "Joerns Healthcare", "logo": "https://joerns.co.uk/wp-content/uploads/2015/11/cropped-Site-Icon-44x44.jpg", "url": "https://joerns.co.uk/" },
+      "model": { "@id": "https://joerns.co.uk/product/#voyager-portable", "name": "Voyager Portable", "url": "https://joerns.co.uk/product/voyager-portable/" },
       "serialNumber": "VOYA11319",
-      "identifier": { "@type": "text", "propertyID": "AssetID", "value":  "8005" },
+      "identifier": "8005",
       "itemCondition": "B",
-      "location": {
-        "name": "Room 21",
-        "url": "https://bhdirectory.github.io/location/1121.html"
-      },
-      "productionDate": "",
-      "purchaseDate": "2006"
+      "location": { "@id": "https://bhdirectory.github.io/location/#room21", "name": "Room 21", "url": "https://bhdirectory.github.io/location/1121.html" },
+      "purchaseDate": "2006",
+      "isRelatedTo": [ { "@type": "Service", "@id": "#service-engineers", "provider": { "@type": "Organization", "@id": "https://www.arjo.com/#organisation", "name": "Arjo", "url": "https://www.arjo.com/int/" } }, { "@type": "Service", "@id": "#insurance-inspector", "provider": { "@type": "Organization", "@id": "https://www.allianzengineering.co.uk/#organisation", "name": "Allianz Engineering", "url": "https://www.allianzengineering.co.uk/" } } ]
   }
 </script>
 
@@ -83,11 +67,11 @@
       </tr>
       <tr>
         <th>Service Engineers</th>
-        <td><a href="https://www.arjo.com/int/">Arjo</a></td>
+        <td><a href="#" id="service"></a></td>
       </tr>
       <tr>
         <th>Engineering Insurance Cover</th>
-        <td><a href="https://www.allianzengineering.co.uk/">Allianz Engineering</a></td>
+        <td><a href="#" id="insurance"></a></td>
       </tr>
       <tr>
         <th>Notes</th>
