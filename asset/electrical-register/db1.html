@@ -9,10 +9,11 @@
     <script type="application/ld+json">
     {
       "@context": "http://schema.org",
-        "@type": "Thing",
+        "@type": "Product",
         "@id": "https://bhdirectory.github.io/asset/electrical-register/#db1",
           "name": "Main Electrical Intake Isolator Switch",
           "description": "This is the main 3-phase electrical intake switch located in an external kiosk near The Lodge.",
+          "category": "Isolator Switch",
           "location": {
             "@type": "Text",
             "@id": "https://bhdirectory.github.io/location/#kiosk",
@@ -31,18 +32,68 @@
               "dateCreated": "2018-12-04",
               "dateModified": "2019-04-15",
               "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-              "headline": "Main Electrical Intake (DB1)"
+              "headline": "Main Electrical Intake Isolator Switch (DB1)"
           },
-          "isRelatedTo": {
+          "subjectOf": {
             "@type": "Permit",
             "@id": "https://bhdirectory.github.io/asset/electrical-register/qa/periodic-inspection/db1.pdf",
               "name": "Electrical Installation Condition Report (EICR) DB1",
               "validFrom": "2018-09-13",
               "validUntil": "2023-09-13",
               "url": "https://bhdirectory.github.io/asset/electrical-register/qa/periodic-inspection/db1.pdf"
+          },
+          "isRelatedTo": [
+            {
+            "@type": "Thing",
+            "@id": "#feed",
+              "name": "n/a",
+              "url": ""
+            },
+            {
+            "@type": "ItemList",
+            "@id": "#sub-main-distribution",
+              "numberOfItems": "3",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": "1",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/#db3",
+                    "name": "DB3",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/db3.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "2",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/#db3",
+                    "name": "The Lodge",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/db3.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "3",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/#db3",
+                    "name": "Events Site",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/db3.html"
+                  }
+                }
+              ]
+            },
+            {
+            "@type": "ItemList",
+            "@id": "#circuit-list",
+              "numberOfItems": "0",
+              "itemListElement": [
+
+              ]
             }
-      }
-      </script>
+          ]
+    }
+    </script>
   </head>
     <body>
 
