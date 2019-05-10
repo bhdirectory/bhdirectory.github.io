@@ -20,6 +20,8 @@ function dataCouple() {
   document.getElementById('d1').href=coaches.isRelatedTo[1].itemListElement[1].item.url;
   document.getElementById('d2').innerText=coaches.isRelatedTo[1].itemListElement[2].item.name;
   document.getElementById('d2').href=coaches.isRelatedTo[1].itemListElement[2].item.url;
+  document.getElementById('c0').innerText=coaches.isRelatedTo[2].itemListElement[0].item.name;
+  document.getElementById('c0').href=coaches.isRelatedTo[2].itemListElement[0].item.url;
 
 }
 
