@@ -13,6 +13,7 @@ function dataCouple() {
   document.getElementById('inspection').innerText=coaches.subjectOf.validFrom;
   document.getElementById('inspection').href=coaches.subjectOf.url;
   document.getElementById('inspectionDue').innerText=coaches.subjectOf.validUntil;
+  document.getElementById('feed').innerText=coaches.isRelatedTo[0].name;
   document.getElementById('d0').innerText=coaches.isRelatedTo[1].itemListElement.item[0].name;
   document.getElementById('d0').href=coaches.isRelatedTo[1].itemListElement.item[0].url;
   document.getElementById('d1').innerText=coaches.isRelatedTo[1].itemListElement.item[1].name;
