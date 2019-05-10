@@ -7,6 +7,7 @@ function dataCouple() {
   document.title=coaches.mainEntityOfPage.headline;
   document.getElementById('headerTitle').innerText=coaches.mainEntityOfPage.headline;
   document.getElementById('description').innerText=coaches.description;
+  document.getElementById('assetId').innerText=coaches.identifier;
   document.getElementById('category').innerText=coaches.category;
   document.getElementById('location').innerText=coaches.location.name;
   document.getElementById('location').href=coaches.location.url;
