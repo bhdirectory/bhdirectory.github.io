@@ -52,8 +52,6 @@ function dataCouple() {
   document.getElementById('d16').href=coaches.isRelatedTo[1].itemListElement[16].item.url;
   document.getElementById('d17').innerText=coaches.isRelatedTo[1].itemListElement[17].item.name;
   document.getElementById('d17').href=coaches.isRelatedTo[1].itemListElement[17].item.url;
-  document.getElementById('c0').innerText=coaches.isRelatedTo[2].itemListElement[0].item.name;
-  document.getElementById('c0').href=coaches.isRelatedTo[2].itemListElement[0].item.url;
 
 }
 
