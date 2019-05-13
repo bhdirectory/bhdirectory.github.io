@@ -1,125 +1,74 @@
-<!DOCTYPE html>
-<head>
-  <script src="/head.js"></script>
-  <title>Sime 100 Gas Boiler 1</title>
-  <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "IndividualProduct",
-      "manufacturer": {
-        "@type": "Organization",
-          "name": "Sime",
-          "url": "http://sime.co.uk/"
-      },
-      "category": {
-        "name": "Gas Boiler",
-        "alternateName": ["hot water boiler", "boiler"],
-        "url": "https://www.wikidata.org/wiki/Q3195517"
-      },
-      "model": {
-        "name": "100",
-        "url": ""
-      },
-      "serialNumber": "2907681624",
-      "itemCondition": "B",
-      "location": "Main Plant Room",
-      "productionDate": "",
-      "purchaseDate": "1998"
-  }
-</script>
-<script type="application/ld+json">
-{
-   "@context": "http://schema.org",
-   "@type": "CreativeWork",
-   "@id": "https://bhdirectory.github.io/asset/plant-register/3020.html",
-   "author": {
-     "@type": "Organization",
-       "name": "DataTrain",
-       "url": "https://www.datatrain.co.uk/"
-     },
-     "dateCreated": "2019-01-24",
-     "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-     "headline": "Sime 100 Gas Boiler 1"
- }
-</script>
-</head>
-<body>
-  <header>
-  <script src="/header.js"></script>
+  <!DOCTYPE html>
+  <head>
+    <script src="/head.js"></script>
+    <title></title>
+    <script type="application/ld+json" id="coaches">
+    {
+      "@context": "http://schema.org",
+      "@type": "IndividualProduct",
+      "@id": "https://bhdirectory.github.io/plant-register/#3021",
+        "mainEntityOfPage": {
+          "@type": "CreativeWork",
+          "@id": "https://bhdirectory.github.io/plant-register/3021.html",
+            "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
+            "dateCreated": "2019-01-24",
+            "dateModified": "2019-05-13",
+            "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+            "headline": "Sime 100 Gas Boiler 1"
+        },
+        "manufacturer": { "@type": "Organization", "@id": "http://sime.co.uk//#organisation", "name": "FG Wilson", "logo": "https://sime.co.uk/wp-content/uploads/2017/05/sime-logo.png", "url": "http://sime.co.uk/" },
+        "model": { "@id": "https://sime.co.uk/commercial/products-2/products/#100", "name": "100", "url": "https://sime.co.uk/commercial/products-2/products/" },
+        "serialNumber": "2907681624",
+        "identifier": "3021",
+        "itemCondition": "B",
+        "location": { "@id": "https://bhdirectory.github.io/location/#main-plant-room", "name": "Main Plant Room", "url": "https://bhdirectory.github.io/location/0087.html" },
+        "purchaseDate": "1998"
+    }
+    </script>
 
-    <h3>Sime 100 Gas Boiler 1</h3>
-  </header>
-    <table class="orange">
-      <tr>
-        <th>AssetID</th>
-        <td>3020</td>
-      </tr>
-      <tr>
-        <th>Manufacturer</th>
-        <td>Sime</td>
-      </tr>
-      <tr>
-        <th>Model</th>
-        <td>100</td>
-      </tr>
-      <tr>
-        <th>Serial Number</th>
-        <td>2907681624</td>
-      </tr>
-      <tr>
-        <th>Location</th>
-        <td><a href="/location/0087.html">Main Plant Room</a></td>
-      </tr>
-      <tr>
-        <th>Condition</th>
-        <td>B</td>
-      </tr>
-      <tr>
-        <th>Purchase Date</th>
-        <td>c.1998</td>
-      </tr>
-      <tr>
-        <th>Quality Assurance</th>
-        <td>
-          <details>
-            <summary>Annual Service Records</summary>
-              <ol>
-                <li><a href="qa/service/gas/2019/safety-records.pdf">2019</a> (due in June 2019)</li>
-                <li><a href="qa/service/gas/2018/safety-records.pdf">2018</a></li>
-                <li><a href="qa/service/gas/2017/safety-records.pdf">2017</a></li>
-              </ol>
-            </details>
-            <details>
-              <summary>Annual PUWER Inspection Records</summary>
-                <ol>
-                  <li><a href="qa/puwer/2019/inspection.pdf">2019</a></li>
-                  <li><a href="qa/puwer/2018/inspection.pdf">2018</a></li>
-                  <li><a href="qa/puwer/2017/inspection.pdf">2017</a></li>
-                </ol>
-              </details>
-            <details>
-              <summary>Archive Records</summary>
-                <ol>
-                  <li><a href="/check/service/archive/">Annual Service</a></li>
-                  <li><a href="/check/puwer/archive/">PUWER Inspection</a></li>
-                </ol>
-            </details>
-        </td>
-      </tr>
-      <tr>
-        <th>Service Engineers</th>
-        <td><a href="https://www.acs-southeast.com/">ACS</a></td>
-      </tr>
-      <tr>
-        <th>Engineering Insurance Cover</th>
-        <td><a href="https://www.allianzengineering.co.uk/">Allianz Engineering</a></td>
-      </tr>
-      <tr>
-        <th>Notes</th>
-        <td></td>
-      </tr>
-    </table>
-    <script src="/footer.js"></script>
+  </head>
+  <body>
+    <header>
+      <script src="/header.js"></script>
 
+      <h3 id="headerTitle"></h3>
+    </header>
+      <table>
+        <tr>
+          <th>AssetID</th>
+          <td id="assetId"></td>
+        </tr>
+        <tr>
+          <th>Manufacturer</th>
+          <td><a href="#" id="make"></a></td>
+        </tr>
+        <tr>
+          <th>Model</th>
+          <td><a href="#" id="model"></a></td>
+        </tr>
+        <tr>
+          <th>Serial Number</th>
+          <td id="sn"></td>
+        </tr>
+        <tr>
+          <th>Condition</th>
+          <td id="condition"></td>
+        </tr>
+        <tr>
+          <th>Location</th>
+          <td><a href="#" id="location"></a></td>
+        </tr>
+        <tr>
+          <th>Notes</th>
+          <td id="note"></td>
+        </tr>
+      </table>
+
+      <div id="divCentre">
+        <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
+      </div>
+
+      <script src="/footer.js"></script>
+      <script src="dataCoupler.js"></script>
   </body>
   </html>
