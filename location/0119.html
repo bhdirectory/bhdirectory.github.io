@@ -7,9 +7,9 @@
     "@context": "http://schema.org",
     "@type": "Room",
     "@id": "https://bhdirectory.github.io/location/residential-room/0119.html",
-      "name": "Room 19",
-      "telephone": ["219", "01483899519"],
-      "photo": ["images/0119-main.jpg", "images/0119-ensuite.jpg"],
+      "identifier": "0119",
+      "telephone": [ "219", "01483899519" ],
+      "photo": [ "images/0119-main.jpg", "images/0119-ensuite.jpg" ],
       "amenityFeature": [{
         "@type": "Product",
           "name": "Fire Detection Point",
@@ -47,12 +47,8 @@
           "url": "https://bhdirectory.github.io/asset/bed-register/6002.html"
       }],
       "numberOfRooms": "1",
-      "floorSize": "16sqM",
+      "floorSize": [ "16sqM", "4sqM" ],
       "starRating": "Deluxe",
-      "containedInPlace": {
-        "name": "Birtley House Nursing Home",
-        "url": "https://bhdirectory.github.io/organisation/eyhurst-court.html"
-      },
       "location": "First Floor House"
  }
  </script>
@@ -77,7 +73,7 @@
 <body>
   <header>
   <script src="/header.js"></script>
-    <h3>Room 19</h3>
+    <h3><span id="headerTitle"></span> | <span id="location"></span></h3>
       <aside>
         <p>Room 19 is located on the first floor of the House, along the link corridor between the House and Annexe.<br />It is a large nursing home room with ensuite shower room<br />It is south-facing with a view over the main lawn, parkland and lake<br />The room was refurbished in 2017 and is in excellent condition with new furniture.<br />It has a double-glazed window and a ceiling hoist.</p>
       </aside>
@@ -85,7 +81,7 @@
   <section>
     <table class="">
       <tr>
-        <th>LocationID</th>
+        <th>Location ID</th>
         <td>0119</td>
       </tr>
       <tr>
@@ -107,19 +103,19 @@
       </tr>
       <tr>
         <th>Star Rating</th>
-        <td>Deluxe</td>
+        <td id="starRating"></td>
       </tr>
       <tr>
         <th>No. of Rooms</th>
-        <td>1 <i>+ ensuite</i></td>
+        <td id="numberOfRooms"></td>
       </tr>
       <tr>
-        <th>Specification</th>
-        <td>16sqM <i>+ 4sqM</i></td>
+        <th>Room Size</th>
+        <td>Room: <span id="floorSize"></span><br />Ensuite: <span id="ensuiteSize"></span></td>
       </tr>
       <tr>
         <th>Telephone</th>
-        <td>Direct Dial: 01483 899519 (Extension 219)</td>
+        <td>Direct Dial: <span id="telephone"></span><br />Extension: <span id="extension"></span></td>
       </tr>
       <tr>
         <th>Facilities</th>

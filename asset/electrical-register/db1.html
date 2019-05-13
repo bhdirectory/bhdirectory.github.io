@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Main Electrical Intake</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Cabin" rel="stylesheet">
-    <link rel="stylesheet" href="https://bhdirectory.github.io/styleMain.css">
-
-    <script type="application/ld+json">
+<head>
+  <script src="/head.js"></script>
+  <title></title>
+  <script type="application/ld+json" id="coaches">
     {
       "@context": "http://schema.org",
-        "@type": "Thing",
+        "@type": "Product",
         "@id": "https://bhdirectory.github.io/asset/electrical-register/#db1",
-          "name": "Main Electrical Intake Isolator Switch",
+          "identifier": "DB1",
+          "category": "Switch",
           "description": "This is the main 3-phase electrical intake switch located in an external kiosk near The Lodge.",
           "location": {
             "@type": "Text",
@@ -31,77 +28,152 @@
               "dateCreated": "2018-12-04",
               "dateModified": "2019-04-15",
               "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-              "headline": "Main Electrical Intake (DB1)"
+              "headline": "Main Electrical Intake Switch"
           },
-          "isRelatedTo": {
+          "subjectOf": {
             "@type": "Permit",
             "@id": "https://bhdirectory.github.io/asset/electrical-register/qa/periodic-inspection/db1.pdf",
               "name": "Electrical Installation Condition Report (EICR) DB1",
               "validFrom": "2018-09-13",
               "validUntil": "2023-09-13",
               "url": "https://bhdirectory.github.io/asset/electrical-register/qa/periodic-inspection/db1.pdf"
+          },
+          "isRelatedTo": [
+            {
+            "@type": "ItemList",
+            "@id": "#feed",
+              "numberOfItems": "1",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": "0",
+                  "item": {
+                    "@id": "",
+                    "name": "n/a",
+                    "url": ""
+                  }
+                }
+              ]
+            },
+            {
+            "@type": "ItemList",
+            "@id": "#sub-main-distribution",
+              "numberOfItems": "3",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": "0",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/#db3",
+                    "name": "DB3",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/db3.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "1",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/#db30",
+                    "name": "The Lodge",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/db30.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "2",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/#db23",
+                    "name": "Events Site",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/db23.html"
+                  }
+                }
+              ]
+            },
+            {
+            "@type": "ItemList",
+            "@id": "#circuit-list",
+              "numberOfItems": "1",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": "0",
+                  "item": {
+                    "@id": "",
+                    "name": "n/a",
+                    "url": ""
+                  }
+                }
+              ]
             }
-      }
-      </script>
+          ]
+    }
+    </script>
   </head>
     <body>
-
       <header>
-        <img src="https://bhdirectory.github.io/birtleyhouse.png" width="100" height="85"/>
-
-        <h3>Main Electrical Intake Isolator Switch (DB1)</h3>
-
-        <aside>
-          <p>This is the main electrical intake from UK Power Networks 3-phase supply.  It is located in a small brick kiosk beside The Lodge Garage and should be accessed from the Main Drive</p>
-
-        </aside>
+        <script src="/header.js"></script>
+          <h3 id="headerTitle"></h3>
       </header>
 
-      <section>
-        <p>
         <table>
           <tr>
+            <th>Asset ID</th>
+            <td id="assetId"></td>
+          </tr>
+          <tr>
+            <th>Asset Type</th>
+            <td id="category"></td>
+          </tr>
+          <tr>
+            <th>Description</th>
+            <td id="description"></td>
+          </tr>
+          <tr>
             <th>Location</th>
-            <td>External Kiosk</td>
-          </tr>
-          <tr>
-            <th>Board Type</th>
-            <td>Isolator Switch</td>
-          </tr>
-          <tr>
-            <th>Installation Date</th>
-            <td>Unknown</td>
+            <td><a href="#" id="location"></a></td>
           </tr>
           <tr>
             <th>Last Periodic Inspection</th>
-            <td>N/A</td>
+            <td><a href="#" id="inspection"></a></td>
           </tr>
           <tr>
             <th>Next Inspection Due</th>
-            <td>N/A</td>
+            <td id="inspectionDue"></td>
+          </tr>
+          <tr>
+            <th>Feed</th>
+            <td><a href="#" id="feed"></a></td>
           </tr>
           <tr>
             <th>Sub-main Distribution</th>
             <td>
               <ol>
-                <li><a href="">DB3</a></li>
-                <li><a href="">The Lodge</a></li>
-                <li><a href="">Marquee Site</a></li>
+                <li><a href="#" id="d0"></a></li>
+                <li><a href="#" id="d1"></a></li>
+                <li><a href="#" id="d2"></a></li>
               </ol>
             </td>
           </tr>
           <tr>
             <th>Circuit Board List</th>
-            <td>N/A</td>
+            <td>
+              <ol>
+                <li><a href="#" id="c0"></a></li>
+              </ol>
+            </td>
           </tr>
           <tr>
             <th>Notes</th>
-            <td></td>
+            <td  id="notes"></td>
           </tr>
         </table>
-      </p>
-      </section>
-      <script src="/footer.js"></script>
 
-    </body>
-    </html>
+      <div id="divCentre">
+        <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
+      </div>
+
+      <script src="/footer.js"></script>
+      <script src="dataCoupler.js"></script>
+      <script src="dataCouplerCircuitList.js"></script>
+  </body>
+  </html>
