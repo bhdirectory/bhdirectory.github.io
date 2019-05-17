@@ -3,9 +3,11 @@
 */
 
 function dataCouple() {
-  var coachThree = JSON.parse(document.querySelector('#coachThree').innerText);
-  document.title=coachThree.headline;
-  document.getElementById('headerTitle').innerText=coachThree.headline;
+  var coaches = JSON.parse(document.querySelector('#coaches').innerText);
+  document.title=coaches.headline;
+  document.getElementById('headerTitle').innerText=coaches.headline;
+  document.getElementById('up0').innerText="Latest" + coaches.hasPart[0].about + ": " + coaches.hasPart[0].datePublished;
+  document.getElementById('uptxt0').innerText=coaches.hasPart[0].text;
 }
 
 dataCouple();
