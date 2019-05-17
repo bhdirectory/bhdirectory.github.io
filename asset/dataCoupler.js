@@ -7,7 +7,6 @@ function dataCouple() {
   document.title=coaches.headline;
   document.getElementById('headerTitle').innerText=coaches.headline;
   document.getElementById('up0').innerText=coaches.mainEntityOfPage.hasPart[0].datePublished + " - " + coaches.mainEntityOfPage.hasPart[0].text;
-  document.getElementById('up1').innerText=coaches.mainEntityOfPage.hasPart[1].datePublished + " - " + coaches.mainEntityOfPage.hasPart[1].text;
   document.getElementById('a0').innerText=coaches.itemListElement[0].item.name;
   document.getElementById('a0').href=coaches.itemListElement[0].item.url;
   document.getElementById('a1').innerText=coaches.itemListElement[1].item.name;
