@@ -3,22 +3,114 @@
   <head>
     <title></title>
     <script src="/head.js"></script>
-    <script type="application/ld+json" id="coach">
+    <script type="application/ld+json" id="coaches">
     {
        "@context": "http://schema.org",
-       "@type": "WebPage",
-       "@id": "https://bhdirectory.github.io/index.html",
-         "breadcrumb": "Birtley House Directory",
-         "author": {
-           "@type": "Organization",
-             "name": "DataTrain",
-             "url": "https://www.datatrain.co.uk/"
+       "@type": "ItemList",
+         "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https://bhdirectory.github.io/health-safety/index.html",
+              "breadcrumb": "Birtley House Directory",
+              "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
+              "dateCreated": "2019-01-15",
+              "dateModified": "2019-05-17",
+              "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+              "headline": "Birtley House Directory"
          },
-         "dateCreated": "2019-01-15",
-         "dateModified": "2019-03-17",
-         "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-         "headline": "Birtley House Directory"
-     }
+         "numberOfItems": 11,
+         "itemListElement": [
+           {
+           "@type": "ListItem",
+              "position": "0",
+              "item": {
+                "@id": "https://bhdirectory.github.io/information/#statement-of-purpose",
+                  "name": "Statement of Purpose",
+                  "url": "https://bhdirectory.github.io/information/statement-of-purpose.pdf"
+              }
+           },
+           {
+           "@type": "ListItem",
+              "position": "1",
+              "item": {
+                "@id": "https://bhdirectory.github.io/information/#guide-to-services",
+                  "name": "Guide to Services",
+                  "url": "https://bhdirectory.github.io/information/guide-to-services.pdf"
+              }
+           },
+           {
+           "@type": "ListItem",
+              "position": "2",
+              "item": {
+                "@id": "https://bhdirectory.github.io/organisation/#org-chart",
+                  "name": "About us",
+                  "url": "https://bhdirectory.github.io/organisation/org-chart.pdf"
+              }
+           },
+           {
+           "@type": "ListItem",
+              "position": "3",
+              "item": {
+                "@id": "https://bhdirectory.github.io/people/#index",
+                  "name": "Meet the Team",
+                  "url": "https://bhdirectory.github.io/people/"
+              }
+           },
+           {
+           "@type": "ListItem",
+              "position": "4",
+              "item": {
+                "@id": "https://bhdirectory.github.io/location/#index",
+                  "name": "Find your way around",
+                  "url": "https://bhdirectory.github.io/location/"
+              }
+           },
+           {
+           "@type": "ListItem",
+              "position": "5",
+              "item": {
+                "@id": "https://bhdirectory.github.io/asset/#index",
+                  "name": "Health & Safety Management System",
+                  "url": "https://bhdirectory.github.io/asset/"
+              }
+           },
+           {
+           "@type": "ListItem",
+              "position": "6",
+              "item": {
+                "@id": "https://bhdirectory.github.io/check/#index",
+                  "name": "Routine Checks",
+                  "url": "https://bhdirectory.github.io/check/"
+              }
+           },
+           {
+           "@type": "ListItem",
+              "position": "7",
+              "item": {
+                "@id": "https://bhdirectory.github.io/asset/information-register/#index",
+                  "name": "Information Governance",
+                  "url": "https://bhdirectory.github.io/asset/information-register/"
+              }
+           },
+           {
+           "@type": "ListItem",
+              "position": "8",
+              "item": {
+                "@id": "https://bhdirectory.github.io/policy/#index",
+                  "name": "Company Policies & Procedures",
+                  "url": "https://bhdirectory.github.io/policy/"
+              }
+           },
+           {
+           "@type": "ListItem",
+              "position": "9",
+              "item": {
+                "@id": "https://bhdirectory.github.io/risk/#index",
+                  "name": "Risk Register",
+                  "url": "https://bhdirectory.github.io/risk/"
+              }
+           }
+         ]
+    }
     </script>
   </head>
     <body>
@@ -29,30 +121,24 @@
             <p>The Birtley House Directory is being developed as an INTRAnet site for Birtley House Nursing Home.  As a living and evolving set of pages, it is by no means comprehensive and you will find many links broken and plenty of pages under development.  The priority has been to gather as much of the Health & Safety Management System together within the site to produce a site around which one can navigate to find how the Company manages H&S risks, the arrangements it has in place and the evidence to support enquiries into safety and compliance.  At the heart of this is an asset register of the essential plant and equipment that operates on the premises.</p>
           </aside>
         <nav>
-            <h4>About us</h4>
-              <ol>
-                <li><a href="information/statement-of-purpose.pdf">Statement of Purpose</a></li>
-                <li><a href="service/">Guide to Services</a> (to follow)</li>
-                <li><a href="organisation/">Organisation Chart</a> (to follow)</li>
-                <li><a href="people">Meet the team</a> (to follow)</li>
-              </ol>
-            <h4>Finding your way around</h4>
-              <ol>
-                <li><a href="location/">Locations Register</a> (under development)</li>
-              </ol>
-            <h4>Safety & Compliance</h4>
-              <ol>
-                <li><a href="asset/"><h4>Health & Safety</h4></a></li>
-                <li><a href="check/">Routine Safety Checks</a></li>
-                <li><a href="https://bhdirectory.github.io/asset/information-register/">Information Governance</a></li>
-                <li><a href="policy/">Company Policies</a></li>
-                <li><a href="">Company Procedures</a> (to follow)</li>
-                <li><a href="risk/">Risk Register</a></li>
-              </ol>
+          <table>
+            <caption><h4>About us</h4></caption>
+              <tr><td><a href="#" id="a0"></a></td></tr>
+              <tr><td><a href="#" id="a1"></a></td></tr>
+              <tr><td><a href="#" id="a2"></a></td></tr>
+              <tr><td><a href="#" id="a3"></a></td></tr>
+              <tr><td><a href="#" id="a4"></a></td></tr>
+              <tr><td><a href="#" id="a5"></a></td></tr>
+              <tr><td><a href="#" id="a6"></a></td></tr>
+              <tr><td><a href="#" id="a7"></a></td></tr>
+              <tr><td><a href="#" id="a8"></a></td></tr>
+              <tr><td><a href="#" id="a9"></a></td></tr>
+              <tr><td><a href="#" id="a10"></a></td></tr>
+          </table>
         </nav>
       </header>
 
       <script src="/footer.js"></script>
-      <script src="dataCoupler.js"></script>
+      <script src="dataCouplerIndex.js"></script>
 </body>
 </html>
