@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+  <script src="/head.js"></script>
+  <title></title>
+  <script type="application/ld+json" id="coaches">
+  {
+    "@context": "http://schema.org",
+    "@type": "IndividualProduct",
+    "@id": "https://bhdirectory.github.io/fire-register/fire-door/#96001",
+      "mainEntityOfPage": {
+        "@type": "CreativeWork",
+        "@id": "https://bhdirectory.github.io/fire-register/fire-door/96001.html",
+          "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
+          "dateCreated": "2019-05-20",
+          "dateModified": "2019-05-20",
+          "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+          "headline": "Fire Door Assembly 002"
+      },
+      "identifier": "96002",
+      "description": "Admin Office > Reception Hall",
+      "itemCondition": "B",
+      "location": { "@id": "https://bhdirectory.github.io/location/#reception-hall", "name": "Reception Hall", "url": "https://bhdirectory.github.io/location/0071.html" },
+      "isRelatedTo": {
+        "@type": "IndividualProduct",
+        "@id": "https://bhdirectory.github.io/fire-register/fire-door/#96001-adc",
+        "manufacturer": {
+          "@type": "Organization",
+          "@id": "https://fireco.uk/#organisation",
+            "name": "Fireco",
+            "logo": "https://fireco.uk/wp-content/uploads/2016/08/2016-08-24-Website-logo.png",
+            "url": "https://fireco.uk/"
+        },
+        "model": {
+          "@id": "https://fireco.uk/products/#freedor",
+            "name": "Freedor",
+            "url": "https://fireco.uk/products/freedor/"
+        },
+          "serialNumber": "",
+          "itemCondition": "B",
+          "isAccessoryOrSparePartFor": "https://bhdirectory.github.io/fire-register/fire-door/#96001",
+          "purchaseDate": ""
+      }
+  }
+  </script>
+
+</head>
+<body>
+  <header>
+    <script src="/header.js"></script>
+
+    <h3 id="headerTitle"></h3>
+  </header>
+    <table>
+      <tr>
+        <th>AssetID</th>
+        <td id="assetId"></td>
+      </tr>
+      <tr>
+        <th>Manufacturer</th>
+        <td><a href="#" id="make"></a></td>
+      </tr>
+      <tr>
+        <th>Model</th>
+        <td><a href="#" id="model"></a></td>
+      </tr>
+      <tr>
+        <th>Serial Number</th>
+        <td id="sn"></td>
+      </tr>
+      <tr>
+        <th>Fire Door Assembly Overall Condition</th>
+        <td id="condition"></td>
+      </tr>
+      <tr>
+        <th>Door Closer Make</th>
+        <td><a href="#" id="adcMake"></a></td>
+      </tr>
+      <tr>
+        <th>Door Closer Model</th>
+        <td><a href="#" id="adcModel"></a></td>
+      </tr>
+      <tr>
+        <th>Door Closer Condition</th>
+        <td id="adcCondition"></td>
+      </tr>
+      <tr>
+        <th>Location</th>
+        <td><a href="#" id="location"></a></td>
+      </tr>
+      <tr>
+        <th>Weekly Automatic Door Closer Test<br /><span class="subheading"><i><a href="qa/test-procedure.html">test details</a></i></span></th>
+          <td>
+            <a class="linkButton" href="#" id="mailtoPass-test">PASS</a>
+            <a class="linkButton" href="#" id="mailtoFail-test">FAIL</a>
+          </td>
+      </td>
+    </tr>
+      <tr>
+        <th>Periodic Fire Door Inspection Check<br /><span class="subheading"><i><a href="qa/inspection-checklist.html">checklist details</a></i></span></th>
+          <td>
+            <a class="linkButton" href="#" id="mailtoPass">PASS</a>
+            <a class="linkButton" href="#" id="mailtoFail">FAIL</a>
+          </td>
+        </td>
+      </tr>
+      <tr>
+        <th>Notes</th>
+        <td id="note"></td>
+      </tr>
+    </table>
+
+    <div id="divCentre">
+      <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
+    </div>
+
+    <script src="/footer.js"></script>
+    <script src="dataCoupler.js"></script>
+</body>
+</html>
+
+        <th>Weekly Automatic Door Closer Test<br /><span class="subheading"><i><a href="test/test-procedure.html">test details</a></i></span></th>
+          <td>
+            <a class="linkButton-red" href="mailto:maintenance@birtleyhouse.co.uk?subject=Fire%20Door%20Weekly%20Test%20REPORT%20FD00010&body=Reason%20for%20failure:&20">REPORT</a>
+          </td>
+      </tr>
+      <tr>
+        <th>Periodic Inspection<br /><span class="subheading"><i><a href="inspection/inspection-procedure.html">inspection details</a></i></span></th>
+          <td>
+            <a class="linkButton-red" href="mailto:maintenance@birtleyhouse.co.uk?subject=Fire%20Door%20Inspection%20PASS%20FD00010&body=No%20action%20required">PASS</a>
+            <a class="linkButton-red" href="mailto:maintenance@birtleyhouse.co.uk?subject=Fire%20Door%20Inspection%20FAIL%20FD00010&body=Reason%20for%20failure:&20">FAIL</a>
+          </td>
