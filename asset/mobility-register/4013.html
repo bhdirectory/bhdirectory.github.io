@@ -1,100 +1,91 @@
 <!DOCTYPE html>
-<head>
+  <head>
   <script src="/head.js"></script>
-  <title>Days Escape Lite</title>
-  <script type="application/ld+json">
+  <title></title>
+  <script type="application/ld+json" id="coaches">
   {
     "@context": "http://schema.org",
     "@type": "IndividualProduct",
-      "manufacturer": {
-        "@type": "Organization",
-          "name": "Days Healthcare",
-          "logo": "http://www.dayshealthcare.co.uk/_common/img/logo.gif",
-          "url": "http://www.dayshealthcare.co.uk/products/8/manual-wheelchairs.aspx"
+    "@id": "https://bhdirectory.github.io/asset/mobility-register/#4013",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://bhdirectory.github.io/asset/mobility-register/4013.html",
+          "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
+          "dateCreated": "2018-11-22",
+          "dateModified": "2019-05-23",
+          "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+          "headline": "Days Healthcare Escape Lite"
       },
-      "category": "Wheelchairs",
-      "model": {
-        "name": "Escape Lite",
-        "url": "http://www.dayshealthcare.co.uk/products/8/manual-wheelchairs/84/lightweight-manual-wheelchairs/7159/escape-lite.aspx"
-      },
+      "manufacturer": { "@type": "Organization", "@id": "http://www.dayshealthcare.co.uk/#organisation", "name": "Days Healthcare", "logo": "http://www.dayshealthcare.co.uk/_common/img/logo.gif", "url": "http://www.dayshealthcare.co.uk/products/8/manual-wheelchairs.aspx" },
+      "model": { "@id": "http://www.dayshealthcare.co.uk/products/8/manual-wheelchairs/84/lightweight-manual-wheelchairs/7159/escape-lite.aspx/#wheelchair", "name": "Escape Lite", "url": "http://www.dayshealthcare.co.uk/products/8/manual-wheelchairs/84/lightweight-manual-wheelchairs/7159/escape-lite.aspx" },
       "serialNumber": "3401346050708",
-      "isSimilarTo": "Manual Wheelchairs",
+      "identifier": "4013",
       "itemCondition": "B",
-      "location": "June's Apartment",
-      "productionDate": "",
+      "category": "Private",
+      "location": { "@id": "https://bhdirectory.github.io/location/#junes", "name": "June's Apartment", "url": "https://bhdirectory.github.io/location/0003.html" },
       "purchaseDate": ""
   }
-</script>
-<script type="application/ld+json">
-{
-   "@context": "http://schema.org",
-   "@type": "CreativeWork",
-   "@id": "https://bhdirectory.github.io/mobility-register/4013.html",
-   "author": {
-     "@type": "Organization",
-       "name": "DataTrain",
-       "url": "https://www.datatrain.co.uk/"
-   },
-     "dateCreated": "2018-11-22",
-     "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-     "headline": "Days Escape Lite"
- }
-</script>
+  </script>
+
 </head>
 <body>
   <header>
-  <script src="/header.js"></script>
+    <script src="/header.js"></script>
 
-    <h3>Days Escape Lite</h3>
+    <h3 id="headerTitle"></h3>
   </header>
-    <table class="yellow">
+    <table>
       <tr>
         <th>AssetID</th>
-        <td>4013</td>
+        <td id="assetId"></td>
       </tr>
       <tr>
         <th>Manufacturer</th>
-        <td>Days Healthcare</td>
+        <td><a href="#" id="make"></a></td>
       </tr>
       <tr>
         <th>Model</th>
-        <td><a href="http://www.dayshealthcare.co.uk/products/8/manual-wheelchairs/84/lightweight-manual-wheelchairs/7159/escape-lite.aspx">Escape Lite</a></td>
+        <td><a href="#" id="model"></a></td>
       </tr>
       <tr>
         <th>Serial Number</th>
-        <td>3401346050708</td>
-      </tr>
-      <tr>
-        <th>Ownership</th>
-        <td>Private</td>
+        <td id="sn"></td>
       </tr>
       <tr>
         <th>Location</th>
-        <td>House Ground Floor | <a href="">June's Apartment</a></td>
+        <td><a href="#" id="location"></a></td>
+      </tr>
+      <tr>
+        <th>Ownership</th>
+        <td id="ownership"></td>
       </tr>
       <tr>
         <th>Condition</th>
-        <td>B</td>
+        <td id="condition"></td>
       </tr>
       <tr>
-        <th>Monthly Wheelchair Check<br /><span class="subheading"><i><a href="wheelchair-check/wheelchair-checklist.html">checklist details</a></i></span></th>
+        <th>Purchase Date</th>
+        <td id="purchaseDate"></td>
+      </tr>
+      <tr>
+        <th>Monthly Wheelchair Check<br /><span class="subheading"><i><a href="qa/checklist.html">checklist details</a></i></span></th>
           <td>
-            <a class="linkButton" href="mailto:maintenance@birtleyhouse.co.uk?subject=Wheelchair%20Check%20PASS%204013&body=No%20action%20required">PASS</a>
-            <a class="linkButton" href="mailto:maintenance@birtleyhouse.co.uk?subject=Wheelchair%20Check%20FAIL%204013&body=Reason%20for%20failure:&20">FAIL</a>
+            <a class="linkButton" href="#" id="mailtoPass">PASS</a>
+            <a class="linkButton" href="#" id="mailtoFail">FAIL</a>
           </td>
         </td>
       </tr>
       <tr>
-        <th>Quality Assurance</th>
-        <td><a href="">Monthly Inspection</a></td>
-      </tr>
-      <tr>
         <th>Notes</th>
-        <td></td>
+        <td id="note"></td>
       </tr>
     </table>
 
-        <script src="/footer.js"></script>
+    <div id="divCentre">
+      <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
+    </div>
 
-    </body>
-    </html>
+    <script src="/footer.js"></script>
+    <script src="dataCoupler.js"></script>
+</body>
+</html>

@@ -1,100 +1,91 @@
 <!DOCTYPE html>
-<head>
+  <head>
   <script src="/head.js"></script>
-  <title>Drive Poly Fly Lightweight</title>
-  <script type="application/ld+json">
+  <title></title>
+  <script type="application/ld+json" id="coaches">
   {
     "@context": "http://schema.org",
     "@type": "IndividualProduct",
-      "manufacturer": {
-        "@type": "Organization",
-          "name": "Drive DeVilbiss Healthcare",
-          "logo": "http://cdn.drivemedical.com/skin/frontend/default/grayscale_customer/images/logo.gif",
-          "url": "http://www.drivemedical.com/index.php/consumer/"
+    "@id": "https://bhdirectory.github.io/asset/mobility-register/#4015",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://bhdirectory.github.io/asset/mobility-register/4015.html",
+          "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
+          "dateCreated": "2018-11-20",
+          "dateModified": "2019-05-23",
+          "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+          "headline": "Drive Poly Fly Lightweight"
       },
-      "category": "Wheelchairs",
-      "model": {
-        "name": "Drive Poly Fly Lightweight",
-        "url": "http://www.drivemedical.com/index.php/poly-fly-high-strength-lightweight-wheelchairflyweight-transport-chair-combo-946.html"
-      },
+      "manufacturer": { "@type": "Organization", "@id": "http://www.drivemedical.com/index.php/consumer/#organisation", "name": "Drive DeVilbiss Healthcare", "logo": "http://cdn.drivemedical.com/skin/frontend/default/grayscale_customer/images/logo.gif", "url": "http://www.drivemedical.com/index.php/consumer/" },
+      "model": { "@id": "http://www.drivemedical.com/index.php/poly-fly-high-strength-lightweight-wheelchairflyweight-transport-chair-combo-946.html/#wheelchair", "name": "Poly Fly Lightweight", "url": "http://www.drivemedical.com/index.php/poly-fly-high-strength-lightweight-wheelchairflyweight-transport-chair-combo-946.html" },
       "serialNumber": "AKCW2410904016",
-      "isSimilarTo": "Manual Wheelchairs",
+      "identifier": "4015",
       "itemCondition": "B",
-      "location": "Room 35",
-      "productionDate": "",
+      "category": "Unknown",
+      "location": { "@id": "https://bhdirectory.github.io/location/#store", "name": "Store", "url": "https://bhdirectory.github.io/location/9999.html" },
       "purchaseDate": ""
   }
-</script>
-<script type="application/ld+json">
-{
-   "@context": "http://schema.org",
-   "@type": "CreativeWork",
-   "@id": "https://bhdirectory.github.io/mobility-register/4015.html",
-   "author": {
-     "@type": "Organization",
-       "name": "DataTrain",
-       "url": "https://www.datatrain.co.uk/"
-   },
-     "dateCreated": "2018-11-27",
-     "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-     "headline": "Drive Poly Fly Lightweight"
- }
-</script>
+  </script>
+
 </head>
 <body>
   <header>
-  <script src="/header.js"></script>
+    <script src="/header.js"></script>
 
-    <h3>Drive Poly Fly Lightweight</h3>
+    <h3 id="headerTitle"></h3>
   </header>
-    <table class="yellow">
+    <table>
       <tr>
         <th>AssetID</th>
-        <td>4015</td>
+        <td id="assetId"></td>
       </tr>
       <tr>
         <th>Manufacturer</th>
-        <td>Drive</td>
+        <td><a href="#" id="make"></a></td>
       </tr>
       <tr>
         <th>Model</th>
-        <td><a href="http://www.drivemedical.com/index.php/poly-fly-high-strength-lightweight-wheelchairflyweight-transport-chair-combo-946.html">Poly Fly Lightweight</a></td>
+        <td><a href="#" id="model"></a></td>
       </tr>
       <tr>
         <th>Serial Number</th>
-        <td>AKCW2410904016</td>
-      </tr>
-      <tr>
-        <th>Ownership</th>
-        <td>Private</td>
+        <td id="sn"></td>
       </tr>
       <tr>
         <th>Location</th>
-        <td>Annexe Ground Floor | <a href="">Room 35</a></td>
+        <td><a href="#" id="location"></a></td>
+      </tr>
+      <tr>
+        <th>Ownership</th>
+        <td id="ownership"></td>
       </tr>
       <tr>
         <th>Condition</th>
-        <td>B</td>
+        <td id="condition"></td>
       </tr>
       <tr>
-        <th>Monthly Wheelchair Check<br /><span class="subheading"><i><a href="wheelchair-check/wheelchair-checklist.html">checklist details</a></i></span></th>
+        <th>Purchase Date</th>
+        <td id="purchaseDate"></td>
+      </tr>
+      <tr>
+        <th>Monthly Wheelchair Check<br /><span class="subheading"><i><a href="qa/checklist.html">checklist details</a></i></span></th>
           <td>
-            <a class="linkButton" href="mailto:maintenance@birtleyhouse.co.uk?subject=Wheelchair%20Check%20PASS%204015&body=No%20action%20required">PASS</a>
-            <a class="linkButton" href="mailto:maintenance@birtleyhouse.co.uk?subject=Wheelchair%20Check%20FAIL%204015&body=Reason%20for%20failure:&20">FAIL</a>
+            <a class="linkButton" href="#" id="mailtoPass">PASS</a>
+            <a class="linkButton" href="#" id="mailtoFail">FAIL</a>
           </td>
         </td>
       </tr>
       <tr>
-        <th>Quality Assurance</th>
-        <td><a href="">Monthly Inspection</a></td>
-      </tr>
-      <tr>
         <th>Notes</th>
-        <td></td>
+        <td id="note"></td>
       </tr>
     </table>
 
-        <script src="/footer.js"></script>
+    <div id="divCentre">
+      <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
+    </div>
 
-    </body>
-    </html>
+    <script src="/footer.js"></script>
+    <script src="dataCoupler.js"></script>
+</body>
+</html>
