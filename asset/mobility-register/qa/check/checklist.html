@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<head>
-  <script src="/head.js"></script>
-  <title>Wheelchair Checklist</title>
-  <script type="application/ld+json">
+<html lang="en">
+  <head>
+    <script src="/head.js"></script>
+    <title></title>
+    <script type="application/ld+json" id="coaches">
   {
      "@context": "http://schema.org",
      "@type": "CreativeWork",
      "@id": "https://bhdirectory.github.io/mobility-register/wheelchair-check/wheelchair-checklist.html",
-       "author": {
-         "@type": "Organization",
-           "name": "DataTrain",
-           "url": "https://www.datatrain.co.uk/"
-       },
+       "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
        "dateCreated": "2019-01-14",
-       "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+       "dateModified": "2019-05-23",
+       "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
        "headline": "Wheelchair Checklist"
    }
   </script>
@@ -23,7 +21,7 @@
 <body>
   <header>
     <script src="/header.js"></script>
-    <h3>Wheelchair Checklist</h3>
+    <h3 id="headerTitle"></h3>
       <aside>
         <p>This checklist covers the minimum standard of checks required to ensure the safe operation of each wheelchair in operation.  The check should be completed for each wheelchair each month.</p>
       </aside>
@@ -42,12 +40,12 @@
       <li>Examine footplate treads for damage or wear</li>
       <li>Examine all upholstery elements for damage or wear</li>
       <li>Examine lap belt for correct operation, damage or wear</li>
-      <li>Is the wheelchair correctly labelled? (refer to <a href="../">Mobility Register</a> for details)</li>
+      <li>Is the wheelchair correctly labelled? (refer to <a href="https://bhdirectory.github.io/mobility-register/index.html">Mobility Register</a> for details)</li>
       <li>Are there any other issues that need reporting?</li>
       <li>Please rate the condition of the wheelchair (A: GOOD, B: FAIR or C: POOR)</li>
     </ol>
 
     <script src="/footer.js"></script>
-
+    <script src="dataCoupler.js"></script>
 </body>
 </html>
