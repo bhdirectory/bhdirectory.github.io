@@ -11,7 +11,9 @@ function dataCouple() {
   document.getElementById('make').href=coaches.manufacturer.url;
   document.getElementById('model').innerText=coaches.model.name;
   document.getElementById('model').href=coaches.model.url;
+  document.getElementById('ownership').innerText=coaches.category;
   document.getElementById('sn').innerText=coaches.serialNumber;
+  document.getElementById('purchaseDate').innerText=coaches.purchaseDate;
   document.getElementById('location').innerText=coaches.location.name;
   document.getElementById('location').href=coaches.location.url;
   document.getElementById('condition').innerText=coaches.itemCondition;
