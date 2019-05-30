@@ -14,8 +14,8 @@ function dataCouple() {
   document.getElementById('sn').innerText=coaches.serialNumber;
   document.getElementById('date').innerText=coaches.purchaseDate;
   document.getElementById('condition').innerText=coaches.itemCondition;
-  document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Medica%20Device%20Check%20PASS%20" + coaches.identifier + " | " + "&body=No%20action%20required";
-  document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Medica%20Device%20Check%20FAIL%20" + coaches.identifier + " | " + "&body=Reason%20for%20failure:&20";
+  document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Medical%20Device%20Check%20PASS%20" + coaches.identifier + " | " + "&body=No%20action%20required";
+  document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Medical%20Device%20Check%20FAIL%20" + coaches.identifier + " | " + "&body=Reason%20for%20failure:&20";
   document.getElementById('service').innerText=coaches.isRelatedTo.provider.name;
   document.getElementById('service').href=coaches.isRelatedTo.provider.url;
   document.getElementById('inspection').innerText=coaches.subjectOf.validFrom;
