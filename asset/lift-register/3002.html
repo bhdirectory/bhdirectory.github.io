@@ -6,48 +6,32 @@
   {
     "@context": "http://schema.org",
     "@type": "IndividualProduct",
+    "@id": "https://bhdirectory.github.io/asset/lift-register/#3002",
+      "mainEntityOfPage": {
+        "@type": "CreativeWork",
+        "@id": "https://bhdirectory.github.io/asset/lift-register/3002.html",
+         "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
+          "dateCreated": "2018-12-10",
+          "dateModified": "2019-06-01",
+          "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+          "headline": "Northern Lifts Passenger Lift"
+      },
       "manufacturer": {
         "@type": "Organization",
-          "name": "Northern Lifts",
-          "logo": "http://northernlifts.com/Imgz/logo.png",
-          "url": "http://northernlifts.com/default.aspx"
+        "@id": "http://northernlifts.com/#organisation",
+        "name": "Northern Lifts",
+        "logo": "http://northernlifts.com/Imgz/logo.png",
+        "url": "http://northernlifts.com/default.aspx"
       },
-      "category": {
-        "name": "Lift",
-        "alternateName": ["Passenger Lift", "Elevator"],
-        "url": "https://www.wikidata.org/wiki/Q132911"
-      },
-      "model": "",
+      "model": { "@id": "", "name": "", "url": "" },
       "serialNumber": "NL206",
-      "identifier": {
-        "@type": "text",
-          "propertyID": "AssetID",
-          "value":  "3002"
-        },
+      "identifier": "3002",
       "itemCondition": "B",
-      "location": {
-        "name": "Annexe Lift Motor Room",
-        "url": "https://bhdirectory.github.io/location/1080.html"
-      },
-      "productionDate": "",
-      "purchaseDate": ""
+      "location": { "@id": "https://bhdirectory.github.io/location/#lift-motor-room", "name": "Annexe Lift Motor Room",
+      "url": "https://bhdirectory.github.io/location/1080.html" },
+      "purchaseDate": "1995",
+      "isRelatedTo": [ { "@type": "Service", "@id": "#service-engineers", "provider": { "@type": "Organization", "@id": "https://www.jacksonlifts.com/#organisation", "name": "Jackson Lift Group", "url": "https://www.jacksonlifts.com/" } }, { "@type": "Service", "@id": "#insurance-inspector", "provider": { "@type": "Organization", "@id": "https://www.allianzengineering.co.uk/#organisation", "name": "Allianz Engineering", "url": "https://www.allianzengineering.co.uk/" } } ]
   }
-</script>
-<script type="application/ld+json" id="coachThree">
-{
-   "@context": "http://schema.org",
-   "@type": "CreativeWork",
-   "@id": "https://bhdirectory.github.io/asset/loler-register/3002.html",
-   "author": {
-     "@type": "Organization",
-       "name": "DataTrain",
-       "url": "https://www.datatrain.co.uk/"
-     },
-     "dateCreated": "2018-12-10",
-     "dateModified": "2019-03-14",
-     "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-     "headline": "Northern Lifts Passenger Lift"
- }
 </script>
 </head>
 <body>
@@ -74,12 +58,16 @@
         <td id="sn"></td>
       </tr>
       <tr>
-        <th>Condition</th>
-        <td id="condition"></td>
-      </tr>
-      <tr>
         <th>Location of Control Gear</th>
         <td><a href="#" id="location"></a></td>
+      </tr>
+      <tr>
+        <th>Purchase Date</th>
+        <td id="date"></td>
+      </tr>
+      <tr>
+        <th>Condition</th>
+        <td id="condition"></td>
       </tr>
       <tr>
         <th>Report a issue with the lift:</th>
@@ -90,11 +78,11 @@
       </tr>
       <tr>
         <th>Service Engineers</th>
-        <td><a href="https://www.jacksonlifts.com/">Jackson Lifts</a></td>
+        <td><a href="#" id="service"></a></td>
       </tr>
       <tr>
         <th>Engineering Insurance Cover</th>
-        <td><a href="https://www.allianzengineering.co.uk/">Allianz Engineering</a></td>
+        <td><a href="#" id="insurance"></a></td>
       </tr>
       <tr>
         <th>Notes</th>
@@ -108,5 +96,6 @@
 
     <script src="/footer.js"></script>
     <script src="dataCoupler.js"></script>
+
 </body>
 </html>
