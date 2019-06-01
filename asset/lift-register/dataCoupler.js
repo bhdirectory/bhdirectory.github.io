@@ -16,7 +16,7 @@ function dataCouple() {
   document.getElementById('location').href=coaches.location.url;
   document.getElementById('date').innerText=coaches.purchaseDate;
   document.getElementById('condition').innerText=coaches.itemCondition;
-  document.getElementById('mailReport').href="mailto:maintenance@birtleyhouse.co.uk?subject=Lift%20Issue%20REPORT%20" + coachOne.manufacturer.name + "&body=";
+  document.getElementById('mailReport').href="mailto:maintenance@birtleyhouse.co.uk?subject=Lift%20Issue%20REPORT%20" + coaches.manufacturer.name + "&body=";
   document.getElementById('service').innerText=coaches.isRelatedTo[0].provider.name;
   document.getElementById('service').href=coaches.isRelatedTo[0].provider.url;
   document.getElementById('insurance').innerText=coaches.isRelatedTo[1].provider.name;
