@@ -3,20 +3,24 @@
 */
 
 function dataCouple() {
-  var coachThree = JSON.parse(document.querySelector('#coachThree').innerText);
-  document.title=coachThree.headline;
-  document.getElementById('headerTitle').innerText=coachThree.headline;
-  
-  var coachOne = JSON.parse(document.querySelector('#coachOne').innerText);
-  document.getElementById('assetId').innerText=coachOne.identifier.value;
-  document.getElementById('make').innerText=coachOne.manufacturer.name;
-  document.getElementById('make').href=coachOne.manufacturer.url;
-  document.getElementById('model').innerText=coachOne.model;
-  document.getElementById('sn').innerText=coachOne.serialNumber;
-  document.getElementById('location').innerText=coachOne.location.name;
-  document.getElementById('location').href=coachOne.location.url;
-  document.getElementById('condition').innerText=coachOne.itemCondition;
+  var coaches = JSON.parse(document.querySelector('#coaches').innerText);
+  document.title=coaches.mainEntityOfPage.headline;
+  document.getElementById('headerTitle').innerText=coaches.mainEntityOfPage.headline;
+  document.getElementById('assetId').innerText=coaches.identifier;
+  document.getElementById('make').innerText=coaches.manufacturer.name;
+  document.getElementById('make').href=coaches.manufacturer.url;
+  document.getElementById('model').innerText=coaches.model.name;
+  document.getElementById('model').href=coaches.model.url;
+  document.getElementById('sn').innerText=coaches.serialNumber;
+  document.getElementById('location').innerText=coaches.location.name;
+  document.getElementById('location').href=coaches.location.url;
+  document.getElementById('date').innerText=coaches.purchaseDate;
+  document.getElementById('condition').innerText=coaches.itemCondition;
   document.getElementById('mailReport').href="mailto:maintenance@birtleyhouse.co.uk?subject=Lift%20Issue%20REPORT%20" + coachOne.manufacturer.name + "&body=";
+  document.getElementById('service').innerText=coaches.isRelatedTo[0].provider.name;
+  document.getElementById('service').href=coaches.isRelatedTo[0].provider.url;
+  document.getElementById('insurance').innerText=coaches.isRelatedTo[1].provider.name;
+  document.getElementById('insurance').href=coaches.isRelatedTo[1].provider.url;
 
 }
 

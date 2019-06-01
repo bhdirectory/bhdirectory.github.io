@@ -2,53 +2,37 @@
 <head>
   <script src="/head.js"></script>
   <title></title>
-  <script type="application/ld+json" id="coachOne">
+  <script type="application/ld+json" id="coaches">
   {
     "@context": "http://schema.org",
     "@type": "IndividualProduct",
+    "@id": "https://bhdirectory.github.io/asset/lift-register/#3001",
+      "mainEntityOfPage": {
+        "@type": "CreativeWork",
+        "@id": "https://bhdirectory.github.io/asset/lift-register/3001.html",
+         "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
+          "dateCreated": "2018-12-10",
+          "dateModified": "2019-06-01",
+          "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+          "headline": "Stannah Passenger 'West Wing' Lift"
+      },
       "manufacturer": {
         "@type": "Organization",
+        "@id": "https://www.stannahlifts.co.uk/#organisation",
           "name": "Stannah",
           "logo": "https://www.stannahlifts.co.uk/application/themes/stannah/img/stannah.svg",
           "url": "https://www.stannahlifts.co.uk/"
       },
-      "category": {
-        "name": "Lift",
-        "alternateName": ["Passenger Lift", "Elevator"],
-        "url": "https://www.wikidata.org/wiki/Q132911"
-      },
-      "model": "Passenger System 21",
+      "model": { "@id": "https://www.stannahlifts.co.uk/#passenger-system-21", "name": "Passenger System 21", "url": "https://www.stannahlifts.co.uk/" },
       "serialNumber": "270423",
-      "identifier": {
-        "@type": "text",
-          "propertyID": "AssetID",
-          "value":  "3001"
-        },
+      "identifier": "3001",
       "itemCondition": "B",
-      "location": {
-        "name": "Orangery Dining Room",
-        "url": "https://bhdirectory.github.io/location/0073.html"
-      },
-      "productionDate": "",
-      "purchaseDate": "2008"
+      "location": { "@id": "https://bhdirectory.github.io/location/#orangery", "name": "Orangery Dining Room",
+      "url": "https://bhdirectory.github.io/location/0073.html" },
+      "purchaseDate": "2008",
+      "isRelatedTo": [ { "@type": "Service", "@id": "#service-engineers", "provider": { "@type": "Organization", "@id": "https://www.jacksonlifts.com/#organisation", "name": "Jackson Lift Group", "url": "https://www.jacksonlifts.com/" } }, { "@type": "Service", "@id": "#insurance-inspector", "provider": { "@type": "Organization", "@id": "https://www.allianzengineering.co.uk/#organisation", "name": "Allianz Engineering", "url": "https://www.allianzengineering.co.uk/" } } ]
   }
-</script>
-<script type="application/ld+json" id="coachThree">
-{
-   "@context": "http://schema.org",
-   "@type": "CreativeWork",
-   "@id": "https://bhdirectory.github.io/asset/loler-register/3001.html",
-   "author": {
-     "@type": "Organization",
-       "name": "DataTrain",
-       "url": "https://www.datatrain.co.uk/"
-     },
-     "dateCreated": "2018-12-10",
-     "dateModified": "2019-03-14",
-     "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-     "headline": "Stannah Passenger 'West Wing' Lift"
- }
-</script>
+  </script>
 </head>
 <body>
   <header>
@@ -90,11 +74,11 @@
       </tr>
       <tr>
         <th>Service Engineers</th>
-        <td><a href="https://www.jacksonlifts.com/">Jackson Lifts</a></td>
+        <td><a href="#" id="service"></a></td>
       </tr>
       <tr>
         <th>Engineering Insurance Cover</th>
-        <td><a href="https://www.allianzengineering.co.uk/">Allianz Engineering</a></td>
+        <td><a href="#" id="insurance"></a></td>
       </tr>
       <tr>
         <th>Notes</th>
