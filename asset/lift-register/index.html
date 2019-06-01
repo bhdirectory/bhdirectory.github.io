@@ -3,21 +3,64 @@
   <head>
     <script src="/head.js"></script>
     <title></title>
-    <script type="application/ld+json" id="coachThree">
+    <script type="application/ld+json" id="coaches">
     {
-       "@context": "http://schema.org",
-       "@type": "CreativeWork",
-       "@id": "https://bhdirectory.github.io/asset/lift-register/index.html",
-       "author": {
-         "@type": "Organization",
-           "name": "DataTrain",
-           "url": "https://www.datatrain.co.uk/"
-         },
-         "dateCreated": "2019-03-14",
-         "dateModified": "2019-03-14",
-         "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-         "headline": "Arrangements for Safe Operation of Passenger Lift"
-     }
+      "@context": "http://schema.org",
+      "@type": "ItemList",
+        "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https://bhdirectory.github.io/asset/loler-register/index.html",
+             "breadcrumb": "Birtley House Directory > Arrangements for Safe Operation of Passenger Lifts",
+             "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
+             "dateCreated": "2019-03-14",
+             "dateModified": "2019-06-01",
+             "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+             "headline": "Arrangements for Safe Operation of Passenger Lifts",
+             "hasPart": [
+               {
+                "@id": "https://bhdirectory.github.io/asset/loler-register/#update-may",
+                  "about": "update",
+                  "datePublished": "2019-05-27",
+                  "text": ""
+              },
+              {
+               "@id": "https://bhdirectory.github.io/asset/loler-register/#update-mar",
+                 "about": "update",
+                 "datePublished": "2019-03-06",
+                 "text": "LOLER inspections and servicing arrangements are all up-to-date.  A couple of minor recommendations remain outstanding from the LOLER inspection which are being quoted for by our service provider.  A recent incident of the Annexe Lift becoming stuck between floors was resolved efficiently by the Maintenance Team and the passengers were brought to the ground floor safely.  The service provider attended within 45 mins to give the lift a further check, but no fault was found. No other concerns"
+              }
+            ]
+        },
+        "numberOfItems": 3,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": "3001",
+            "item": {
+              "@id": "https://bhdirectory.github.io/asset/lift-register/#3001",
+              "name": "West Wing Lift (Stannah Passenger Lift)",
+              "url": "https://bhdirectory.github.io/asset/lift-register/3001.html"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": "3002",
+            "item": {
+              "@id": "https://bhdirectory.github.io/asset/lift-register/#3002",
+              "name": "Annexe Lift (Northern Lifts Passenger Lift)",
+              "url": "https://bhdirectory.github.io/asset/lift-register/3002.html"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": "3003",
+            "item": {
+              "@id": "https://bhdirectory.github.io/asset/lift-register/#3003",
+              "name": "Mews Lift (Carlton Lifts Passenger Lift)",
+              "url": "https://bhdirectory.github.io/asset/lift-register/3003.html"
+            }
+          } ]
+    }
     </script>
   </head>
     <body>
@@ -27,24 +70,26 @@
           <aside>
             <p>There are three passenger lifts.  These are serviced and maintained by a specialist third-party under a <a href="contract.pdf">comprehensive contract</a> that allows for monthly inspection visits.  The lifts are subject to annual LOLER examinations from an independent engineer arranged as part of a comprehensive <a href="/asset/loler-register/qa/inspection-service.pdf">Engineering Insurance Policy</a>.  Emergency lowering instructions are located at each lift control panel.  The service provider should be called in the event of a breakdown or emergency situation.</p>
           <div id="divCentre">
-              <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
+            <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
           </div>
           </aside>
-          <div>
-            <h4>Latest update:<br /><span class="subheading"><script src="update.js"></script></span></h4>
-          </div>
+        <div>
+          <h4>Latest updates:</h4>
+            <p class="subheading" id="up0"></p>
+            <p class="subheading" id="up1"></p>
+        </div>
         <nav>
-          <h4>Passenger Lift Register</h4>
-            <ol>
-              <li><a href="3001.html">West Wing Lift (Stannah Passenger Lift)</a></li>
-              <li><a href="3002.html">Annexe Lift (Northern Lifts Passenger Lift)</a></li>
-              <li><a href="3003.html">Mews Lift (Carlton Lifts Passenger Lift)</a></li>
-            </ol>
+          <h4>Lift Index</h4>
+          <table>
+            <caption><h4>Passenger Lift Register</h4></caption>
+              <tr><td id="p0"></td><td><a href="#" id="a0"></a></td></tr>
+              <tr><td id="p1"></td><td><a href="#" id="a1"></a></td></tr>
+              <tr><td id="p2"></td><td><a href="#" id="a2"></a></td></tr>
+          </table>
         </nav>
       </header>
 
-
-    <script src="/footer.js"></script>
-    <script src="dataCoupler.js"></script>
+      <script src="/footer.js"></script>
+      <script src="dataCouplerIndex.js"></script>
   </body>
 </html>
