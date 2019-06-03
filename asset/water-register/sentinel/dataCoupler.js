@@ -18,8 +18,8 @@ function dataCouple() {
   document.getElementById('model').innerText=coaches.model.name;
   document.getElementById('sn').innerText=coaches.serialNumber;
   document.getElementById('condition').innerText=coaches.condition;
-  document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Temperature%20Check%20PASS%20" + coaches.identifier + "&body=No%20action%20required";
-  document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Temperature%20Check%20FAIL%20" + coaches.identifier + "&body=Reason%20for%20failure:&20";
+  document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Sentinel%20Check%20PASS%20" + coaches.identifier + "&body=No%20action%20required";
+  document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Sentinel%20Check%20FAIL%20" + coaches.identifier + "&body=Reason%20for%20failure:&20";
 }
 
 dataCouple();
