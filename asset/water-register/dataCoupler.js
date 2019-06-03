@@ -4,8 +4,8 @@
 
 function dataCouple() {
   var coaches = JSON.parse(document.querySelector('#coaches').innerText);
-  document.title=coaches.mainEntityOfPage.headline;
-  document.getElementById('headerTitle').innerText=coaches.mainEntityOfPage.headline;
+  document.title=coaches.mainEntityOfPage.headline + " " + coaches.identifier;
+  document.getElementById('headerTitle').innerText=coaches.mainEntityOfPage.headline + " (" + coaches.location.name + ") ";
   document.getElementById('assetId').innerText=coaches.identifier;
   document.getElementById('category').innerText=coaches.category;
   document.getElementById('location').innerText=coaches.location.name;
@@ -14,10 +14,10 @@ function dataCouple() {
   document.getElementById('cws').href=coaches.isRelatedTo[0].url;
   document.getElementById('hws').innerText=coaches.isRelatedTo[1].name;
   document.getElementById('hws').href=coaches.isRelatedTo[1].url;
-  document.getElementById('manufacturer').innerText=coaches.manufacturer.name;
+  document.getElementById('make').innerText=coaches.manufacturer.name;
   document.getElementById('model').innerText=coaches.model.name;
   document.getElementById('sn').innerText=coaches.serialNumber;
-  document.getElementById('condition').innerText=coaches.condition;
+  document.getElementById('condition').innerText=coaches.itemCondition;
   document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Temperature%20Check%20PASS%20" + coaches.identifier + "&body=No%20action%20required";
   document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Temperature%20Check%20FAIL%20" + coaches.identifier + "&body=Reason%20for%20failure:&20";
 }
