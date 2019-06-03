@@ -14,7 +14,7 @@ function dataCouple() {
   document.getElementById('cws').href=coaches.isRelatedTo[0].url;
   document.getElementById('hws').innerText=coaches.isRelatedTo[1].name;
   document.getElementById('hws').href=coaches.isRelatedTo[1].url;
-  document.getElementById('manufacturer').innerText=coaches.manufacturer.name;
+  document.getElementById('make').innerText=coaches.manufacturer.name;
   document.getElementById('model').innerText=coaches.model.name;
   document.getElementById('sn').innerText=coaches.serialNumber;
   document.getElementById('condition').innerText=coaches.itemCondition;
