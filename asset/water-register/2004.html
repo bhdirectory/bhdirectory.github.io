@@ -1,101 +1,105 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="UTF-8">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Cabin" rel="stylesheet">
-  <link rel="stylesheet" href="https://bhdirectory.github.io/styleMain.css">
-  <title>CWST 04</title>
-  <script type="application/ld+json">
+  <script src="/head.js"></script>
+  <title></title>
+  <script type="application/ld+json" id="coaches">
   {
     "@context": "http://schema.org",
     "@type": "IndividualProduct",
-      "productID": "2905",
-      "category": [ {
-        "name": "Water Storage Tank",
-        "url": "https://www.wikidata.org/wiki/Q6501028"
+    "@id": "https://bhdirectory.github.io/asset/water-register/#2004",
+      "mainEntityOfPage": {
+        "@type": "CreativeWork",
+        "@id": "https://bhdirectory.github.io/asset/water-register/2004.html",
+          "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
+          "dateCreated": "2018-12-03",
+          "dateModified": "2019-06-04",
+          "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+          "headline": "Cold Water Storage Tank (CWST) 04"
       },
-      {
-        "name": "Mains Cold Water Services (MCWS)",
-        "url": "https://bhdirectory.github.io/asset/water-register/m-c-w-s.html"
-      } ],
-      "name": "Cold Water Storage Tank (CWST) 4",
-      "location": {
-        "name": "Mews Tank Room",
-        "url": "https://bhdirectory.github.io/location/mews-tank-room.html"
-      }
+      "identifier": "2004",
+      "category": "Sentinel Point",
+      "location": { "@id": "https://bhdirectory.github.io/location/#mews-tank-room", "name": "Mews Tank Room", "url": "https://bhdirectory.github.io/location/0282.html" },
+      "manufacturer": { "@type": "Organization", "@id": "", "name": "", "logo": "", "url": "" },
+      "model": { "@id": "", "name": "", "url": "" },
+      "serialNumber": "",
+      "itemCondition": "B",
+      "isRelatedTo": [
+        {
+          "@id": "https://bhdirectory.github.io/asset/water-register/#mcws",
+          "name": "Mains Cold Water Services (MCWS)",
+          "url": "https://bhdirectory.github.io/asset/water-register/mcws.html"
+        },
+        {
+          "@id": "",
+          "name": "n/a",
+          "url": ""
+        }
+      ]
   }
-</script>
-<script type="application/ld+json">
-{
-   "@context": "http://schema.org",
-   "@type": "CreativeWork",
-   "@id": "https://bhdirectory.github.io/asset/water-register/2905.html",
-     "author": {
-       "@type": "Organization",
-         "name": "DataTrain",
-         "url": "https://www.datatrain.co.uk/"
-     },
-     "dateCreated": "2018-12-03",
-     "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-     "headline": "CWST 04"
- }
-</script>
+  </script>
+
 </head>
 <body>
   <header>
-  <img src="https://bhdirectory.github.io/birtleyhouse.png" width="100" height="85"/>
+    <script src="/header.js"></script>
 
-    <h3>Cold Water Storage Tank (CWST) 4</h3>
+    <h3 id="headerTitle"></h3>
   </header>
-    <table class="blue">
+    <table>
       <tr>
         <th>AssetID</th>
-        <td>2905</td>
+        <td id="assetId"></td>
       </tr>
       <tr>
-        <th>Category</th>
-        <td>Mains Cold Water Services (MCWS)</td>
-      </tr>
-      <tr>
-        <th>Type</th>
-        <td>Storage Tank</td>
-      </tr>
-      <tr>
-        <th>Sentinel Outlet</th>
-        <td>N/A</td>
-      </tr>
-      <tr>
-        <th>Serial Number</th>
-        <td></td>
+        <th>Outlet Type</th>
+        <td id="category"></td>
       </tr>
       <tr>
         <th>Location</th>
-        <td>Mews Ground Floor | <a href="">Tank Room</a></td>
+        <td><a href="#" id="location"></a></td>
+      </tr>
+      <tr>
+        <th>Cold Water Service</th>
+        <td id="cws"></td>
+      </tr>
+      <tr>
+        <th>Hot Water Service</th>
+        <td id="hws"></td>
+      </tr>
+      <tr>
+        <th>Manufacturer</th>
+        <td><a href="#" id="make"></a></td>
+      </tr>
+      <tr>
+        <th>Model</th>
+        <td><a href="#" id="model"></a></td>
+      </tr>
+      <tr>
+        <th>Serial Number</th>
+        <td id="sn"></td>
       </tr>
       <tr>
         <th>Condition</th>
-        <td>B</td>
+        <td id="condition"></td>
       </tr>
       <tr>
-        <th>Periodic Inspection<br /><span class="subheading"><i><a href="periodic-inspection/periodic-inspection.html">inspection details</a></i></span></th>
+        <th>Sentinel Outlet Check<br /><span class="subheading"><i><a href="https://legionellacontrol.com/legionella/sentinel-outlets-how-to-check-hot-water-temperatures/">monthly check procedure</a></i></span></th>
         <td>
-          <a class="linkButton-blue" href="mailto:maintenance@birtleyhouse.co.uk?subject=Periodic%20Inspection%20COMPLETE%202905&body=No%20action%20required">COMPLETE</a>
-        </td>
-      </tr>
-      <tr>
-        <th>Quality Assurance</th>
-        <td>
-          <ol>
-            <li><a href="periodic-inspection/">Periodic Inspection Records</a></li>
-          </ol>
+          <a class="linkButton" href="#" id="mailtoPass">PASS</a>
+          <a class="linkButton" href="#" id="mailtoFail">FAIL</a>
         </td>
       </tr>
       <tr>
         <th>Notes</th>
-        <td></td>
+        <td id="note">Sentinel temperature checks should be carried out at the tank inlet valve and of the standing water in the tank</td>
       </tr>
     </table>
 
-    <script src="/footer.js"></script>
+    <div id="divCentre">
+      <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
+    </div>
 
+    <script src="/footer.js"></script>
+    <script src="dataCoupler.js"></script>
 </body>
 </html>
