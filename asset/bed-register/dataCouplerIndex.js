@@ -23,7 +23,7 @@ function dataCouple() {
   document.getElementById('a2').href=coaches.itemListElement[2].item[0].url;
   document.getElementById('m2').innerText=coaches.itemListElement[2].item[1].name;
   document.getElementById('m2').href=coaches.itemListElement[2].item[1].url;
-  /*  document.getElementById('p3').innerText=coaches.itemListElement[3].position;
+  document.getElementById('p3').innerText=coaches.itemListElement[3].position;
   document.getElementById('a3').innerText=coaches.itemListElement[3].item[0].name;
   document.getElementById('a3').href=coaches.itemListElement[3].item[0].url;
   document.getElementById('m3').innerText=coaches.itemListElement[3].item[1].name;
@@ -33,7 +33,7 @@ function dataCouple() {
   document.getElementById('a4').href=coaches.itemListElement[4].item[0].url;
   document.getElementById('m4').innerText=coaches.itemListElement[4].item[1].name;
   document.getElementById('m4').href=coaches.itemListElement[4].item[1].url;
-  document.getElementById('p5').innerText=coaches.itemListElement[5].position;
+    /* document.getElementById('p5').innerText=coaches.itemListElement[5].position;
   document.getElementById('a5').innerText=coaches.itemListElement[5].item[0].name;
   document.getElementById('a5').href=coaches.itemListElement[5].item[0].url;
   document.getElementById('m5').innerText=coaches.itemListElement[5].item[1].name;
