@@ -53,6 +53,7 @@ function dataCouple() {
   document.getElementById('a8').href=coaches.itemListElement[8].item[0].url;
   document.getElementById('m8').innerText=coaches.itemListElement[8].item[1].name;
   document.getElementById('m8').href=coaches.itemListElement[8].item[1].url;
+  /*
   document.getElementById('p9').innerText=coaches.itemListElement[9].position;
   document.getElementById('a9').innerText=coaches.itemListElement[9].item[0].name;
   document.getElementById('a9').href=coaches.itemListElement[9].item[0].url;
@@ -263,6 +264,7 @@ function dataCouple() {
   document.getElementById('a50').href=coaches.itemListElement[50].item[0].url;
   document.getElementById('m50').innerText=coaches.itemListElement[50].item[1].name;
   document.getElementById('m50').href=coaches.itemListElement[50].item[1].url;
+  */
 }
 
 dataCouple();
