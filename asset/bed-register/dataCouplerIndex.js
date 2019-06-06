@@ -9,10 +9,10 @@ function dataCouple() {
   document.getElementById('up0').innerText=coaches.mainEntityOfPage.hasPart[0].datePublished + " - " + coaches.mainEntityOfPage.hasPart[0].text;
   document.getElementById('up1').innerText=coaches.mainEntityOfPage.hasPart[1].datePublished + " - " + coaches.mainEntityOfPage.hasPart[1].text;
   document.getElementById('p0').innerText=coaches.itemListElement[0].position;
-  document.getElementById('a0').innerText=coaches.itemListElement[0].item[0].name;
-  document.getElementById('a0').href=coaches.itemListElement[0].item[0].url;
-  document.getElementById('m0').innerText=coaches.itemListElement[0].item[1].name;
-  document.getElementById('m0').href=coaches.itemListElement[0].item[1].url;
+  document.getElementById('a0').innerText=coaches.itemListElement[0].item.name;
+  document.getElementById('a0').href=coaches.itemListElement[0].item.url;
+  document.getElementById('m0').innerText=coaches.itemListElement[0].item.name;
+  document.getElementById('m0').href=coaches.itemListElement[0].item.url;
   document.getElementById('p1').innerText=coaches.itemListElement[1].position;
   document.getElementById('a1').innerText=coaches.itemListElement[1].item[0].name;
   document.getElementById('a1').href=coaches.itemListElement[1].item[0].url;
