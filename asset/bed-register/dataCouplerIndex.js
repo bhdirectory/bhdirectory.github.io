@@ -8,7 +8,7 @@ function dataCouple() {
   document.getElementById('headerTitle').innerText=coaches.mainEntityOfPage.headline;
   document.getElementById('up0').innerText=coaches.mainEntityOfPage.hasPart[0].datePublished + " - " + coaches.mainEntityOfPage.hasPart[0].text;
   document.getElementById('up1').innerText=coaches.mainEntityOfPage.hasPart[1].datePublished + " - " + coaches.mainEntityOfPage.hasPart[1].text;
-/*  document.getElementById('p0').innerText=coaches.itemListElement[0].position;
+  document.getElementById('p0').innerText=coaches.itemListElement[0].position;
   document.getElementById('a0').innerText=coaches.itemListElement[0].item[0].name;
   document.getElementById('a0').href=coaches.itemListElement[0].item[0].url;
   document.getElementById('m0').innerText=coaches.itemListElement[0].item[1].name;
@@ -23,7 +23,7 @@ function dataCouple() {
   document.getElementById('a2').href=coaches.itemListElement[2].item[0].url;
   document.getElementById('m2').innerText=coaches.itemListElement[2].item[1].name;
   document.getElementById('m2').href=coaches.itemListElement[2].item[1].url;
-  document.getElementById('p3').innerText=coaches.itemListElement[3].position;
+  /*  document.getElementById('p3').innerText=coaches.itemListElement[3].position;
   document.getElementById('a3').innerText=coaches.itemListElement[3].item[0].name;
   document.getElementById('a3').href=coaches.itemListElement[3].item[0].url;
   document.getElementById('m3').innerText=coaches.itemListElement[3].item[1].name;
