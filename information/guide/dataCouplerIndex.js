@@ -34,6 +34,30 @@ function dataCouple() {
   document.getElementById('a12').href=coaches.itemListElement[12].item.url;
   document.getElementById('a13').innerText=coaches.itemListElement[13].item.name;
   document.getElementById('a13').href=coaches.itemListElement[13].item.url;
+  document.getElementById('a13').innerText=coaches.itemListElement[14].item.name;
+  document.getElementById('a13').href=coaches.itemListElement[14].item.url;
+  document.getElementById('a13').innerText=coaches.itemListElement[15].item.name;
+  document.getElementById('a13').href=coaches.itemListElement[15].item.url;
+  document.getElementById('a13').innerText=coaches.itemListElement[16].item.name;
+  document.getElementById('a13').href=coaches.itemListElement[16].item.url;
+  document.getElementById('a13').innerText=coaches.itemListElement[17].item.name;
+  document.getElementById('a13').href=coaches.itemListElement[17].item.url;
+  document.getElementById('a13').innerText=coaches.itemListElement[18].item.name;
+  document.getElementById('a13').href=coaches.itemListElement[18].item.url;
+  document.getElementById('a13').innerText=coaches.itemListElement[19].item.name;
+  document.getElementById('a13').href=coaches.itemListElement[19].item.url;
+  document.getElementById('a13').innerText=coaches.itemListElement[20].item.name;
+  document.getElementById('a13').href=coaches.itemListElement[20].item.url;
+  document.getElementById('a13').innerText=coaches.itemListElement[21].item.name;
+  document.getElementById('a13').href=coaches.itemListElement[21].item.url;
+  document.getElementById('a13').innerText=coaches.itemListElement[22].item.name;
+  document.getElementById('a13').href=coaches.itemListElement[22].item.url;
+  document.getElementById('a13').innerText=coaches.itemListElement[23].item.name;
+  document.getElementById('a13').href=coaches.itemListElement[23].item.url;
+  document.getElementById('a13').innerText=coaches.itemListElement[24].item.name;
+  document.getElementById('a13').href=coaches.itemListElement[24].item.url;
+  document.getElementById('a13').innerText=coaches.itemListElement[25].item.name;
+  document.getElementById('a13').href=coaches.itemListElement[25].item.url;
 }
 
 dataCouple();
