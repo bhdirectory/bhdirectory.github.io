@@ -5,12 +5,11 @@
 function dataCouple() {
   var coaches = JSON.parse(document.querySelector('#coaches').innerText);
   document.title=coaches.mainEntityOfPage.headline;
-  document.getElementById('headerTitle').innerText=coaches.mainEntityOfPage.headline;
-  document.getElementById('companyName').innerText=coaches.provider.legalName;
-  document.getElementById('website').innerText=coaches.provider.url;
-  document.getElementById('website').href=coaches.provider.url;
+  document.getElementById('headerTitle').innerText=coaches.provider.legalName;
   document.getElementById('companyNumber').innerText=coaches.provider.identifier.value;
   document.getElementById('companyNumber').href=coaches.provider.identifier.url;
+  document.getElementById('website').innerText=coaches.provider.url;
+  document.getElementById('website').href=coaches.provider.url;
   document.getElementById('service').innerText=coaches.serviceType[0] + " | " + coaches.serviceType[1] + " | " + coaches.serviceType[2];
   document.getElementById('description').innerText=coaches.description;
   document.getElementById('contactName').innerText=coaches.provider.employee[0].name;
