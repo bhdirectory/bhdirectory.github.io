@@ -10,8 +10,10 @@ function dataCouple() {
   document.getElementById('companyNumber').href=coaches.provider.identifier.url;
   document.getElementById('website').innerText=coaches.provider.url;
   document.getElementById('website').href=coaches.provider.url;
-  document.getElementById('telephone').href="tel:" + coaches.provider.telephone;
-  document.getElementById('telephone').innerText=coaches.provider.telephone;
+  document.getElementById('telephone').href="tel:" + coaches.provider.telephone[0];
+  document.getElementById('telephone').innerText=coaches.provider.telephone[0];
+  document.getElementById('telephoneAlt').href="tel:" + coaches.provider.telephone[1];
+  document.getElementById('telephoneAlt').innerText=coaches.provider.telephone[1];
   document.getElementById('service').innerText=coaches.category;
   document.getElementById('termsOfService').innerText=coaches.termsOfService.name;
   document.getElementById('termsOfService').href=coaches.termsOfService.url;
