@@ -22,8 +22,6 @@ function dataCouple() {
   document.getElementById('jobTitle').innerText=coaches.provider.employee.jobTitle;
   document.getElementById('email').innerText=coaches.provider.employee.email;
   document.getElementById('email').href="mailto:" + coaches.provider.employee.email + "?subject=Birtley House%20|%20";
-  document.getElementById('telephone').href="tel:" + coaches.provider.telephone;
-  document.getElementById('telephone').innerText=coaches.provider.telephone;
   document.getElementById('permit').innerText=coaches.subjectOf.description;
   document.getElementById('permitReview').innerText=coaches.subjectOf.validUntil;
 
