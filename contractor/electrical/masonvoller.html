@@ -6,23 +6,21 @@
   {
     "@context": "http://schema.org",
     "@type": "Service",
-    "@id": "https://bhdirectory.github.io/contractor/electrical-services.html",
+    "@id": "https://bhdirectory.github.io/contractor/electrical/masonvoller.html/#this",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "breadcrumb": "Health & Safety > Approved Contractors > Mason Voller Ltd",
-          "author": {
-            "@type": "Organization",
-              "name": "DataTrain",
-              "url": "https://www.datatrain.co.uk/"
-          },
+        "@id": "https://bhdirectory.github.io/contractor/electrical/#masonvoller",
+          "breadcrumb": "Health & Safety > Approved Contractors > Electrical / Mason Voller Ltd",
+          "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
           "dateCreated": "2019-03-29",
-          "dateModified": "2019-03-29",
-          "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-          "headline": "Electrician"
+          "dateModified": "2019-06-14",
+          "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" }
       },
+      "category": "Electrical services",
       "description": "Mason Voller are a large firm of electricians providing a full range of electrical services.",
       "provider": {
         "@type": "Organization",
+        "@id": "http://www.masonvoller.co.uk/#organisation",
           "legalName": "Mason Voller Limited",
           "identifier": {
             "@type": "PropertyValue",
@@ -32,74 +30,90 @@
           },
           "url": "http://www.masonvoller.co.uk/",
           "email": "",
-          "telephone": "+44 1483 572763",
-          "employee": [ {
+          "telephone": [ "+44 1483 572763", "" ],
+          "employee": {
             "@type": "Person",
-              "name": "Caroline Heater",
-              "jobTitle": "Administrator",
-              "telephone": "",
-              "email": "caroline.heater@masonvoller.co.uk"
-          },
-          {
-            "@type": "Person",
-              "name": "Tony Voller",
-              "jobTitle": "Owner",
-              "telephone": "",
-              "email": "tony.voller@masonvoller.co.uk"
-          } ]
+            "name": "Tony Voller",
+            "jobTitle": "Owner",
+            "email": "tony.voller@masonvoller.co.uk"
+            }
       },
-      "category": "Facilities > Electrical services",
-      "serviceType": [ "", "Contractor", "Business critical service" ],
-      "termsOfService": { "name": "hourly rate", "url": "" }
+      "termsOfService": {
+        "@type": "Thing",
+        "@id": "https://bhdirectory.github.io/contractor/electrical/masonvoller.html/#contract",
+              "name": "No contract",
+              "validFrom": "n/a",
+              "validUntil": "n/a",
+              "url": ""
+      },
+      "subjectOf": {
+        "@type": "Permit",
+        "@id": "https://bhdirectory.github.io/contractor/electrical/masonvoller.html/#approved-contractor",
+          "name": "Approved Contractor",
+          "description": "Pending",
+          "validFrom": "",
+          "validUntil": "overdue",
+          "url": "https://bhdirectory.github.io/contractor/qa/"
+      }
   }
   </script>
 
-  </head>
-  <body>
-    <header>
-      <script src="/header.js"></script>
+</head>
+<body>
+  <header>
+    <script src="/header.js"></script>
 
-      <h3 id="headerTitle"></h3>
-    </header>
+    <h3 id="headerTitle"></h3>
+  </header>
 
-    <table>
-      <tr>
-        <th>ContractorID</th>
-        <td><a href="#" id="companyNumber"></a></td>
-      </tr>
-      <tr>
-        <th>Company Name</th>
-        <td><h4 id="companyName"></h4><br /><a href="#" id="website"></a><br /><a href="#" id="telephone"></a></td>
-      </tr>
-      <tr>
-        <th>Service Type(s)</th>
-        <td id="service"></td>
-      </tr>
-      <tr>
-        <th>Service Description</th>
-        <td id="description"></td>
-      </tr>
-      <tr>
-        <th>Primary Contact</th>
-        <td><span id="contactName"></span><br /><i id="jobTitle"></i><br /><a href="#" id="email"></a><br /><a href="#" id="mobile"></a></td>
-      </tr>
-      <tr>
-        <th>Alternative Contact</th>
-        <td><span id="contactNameAlt"></span><br /><i id="jobTitleAlt"></i><br /><a href="#" id="emailAlt"></a><br /><a href="#" id="mobileAlt"></a></td>
-      </tr>
-      <tr>
-        <th>Contract Information</th>
-        <td><a href="#" id="termsOfService"></a></td>
-      </tr>
-      <tr>
-        <th>Notes</th>
-        <td id="note"></td>
-      </tr>
-    </table>
+  <table>
+    <tr>
+      <th>ContractorID</th>
+      <td><a href="#" id="companyNumber"></a></td>
+    </tr>
+    <tr>
+      <th>Service Type</th>
+      <td id="service"></td>
+    </tr>
+    <tr>
+      <th>Service Description</th>
+      <td id="description"></td>
+    </tr>
+    <tr>
+      <th>Website</th>
+      <td><a href="#" id="website"></a></td>
+    </tr>
+    <tr>
+      <th>Telephone</th>
+      <td><a href="#" id="telephone"></a></td>
+    </tr>
+    <tr>
+      <th>Emergency Contact</th>
+      <td><a href="#" id="telephoneAlt"></a></td>
+    </tr>
+    <tr>
+      <th>Primary Contact</th>
+      <td><span id="contactName"></span><br /><i id="jobTitle"></i><br /><a href="#" id="email"></a></td>
+    </tr>
+    <tr>
+      <th>Contract Information</th>
+      <td><a href="#" id="termsOfService"></a></td>
+    </tr>
+    <tr>
+      <th>Approved Contractor Status<br /><span class="subheading"><a href="https://birtleyhouse.formstack.com/forms/contractor_registration_form ">Approved Contractor registration form</a></span></th>
+      <td><span id="permit"></span><br /><strong>Review Date</strong>: <i id="permitReview"></i></td>
+    </tr>
+    <tr>
+      <th>Notes</th>
+      <td id="note"></td>
+    </tr>
+  </table>
 
+  <div id="divCentre">
+    <a class="linkButton" href="../qa/">QUALITY ASSURANCE RECORDS</a>
+  </div>
 
-      <script src="records.js"></script>
-      <script src="/footer.js"></script>
-      <script src="dataCoupler.js"></script>
-  </body>
-  </html>
+    <script src="/footer.js"></script>
+    <script src="../dataCoupler.js"></script>
+</body>
+</html>
