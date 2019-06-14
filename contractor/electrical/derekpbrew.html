@@ -6,23 +6,22 @@
   {
     "@context": "http://schema.org",
     "@type": "Service",
-    "@id": "https://bhdirectory.github.io/contractor/periodic-inspection.html",
+    "@id": "https://bhdirectory.github.io/contractor/electrical/derekpbrew.html/#this",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "breadcrumb": "Health & Safety > Approved Contractors > Derek P Brew",
-          "author": {
-            "@type": "Organization",
-              "name": "DataTrain",
-              "url": "https://www.datatrain.co.uk/"
-          },
+        "@id": "https://bhdirectory.github.io/contractor/electrical/#derekpbrew",
+          "breadcrumb": "Health & Safety > Approved Contractors > Electrical / Derek P Brew",
+          "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
           "dateCreated": "2019-03-29",
-          "dateModified": "2019-03-29",
-          "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-          "headline": "Periodic Electrical Inspection"
+          "dateModified": "2019-06-14",
+          "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" }
       },
-      "description": "This electrical service provides a rolling programme of testing and inspection of the fixed wiring of the premises.  In addition, Derek works as an electrician.  Derek is a sole trader who is not VAT registered.",
+      "category": "Electrical services",
+      "description": "Derek provides a rolling programme of testing and inspection of the fixed wiring of the premises.  In addition, Derek works as an electrician.  Derek is a sole trader who is not VAT registered",
       "provider": {
         "@type": "Organization",
+        "@id": "derekpbrew/#organisation",
+          "logo": "",
           "legalName": "Derek P Brew",
           "identifier": {
             "@type": "PropertyValue",
@@ -32,74 +31,91 @@
           },
           "url": "",
           "email": "",
-          "telephone": "+44 1420 479292",
-          "employee": [ {
+          "telephone": [ "+44 1420 479292", "+44 7963 482989" ],
+          "employee": {
             "@type": "Person",
               "name": "Derek Brew",
               "jobTitle": "Owner",
               "telephone": "+44 7963 482989",
               "email": "derekpbrew@hotmail.com"
-          },
-          {
-            "@type": "Person",
-              "name": "",
-              "jobTitle": "",
-              "telephone": "",
-              "email": ""
-          } ]
+            }
       },
-      "category": "Facilities > Electrical Services & Periodic Inspection",
-      "serviceType": [ "", "Contractor", "Business critical service" ],
-      "termsOfService": { "name": "daily rate", "url": "" }
+      "termsOfService": {
+        "@type": "Thing",
+        "@id": "https://bhdirectory.github.io/contractor/electrical/derekpbrew.html/#contract",
+              "name": "No contract",
+              "validFrom": "n/a",
+              "validUntil": "n/a",
+              "url": ""
+      },
+      "subjectOf": {
+        "@type": "Permit",
+        "@id": "https://bhdirectory.github.io/contractor/electrical/derekpbrew.html/#approved-contractor",
+          "name": "Approved Contractor",
+          "description": "Pending",
+          "validFrom": "",
+          "validUntil": "overdue",
+          "url": "https://bhdirectory.github.io/contractor/qa/"
+      }
   }
   </script>
 
-  </head>
-  <body>
-    <header>
-      <script src="/header.js"></script>
+</head>
+<body>
+  <header>
+    <script src="/header.js"></script>
 
-      <h3 id="headerTitle"></h3>
-    </header>
+    <h3 id="headerTitle"></h3>
+  </header>
 
-    <table>
-      <tr>
-        <th>ContractorID</th>
-        <td><a href="#" id="companyNumber"></a></td>
-      </tr>
-      <tr>
-        <th>Company Name</th>
-        <td><h4 id="companyName"></h4><br /><a href="#" id="website"></a><br /><a href="#" id="telephone"></a><br /></td>
-      </tr>
-      <tr>
-        <th>Service Type(s)</th>
-        <td id="service"></td>
-      </tr>
-      <tr>
-        <th>Service Description</th>
-        <td id="description"></td>
-      </tr>
-      <tr>
-        <th>Primary Contact</th>
-        <td><span id="contactName"></span><br /><i id="jobTitle"></i><br /><a href="#" id="email"></a><br /><a href="#" id="mobile"></a></td>
-      </tr>
-      <tr>
-        <th>Alternative Contact</th>
-        <td><span id="contactNameAlt"></span><br /><i id="jobTitleAlt"></i><br /><a href="#" id="emailAlt"></a><br /><a href="#" id="mobileAlt"></a></td>
-      </tr>
-      <tr>
-        <th>Contract Information</th>
-        <td><a href="#" id="termsOfService"></a></td>
-      </tr>
-      <tr>
-        <th>Notes</th>
-        <td id="note"></td>
-      </tr>
-    </table>
+  <table>
+    <tr>
+      <th>ContractorID<br /><span class="subheading">Companies House Registration Number</span></th>
+      <td><a href="#" id="companyNumber"></a></td>
+    </tr>
+    <tr>
+      <th>Service Type</th>
+      <td id="service"></td>
+    </tr>
+    <tr>
+      <th>Service Description</th>
+      <td id="description"></td>
+    </tr>
+    <tr>
+      <th>Website</th>
+      <td><a href="#" id="website"></a></td>
+    </tr>
+    <tr>
+      <th>Telephone</th>
+      <td><a href="#" id="telephone"></a></td>
+    </tr>
+    <tr>
+      <th>Emergency Contact</th>
+      <td><a href="#" id="telephoneAlt"></a></td>
+    </tr>
+    <tr>
+      <th>Primary Contact</th>
+      <td><span id="contactName"></span><br /><i id="jobTitle"></i><br /><a href="#" id="email"></a></td>
+    </tr>
+    <tr>
+      <th>Contract Information</th>
+      <td><a href="#" id="termsOfService"></a></td>
+    </tr>
+    <tr>
+      <th>Approved Contractor Status<br /><span class="subheading"><a href="https://birtleyhouse.formstack.com/forms/contractor_registration_form ">Approved Contractor registration form</a></span></th>
+      <td><span id="permit"></span><br /><strong>Review Date</strong>: <i id="permitReview"></i></td>
+    </tr>
+    <tr>
+      <th>Notes</th>
+      <td id="note">LCE are also the contracted <a href="../fuel/lcenergy.html">woodfuel supplier</a><br />Engineer <a href="mgrealis.html">Mike Grealis</a> can be contacted on </td>
+    </tr>
+  </table>
 
+  <div id="divCentre">
+    <a class="linkButton" href="../qa/">QUALITY ASSURANCE RECORDS</a>
+  </div>
 
-      <script src="records.js"></script>
-      <script src="/footer.js"></script>
-      <script src="dataCoupler.js"></script>
-  </body>
-  </html>
+    <script src="/footer.js"></script>
+    <script src="../dataCoupler.js"></script>
+</body>
+</html>
