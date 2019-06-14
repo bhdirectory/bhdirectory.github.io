@@ -6,16 +6,17 @@
   {
     "@context": "http://schema.org",
     "@type": "Service",
-    "@id": "https://bhdirectory.github.io/supplier/fuel/lcenergy.html/#this",
+    "@id": "https://bhdirectory.github.io/contractor/fuel/lcenergy.html/#this",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://bhdirectory.github.io/supplier/fuel/#lcenergy",
-          "breadcrumb": "Health & Safety > Approved Contractors > Plant & Equipment > LC Energy Ltd",
+        "@id": "https://bhdirectory.github.io/contractor/fuel/#lcenergy",
+          "breadcrumb": "Health & Safety > Approved Contractors > Fuel > LC Energy Ltd",
           "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
           "dateCreated": "2019-03-29",
-          "dateModified": "2019-06-12",
+          "dateModified": "2019-06-14",
           "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" }
       },
+      "category": "Woodfuel supply",
       "description": "LC Energy supply certified woodfuel for our biomass boiler.  This is business critical.",
       "provider": {
         "@type": "Organization",
@@ -30,31 +31,31 @@
           },
           "url": "https://www.lcenergy.co.uk/",
           "email": "",
-          "telephone": "+44 8448 751 320",
-          "employee": [ {
+          "telephone": [ "+44 8448 751 320", "" ],
+          "employee": {
             "@type": "Person",
-              "name": "Lucy Clarke",
-              "jobTitle": "Operations Director",
-              "telephone": "",
-              "email": "l.clark@lcenergy.co.uk"
-          },
-          {
-            "@type": "Person",
-              "name": "Mark Lebus",
-              "jobTitle": "Owner",
-              "telephone": "",
-              "email": "m.lebus@lcenergy.co.uk"
-          } ]
+            "name": "Lucy Clark",
+            "jobTitle": "Operations Director",
+            "email": "l.clark@lcenergy.co.uk"
+          }
       },
-      "category": "Woodfuel supply",
       "termsOfService": {
         "@type": "Thing",
-        "@id": "https://bhdirectory.github.io/supplier/fuel/lcenergy.html/#contract",
+        "@id": "https://bhdirectory.github.io/contractor/fuel/lcenergy.html/#contract",
               "name": "Woodchip Fuel Supply Contract",
               "validFrom": "2018-07-01",
               "validUntil": "2021-07-01",
-              "url": "https://bhdirectory.github.io/supplier/fuel/lcenergy.pdf"
-            }
+              "url": "https://bhdirectory.github.io/contractor/fuel/lcenergy.pdf"
+      },
+      "subjectOf": {
+        "@type": "Permit",
+        "@id": "https://bhdirectory.github.io/contractor/fuel/lcenergy.html/#approved-contractor",
+          "name": "Approved Contractor",
+          "description": "Pending",
+          "validFrom": "",
+          "validUntil": "overdue",
+          "url": "https://bhdirectory.github.io/contractor/qa/"
+      }
   }
   </script>
 
@@ -72,7 +73,7 @@
       <td><a href="#" id="companyNumber"></a></td>
     </tr>
     <tr>
-      <th>Service Type(s)</th>
+      <th>Service Type</th>
       <td id="service"></td>
     </tr>
     <tr>
@@ -84,25 +85,35 @@
       <td><a href="#" id="website"></a></td>
     </tr>
     <tr>
-      <th>Primary Contact</th>
-      <td><span id="contactName"></span><br /><i id="jobTitle"></i><br /><a href="#" id="email"></a><br /><a href="#" id="mobile"></a></td>
+      <th>Telephone</th>
+      <td><a href="#" id="telephone"></a></td>
     </tr>
     <tr>
-      <th>Alternative Contact</th>
-      <td><span id="contactNameAlt"></span><br /><i id="jobTitleAlt"></i><br /><a href="#" id="emailAlt"></a><br /><a href="#" id="mobileAlt"></a></td>
+      <th>Emergency Contact</th>
+      <td><a href="#" id="telephoneAlt"></a></td>
+    </tr>
+    <tr>
+      <th>Primary Contact</th>
+      <td><span id="contactName"></span><br /><i id="jobTitle"></i><br /><a href="#" id="email"></a></td>
     </tr>
     <tr>
       <th>Contract Information</th>
       <td><a href="#" id="termsOfService"></a></td>
     </tr>
     <tr>
+      <th>Approved Contractor Status<br /><span class="subheading"><a href="https://birtleyhouse.formstack.com/forms/contractor_registration_form ">Approved Contractor registration form</a></span></th>
+      <td><span id="permit"></span><br /><strong>Review Date</strong>: <i id="permitReview"></i></td>
+    </tr>
+    <tr>
       <th>Notes</th>
-      <td id="note"></td>
+      <td id="note">LCE are also the contracted <a href="../fuel/lcenergy.html">woodfuel supplier</a><br />Engineer <a href="mgrealis.html">Mike Grealis</a> can be contacted on </td>
     </tr>
   </table>
 
+  <div id="divCentre">
+    <a class="linkButton" href="../qa/">QUALITY ASSURANCE RECORDS</a>
+  </div>
 
-    <script src="records.js"></script>
     <script src="/footer.js"></script>
     <script src="../dataCoupler.js"></script>
 </body>
