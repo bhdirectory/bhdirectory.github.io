@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+  <script src="/head.js"></script>
+  <title></title>
+  <script type="application/ld+json" id="coaches">
+  {
+    "@context": "http://schema.org",
+    "@type": "Service",
+    "@id": "https://bhdirectory.github.io/contractor/waste/klg.html#service",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://bhdirectory.github.io/contractor/waste/klg.html#webpage",
+          "breadcrumb": "Health & Safety > Approved Contractors > Waste > KLG Services",
+          "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
+          "dateCreated": "2019-03-29",
+          "dateModified": "2019-06-16",
+          "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" }
+      },
+      "category": "Waste water management",
+      "description": "KLG empty the liquid waste settlement tanks on a monthly basis.  The contract includes provision for the main tank and those at The Lodge and Birtley Brook",
+      "provider": {
+        "@type": "Organization",
+        "@id": "http://www.klg-services.net/#organisation",
+          "logo": "http://www.klg-services.net/wp-content/uploads/2017/02/logo-tab.png",
+          "legalName": "KLG Services Limited",
+          "identifier": {
+            "@type": "PropertyValue",
+              "propertyID": "Company Number",
+              "value": "02753800",
+              "url": "https://beta.companieshouse.gov.uk/company/02753800"
+          },
+          "url": "http://www.klg-services.net/",
+          "email": "service@klg-services.co.uk",
+          "telephone": [ "+44 1252 717550", "" ],
+          "employee": {
+            "@type": "Person",
+            "@id": "http://www.klg-services.net/#kengreen",
+              "name": "Ken Green",
+              "jobTitle": "Owner",
+              "email": "klgqs@aol.com"
+          }
+      },
+      "termsOfService": {
+        "@type": "Thing",
+        "@id": "https://bhdirectory.github.io/contractor/waste/klg.pdf#contract",
+              "name": "Annual Service Agreement",
+              "validFrom": "",
+              "validUntil": "",
+              "url": ""
+      },
+      "subjectOf": {
+        "@type": "Permit",
+        "@id": "https://bhdirectory.github.io/contractor/qa/klg.pdf#approved-contractor-permit",
+          "description": "Pending",
+          "validFrom": "",
+          "validUntil": "overdue",
+          "url": "https://bhdirectory.github.io/contractor/qa/"
+      }
+  }
+  </script>
+
+</head>
+<body>
+  <header>
+    <script src="/header.js"></script>
+
+    <h3 id="headerTitle"></h3>
+  </header>
+
+  <table>
+    <tr>
+      <th>ContractorID</th>
+      <td><a href="#" id="companyNumber"></a></td>
+    </tr>
+    <tr>
+      <th>Service Type</th>
+      <td id="service"></td>
+    </tr>
+    <tr>
+      <th>Service Description</th>
+      <td id="description"></td>
+    </tr>
+    <tr>
+      <th>Website</th>
+      <td><a href="#" id="website"></a></td>
+    </tr>
+    <tr>
+      <th>Telephone</th>
+      <td><a href="#" id="telephone"></a></td>
+    </tr>
+    <tr>
+      <th>Emergency Contact</th>
+      <td><a href="#" id="telephoneAlt"></a></td>
+    </tr>
+    <tr>
+      <th>Primary Contact</th>
+      <td><span id="contactName"></span><br /><i id="jobTitle"></i><br /><a href="#" id="email"></a></td>
+    </tr>
+    <tr>
+      <th>Contract Information</th>
+      <td><a href="#" id="termsOfService"></a></td>
+    </tr>
+    <tr>
+      <th>Approved Contractor Status<br /><span class="subheading"><a href="https://birtleyhouse.formstack.com/forms/contractor_registration_form ">Approved Contractor registration form</a></span></th>
+      <td><span id="permit"></span><br /><strong>Review Date</strong>: <i id="permitReview"></i></td>
+    </tr>
+    <tr>
+      <th>Notes</th>
+      <td id="note"></td>
+    </tr>
+  </table>
+
+  <div id="divCentre">
+    <a class="linkButton" href="../qa/">QUALITY ASSURANCE RECORDS</a>
+  </div>
+
+    <script src="/footer.js"></script>
+    <script src="../dataCoupler.js"></script>
+</body>
+</html>
