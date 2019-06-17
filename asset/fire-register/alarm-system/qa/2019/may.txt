@@ -1,0 +1,123 @@
+From:	Tim Whalley
+Sent:	29 May 2019 17:14
+To:	Birtley House Maintenance
+Subject:	RE: Alarm Test FAIL 9232
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+The unit has been reset ok.
+
+This will be referred to EFL for inspection.
+
+ 
+
+TW
+
+ 
+
+From: Birtley House Maintenance <Maintenance@birtleyhouse.co.uk> 
+Sent: 29 May 2019 16:20
+To: Birtley House Maintenance <Maintenance@birtleyhouse.co.uk>
+Subject: Alarm Test FAIL 9232
+
+ 
+
+Reason for failure:
+
+Can't turn off key don't work properly 
+
+From:	Birtley House Maintenance
+Sent:	29 May 2019 16:20
+To:	Birtley House Maintenance
+Subject:	Alarm Test FAIL 9232
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+Reason for failure:
+
+Can't turn off key don't work properly 
+From:	Birtley House Maintenance
+Sent:	29 May 2019 16:17
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9192
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required
+From:	Birtley House Maintenance
+Sent:	22 May 2019 16:11
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9176
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required
+From:	Birtley House Maintenance
+Sent:	22 May 2019 16:10
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9188
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required
+From:	Birtley House Maintenance
+Sent:	15 May 2019 16:18
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9173
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required
+From:	Birtley House Maintenance
+Sent:	15 May 2019 16:18
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9172
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required
+From:	Birtley House Maintenance
+Sent:	09 May 2019 16:51
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9164
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required
+From:	Birtley House Maintenance
+Sent:	09 May 2019 16:51
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9140
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required
+From:	Birtley House Maintenance
+Sent:	01 May 2019 16:18
+To:	Birtley House Maintenance
+Subject:	Alarm Test FAIL 9133
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+Reason for failure:
+
+Rm door 18 didn't shut during the fire alarm testing. 
+From:	Birtley House Maintenance
+Sent:	01 May 2019 16:17
+To:	Birtley House Maintenance
+Subject:	Alarm Test PASS 9116
+
+Follow Up Flag:	Follow up
+Flag Status:	Completed
+
+No action required
