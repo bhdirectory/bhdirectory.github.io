@@ -3,21 +3,64 @@
   <head>
     <script src="/head.js"></script>
     <title></title>
-    <script type="application/ld+json" id="coachThree">
+    <script type="application/ld+json" id="coaches">
     {
-       "@context": "http://schema.org",
-       "@type": "WebPage",
-       "@id": "https://bhdirectory.github.io/bed-register/index.html",
-         "breadcrumb": "Birtley House Directory > Approved Contractor & Third-party Service Provider Register",
-         "author": {
-           "@type": "Organization",
-             "name": "DataTrain",
-             "url": "https://www.datatrain.co.uk/"
-         },
-         "dateCreated": "2019-03-19",
-         "dateModified": "2019-03-19",
-         "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-         "headline": "Approved Contractor & Third-party Service Provider Register"
+      "@context": "http://schema.org",
+      "@type": "ItemList",
+      "@id": "https://bhdirectory.github.io/contractor/index.html#list",
+        "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https://bhdirectory.github.io/contractor/index.html#webpage",
+             "breadcrumb": "Birtley House Directory > Approved Contractors Register",
+             "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
+             "dateCreated": "2019-03-14",
+             "dateModified": "2019-06-18",
+             "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+             "headline": "Approved Contractors Register",
+             "hasPart": [
+               {
+                "@id": "https://bhdirectory.github.io/contractor/index#update-may",
+                  "about": "update",
+                  "datePublished": "2019-06-18",
+                  "text": ""
+              },
+              {
+               "@id": "https://bhdirectory.github.io/contractor/index#update-mar",
+                 "about": "update",
+                 "datePublished": "2019-03-06",
+                 "text": ""
+              }
+            ]
+        },
+        "numberOfItems": 3,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": "0",
+            "item": {
+              "@id": "https://bhdirectory.github.io/contractor/index.html#derekpbrew",
+              "name": "Derek P Brew | Electrician",
+              "url": "https://bhdirectory.github.io/contractor/electrical/derekpbrew.html"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": "1",
+            "item": {
+              "@id": "https://bhdirectory.github.io/contractor/index.html#lightscapes",
+              "name": "Lightscapes | Electrician",
+              "url": "https://bhdirectory.github.io/contractor/electrical/lightscapes.html"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": "2",
+            "item": {
+              "@id": "https://bhdirectory.github.io/contractor/index.html#masonvoller",
+              "name": "Mason Voller | Electrician",
+              "url": "https://bhdirectory.github.io/contractor/electrical/masonvoller.html"
+            }
+          } ]
     }
     </script>
   </head>
@@ -25,48 +68,29 @@
       <header>
         <script src="/header.js"></script>
         <h3 id="headerTitle"></h3>
-        <aside>
-          <p>Approved Contractor Scheme & due diligence of third-party Service Providers</p>
+          <aside>
+            <p>There are three passenger lifts.  These are serviced and maintained by a specialist third-party under a <a href="https://bhdirectory.github.io/contractor/plant/jacksonlifts.pdf">comprehensive contract</a> that allows for monthly inspection visits.  The lifts are subject to annual LOLER examinations from an independent engineer arranged as part of a comprehensive <a href="/asset/loler-register/qa/inspection-service.pdf">Engineering Insurance Policy</a>.  Emergency lowering instructions are located at each lift control panel.  The service provider should be called in the event of a breakdown or emergency situation.</p>
           <div id="divCentre">
             <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
           </div>
-        </aside>
+          </aside>
         <div>
-          <h4>Latest update:<br /><span class="subheading"><script src="update.js"></script></span></h4>
+          <h4>Latest updates:</h4>
+            <p class="subheading" id="up0"></p>
+            <p class="subheading" id="up1"></p>
         </div>
         <nav>
-
-
-
-          <h4>Embedded Third-party Service Provider Register</h4>
-          <ol>
-            <li><a href="">Massage Therapist</a></li>
-            <li><a href="">Physiotherapist</a></li>
-            <li><a href="">Counsellor</a></li>
-            <li><a href="">Chaplain</a></li>
-            <li><a href="">Hairdresser</a></li>
-            <li><a href="">Podiatrist</a></li>
-            <li><a href="">GP</a></li>
-            <li><a href="">GP</a></li>
-
-          </ol>
-          <h4>Approved Contractor Register</h4>
-          <ol>
-            <li><a href="pest-control.html">Pest Control</a></li>
-            <li><a href="electrician.html">Electrician</a></li>
-            <li><a href="portable-appliance-testing-service.html">Portable Appliance Testing Service</a></li>
-            <li><a href="plumber.html">Plumber</a></li>
-            <li><a href="periodic-inspection.html">Periodic Electrical Inspection</a></li>
-            <li><a href="electrical-services.html">Electricians</a></li>
-            <li><a href="drainage.html">Drainage Services</a></li>
-            <li><a href="biomass.html">Woodfuel Supply & Biomass Engineering Services</a></li>
-            <li><a href="drainage">Drainage Services</a></li>
-
-          </ol>
+          <h4>Lift Index</h4>
+          <table>
+            <caption><h4>Passenger Lift Register</h4></caption>
+              <tr><td id="p0"></td><td><a href="#" id="a0"></a></td></tr>
+              <tr><td id="p1"></td><td><a href="#" id="a1"></a></td></tr>
+              <tr><td id="p2"></td><td><a href="#" id="a2"></a></td></tr>
+          </table>
         </nav>
       </header>
 
       <script src="/footer.js"></script>
-      <script src="dataCoupler.js"></script>
+      <script src="dataCouplerIndex.js"></script>
   </body>
 </html>
