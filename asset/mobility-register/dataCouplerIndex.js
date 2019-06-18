@@ -185,6 +185,24 @@ function dataCouple() {
   document.getElementById('p58').innerText=coaches.itemListElement[58].position;
   document.getElementById('a58').innerText=coaches.itemListElement[58].item.name;
   document.getElementById('a58').href=coaches.itemListElement[58].item.url;
+  document.getElementById('p59').innerText=coaches.itemListElement[59].position;
+  document.getElementById('a59').innerText=coaches.itemListElement[59].item.name;
+  document.getElementById('a59').href=coaches.itemListElement[59].item.url;
+  document.getElementById('p60').innerText=coaches.itemListElement[60].position;
+  document.getElementById('a60').innerText=coaches.itemListElement[60].item.name;
+  document.getElementById('a60').href=coaches.itemListElement[60].item.url;
+  document.getElementById('p61').innerText=coaches.itemListElement[61].position;
+  document.getElementById('a61').innerText=coaches.itemListElement[61].item.name;
+  document.getElementById('a61').href=coaches.itemListElement[61].item.url;
+  document.getElementById('p62').innerText=coaches.itemListElement[62].position;
+  document.getElementById('a62').innerText=coaches.itemListElement[62].item.name;
+  document.getElementById('a62').href=coaches.itemListElement[62].item.url;
+  document.getElementById('p63').innerText=coaches.itemListElement[63].position;
+  document.getElementById('a63').innerText=coaches.itemListElement[63].item.name;
+  document.getElementById('a63').href=coaches.itemListElement[63].item.url;
+  document.getElementById('p64').innerText=coaches.itemListElement[64].position;
+  document.getElementById('a64').innerText=coaches.itemListElement[64].item.name;
+  document.getElementById('a64').href=coaches.itemListElement[64].item.url;
 }
 
 dataCouple();
