@@ -17,8 +17,8 @@ function dataCouple() {
   document.getElementById('location').innerText=coaches.location.name;
   document.getElementById('location').href=coaches.location.url;
   document.getElementById('condition').innerText=coaches.itemCondition;
-  document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Wheelchair%20Check%20PASS%20" + coaches.identifier + "&body=No%20action%20required";
-  document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Wheelchair%20Check%20FAIL%20" + coaches.identifier + "&body=Reason%20for%20failure:&20";
+  document.getElementById('mailtoPass').href="mailto:maintenance@birtleyhouse.co.uk?subject=Mobility%20Equipment%20Check%20PASS%20" + coaches.identifier + "&body=No%20action%20required";
+  document.getElementById('mailtoFail').href="mailto:maintenance@birtleyhouse.co.uk?subject=Mobility%20Equipment%20Check%20FAIL%20" + coaches.identifier + "&body=Reason%20for%20failure:&20";
 
 }
 
