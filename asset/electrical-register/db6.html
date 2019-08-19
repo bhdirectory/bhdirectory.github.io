@@ -1,106 +1,253 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Consumer Unit (DB6)</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Cabin" rel="stylesheet">
-    <link rel="stylesheet" href="https://bhdirectory.github.io/styleMain.css">
-    <script type="application/ld+json">
+<head>
+  <script src="/head.js"></script>
+  <title></title>
+  <script type="application/ld+json" id="coaches">
     {
       "@context": "http://schema.org",
-      "@type": "IndividualProduct",
-        "name": "Consumer Unit (DB6)",
-        "category": {
-          "name": "Consumer Unit",
-          "url": "https://www.wikidata.org/wiki/Q2912534"
-        },
-        "relatedTo": {
-          "name": "Distribution Board 3",
-          "alternateName": "DB3",
-          "url": "https://bhdirectory.github.io/asset/electrical-register/db3.html"
-        },
-        "description": "This 14-way consumer unit distributes power to circuits around the Central Office and Drawing Room.  It is located in a false ceiling accessed via a drop-down ceiling panel in the corridor outside the Central Office",
-        "productID": "DB6",
-        "manufacturer": {
-          "name": "Honeywell",
-          "url": "https://www.honeywell.com/"
-        },
-        "model": {
-          "name": "MK Consumer Unit",
-          "url": "https://www.mkelectric.com/en-gb/Products/CP/sentry/Consumerunits/Pages/default.aspx"
-        },
-        "image": "images/db6.jpg",
-        "itemCondition": {
-          "@type": "QualitativeValue",
-          "equals": "Unsatisfactory",
-          "description": "An unsatisfactory assessment indicates that dangerous (code C1) and/or potentially dangerous (code C2) conditions have been identified"
-        },
-        "location": {
-          "name": "Housekeeping Corridor",
-          "url": "https://bhdirectory.github.io/location/0069.html"
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-     "@context": "http://schema.org",
-     "@type": "CreativeWork",
-     "@id": "https://bhdirectory.github.io/asset/electrical-register/db6.html",
-       "author": {
-         "@type": "Organization",
-           "name": "DataTrain",
-           "url": "https://www.datatrain.co.uk/"
-       },
-       "dateCreated": "2018-11-30",
-       "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-       "headline": "Consumer Unit (DB6)"
+        "@type": "Product",
+        "@id": "https://bhdirectory.github.io/asset/electrical-register/#db6",
+          "identifier": "DB6",
+          "category": "Consumer Unit",
+          "description": "This 14-way consumer unit distributes power to circuits around the Central Office and Drawing Room.  It is located in a false ceiling accessed via a drop-down ceiling panel in the corridor outside the Central Office",
+          "location": {
+            "@type": "Text",
+            "@id": "https://bhdirectory.github.io/location/#orangery-service-corridor-ceiling-void",
+              "name": "Orangery Service Corridor (ceiling void)",
+              "url": "https://bhdirectory.github.io/location/01.html"
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://bhdirectory.github.io/asset/electrical-register/db6.html",
+              "author": {
+                "@type": "Organization",
+                "@id": "https://www.datatrain.co.uk/#organisation",
+                  "name": "DataTrain",
+                  "url": "https://www.datatrain.co.uk/"
+              },
+              "dateCreated": "2018-12-04",
+              "dateModified": "2019-08-19",
+              "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+              "headline": "Consumer Unit 6 | House"
+          },
+          "subjectOf": {
+            "@type": "Permit",
+            "@id": "https://bhdirectory.github.io/asset/electrical-register/qa/periodic-inspection/db6.pdf",
+              "name": "Electrical Installation Condition Report (EICR) DB6",
+              "validFrom": "2018-11-21",
+              "validUntil": "2023-11-21",
+              "url": "https://bhdirectory.github.io/asset/electrical-register/qa/periodic-inspection/db6.pdf"
+          },
+          "isRelatedTo": [
+            {
+            "@type": "ItemList",
+            "@id": "#feed",
+              "numberOfItems": "1",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": "0",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/#db3",
+                    "name": "DB3",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/db3.html"
+                  }
+                }
+              ]
+            },
+            {
+            "@type": "ItemList",
+            "@id": "#sub-main-distribution",
+              "numberOfItems": "1",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": "0",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/#db6a",
+                    "name": "DB6a",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/db6a.html"
+                  }
+                }
+              ]
+            },
+            {
+            "@type": "ItemList",
+            "@id": "#circuit-list",
+              "numberOfItems": "16",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": "0",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct01",
+                    "name": "CCT01: Power circuit supplying a redundant door bell",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct01.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "1",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct02",
+                    "name": "CCT02: Lighting circuit supplying the Admin Office and Reception Hall",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct02.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "2",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct03",
+                    "name": "CCT03: Lighting circuit supplying Central Admin Office & Orangery Service Corridor",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct03.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "3",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct04",
+                    "name": "CCT04: Lighting circuit supplying Driver's Apartment & Main Hall (G/F)",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct04.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "4",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct05",
+                    "name": "CCT05: Lighting circuit supplying the Drawing Room",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct05.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "5",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct06",
+                    "name": "CCT06: Lighting circuit supplying the Orangery Service Corridor",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct06.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "6",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct07",
+                    "name": "CCT07: Lighting circuit supplying the Drawing Room",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct07.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "7",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct08",
+                    "name": "CCT08: Sub-main feed to DB6a",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct08.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "8",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct09",
+                    "name": "CCT09: Power circuit supplying Orangery Service Corridor",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct09.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "9",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct10",
+                    "name": "CCT10: Unidentified circuit",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct10.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "10",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct11",
+                    "name": "CCT11: Power circuit supplying Central Admin Office",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct11.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "11",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct12",
+                    "name": "CCT12: Power circuit supplying Central Admin Office",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct12.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "12",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct13",
+                    "name": "CCT13: Spare",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct13.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "13",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/#cct14",
+                    "name": "CCT14: Spare",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db6/cct14.html"
+                  }
+                }
+              ]
+            }
+          ]
     }
     </script>
   </head>
     <body>
-
       <header>
-        <img src="https://bhdirectory.github.io/birtleyhouse.png" width="100" height="85"/>
-
-        <h3>Consumer Unit (DB6)</h3>
-        <aside>
-          <p>This 14-way consumer unit distributes power to circuits around the Central Office and Drawing Room.  It is located in a false ceiling accessed via a drop-down ceiling panel in the corridor outside the Central Office</p>
-
-        </aside>
+        <script src="/header.js"></script>
+          <h3 id="headerTitle"></h3>
       </header>
 
-      <section>
-        <p>
         <table>
           <tr>
+            <th>Asset ID</th>
+            <td id="assetId"></td>
+          </tr>
+          <tr>
+            <th>Asset Type</th>
+            <td id="category"></td>
+          </tr>
+          <tr>
+            <th>Description</th>
+            <td id="description"></td>
+          </tr>
+          <tr>
             <th>Location</th>
-            <td>House Ground Floor | Corridor outside Central Office</td>
-          </tr>
-          <tr>
-            <th>Board Type</th>
-            <td>Consumer Unit | 14-way | 12 Non-RCD Circuits</td>
-          </tr>
-          <tr>
-            <th>Installation Date</th>
-            <td>Unknown</td>
+            <td><a href="#" id="location"></a></td>
           </tr>
           <tr>
             <th>Last Periodic Inspection</th>
-            <td><a href="qa/periodic-inspection/db6.pdf">November 2018</a></td>
+            <td><a href="#" id="inspection"></a></td>
           </tr>
           <tr>
             <th>Next Inspection Due</th>
-            <td>November 2023</td>
+            <td id="inspectionDue"></td>
           </tr>
           <tr>
             <th>Feed</th>
-            <td><a href="db3.html">DB3</a></td>
+            <td><a href="#" id="feed"></a></td>
           </tr>
           <tr>
             <th>Sub-main Distribution</th>
             <td>
               <ol>
-                <li><a href="db6a.html">DB6a</a></li>
+                <li><a href="#" id="d0"></a></li>
               </ol>
             </td>
           </tr>
@@ -108,48 +255,39 @@
             <th>Circuit Board List</th>
             <td>
               <ol>
-                <li>01 - <a href="circuit/cct601.html">Door Bell</a></li>
-                <li>02 - <a href="circuit/cct602.html">Lighting Admin Office & Reception Hall</a></li>
-                <li>03 - <a href="circuit/cct603.html">Lighting Central Office & Corridor</a></li>
-                <li>04 - <a href="circuit/cct604.html">Lighting Main Hall G/F & Driver's Apartment</a></li>
-                <li>05 - <a href="circuit/cct605.html">Lighting Drawing Room (far)</a></li>
-                <li>06 - <a href="circuit/cct606.html">Lighting Orangery Corridor</a></li>
-                <li>07 - <a href="circuit/cct607.html">Lighting Drawing Room (near)</a></li>
+                <li><a href="#" id="c0"></a></li>
+                <li><a href="#" id="c1"></a></li>
+                <li><a href="#" id="c2"></a></li>
+                <li><a href="#" id="c3"></a></li>
+                <li><a href="#" id="c4"></a></li>
+                <li><a href="#" id="c5"></a></li>
+                <li><a href="#" id="c6"></a></li>
+                <li><a href="#" id="c7"></a></li>
+                <li><a href="#" id="c8"></a></li>
+                <li><a href="#" id="c9"></a></li>
               </ol>
               <ol>
-                <li>08 - <a href="circuit/cct608.html">Feed Consumer Unit DB6a</a></li>
-                <li>09 - <a href="circuit/cct609.html">Power Orangery Corridor</a></li>
-                <li>10 - <a href="circuit/cct610.html">Unidentifiedr</a></li>
-                <li>11 - <a href="circuit/cct611.html">Power Central Office (behind panelling)</a></li>
-                <li>12 - <a href="circuit/cct612.html">Power Central Office</a></li>
-                <li>13 - <a href="circuit/cct613.html">Spare</a></li>
-                <li>14 - <a href="circuit/cct614.html">Spare</a></li>
-              </ol>
-            </td>
-          </tr>
-          <tr>
-            <th>Outstanding Issues</th>
-            <td>
-              <ol>
-                <li>Circuit 4 - Hole above light switch outside Terrace Apartment allowing finger access (C2)</li>
-                <li>Circuit 6 - Rear of light switch in cupboard allowing finger access (C2)</li>
-                <li>Grommets not used in metal backboxes (C3)</li>
-                <li>Switched live conductors not marked with brown or red sleeving/tape (C3)</li>
-                <li>RCD protection limited to circuits 2 and 4 (C3)</li>
+                <li><a href="#" id="c10"></a></li>
+                <li><a href="#" id="c11"></a></li>
+                <li><a href="#" id="c12"></a></li>
+                <li><a href="#" id="c13"></a></li>
+                <li><a href="#" id="c14"></a></li>
+                <li><a href="#" id="c15"></a></li>
               </ol>
             </td>
           </tr>
           <tr>
             <th>Notes</th>
-            <td>
-              <p>This consumer unit protects critical server and telephone systems located in the Central Office.  Works should be strictly controlled.</p>
-            </td>
+            <td  id="notes">This consumer unit is at high-level and requires a ladder to access</td>
           </tr>
         </table>
-      </p>
-      </section>
+
+      <div id="divCentre">
+        <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
+      </div>
 
       <script src="/footer.js"></script>
-
-    </body>
-    </html>
+      <script src="dataCoupler.js"></script>
+      <script src="dataCouplerCircuitList.js"></script>
+  </body>
+</html>
