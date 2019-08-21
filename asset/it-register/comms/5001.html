@@ -14,15 +14,25 @@
           "dateCreated": "2019-08-21",
           "dateModified": "2019-08-21",
           "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-          "headline": "Housekeeping DECT | Extension 270"
+          "headline": "Spectralink 7202"
       },
       "manufacturer": { "@type": "Organization", "@id": "https://www.spectralink.com/#organisation", "name": "spectralink", "logo": "https://www.spectralink.com/sites/default/files/spectralink-logo-notag-latest-resize.png", "url": "https://www.spectralink.com/" },
       "model": { "@id": "https://www.spectralink.com/products/dect/handsets/#spectralink-7202", "name": "7202", "url": "https://www.spectralink.com/products/dect/handsets/spectralink-7202" },
       "serialNumber": "050030591036",
       "identifier": "5001",
       "itemCondition": "A",
-      "location": { "@id": "https://bhdirectory.github.io/location/#housekeeping-office", "name": "Housekeeping Office", "url": "https://bhdirectory.github.io/location/00.html" },
-      "purchaseDate": "2015"
+      "purchaseDate": "2015",
+      "isRelatedTo": {
+        "@type": "Thing",
+        "@id": "#splicecom-manager",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "Extension No.",
+            "value":  "270",
+            "description": "Housekeeping",
+            "url": ""
+          }
+      }
   }
   </script>
 
@@ -55,8 +65,12 @@
         <td id="condition"></td>
       </tr>
       <tr>
-        <th>Location</th>
-        <td><a href="#" id="location"></a></td>
+        <th>Department</th>
+        <td id="department"></td>
+      </tr>
+      <tr>
+        <th>Extension Number</th>
+        <td><a href="#" id="extension"></a></td>
       </tr>
       <tr>
         <th>Notes</th>

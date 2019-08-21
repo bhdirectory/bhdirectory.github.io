@@ -12,9 +12,10 @@ function dataCouple() {
   document.getElementById('model').innerText=coaches.model.name;
   document.getElementById('model').href=coaches.model.url;
   document.getElementById('sn').innerText=coaches.serialNumber;
-  document.getElementById('location').innerText=coaches.location.name;
-  document.getElementById('location').href=coaches.location.url;
   document.getElementById('condition').innerText=coaches.itemCondition;
+  document.getElementById('department').innerText=coaches.isRelatedTo.identifier.description;
+  document.getElementById('extension').innerText=coaches.isRelatedTo.identifier.value;
+  document.getElementById('extension').href=coaches.isRelatedTo.identifier.url;
 }
 
 dataCouple();
