@@ -1,1 +1,0 @@
-document.write("\<i\>16/03/2019\<\/i\> - The last two monthly nursecall log audits show no concerns and an average call response time of under 4 minutes.  No concerns have been raised by residents.  The purchase of a standalone Environmental Control System that could be deployed to any room if the need arose, is being considered at Board level.");
