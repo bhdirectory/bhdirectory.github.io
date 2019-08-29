@@ -1,87 +1,235 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Distribution Board (DB5)</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Cabin" rel="stylesheet">
-    <link rel="stylesheet" href="https://bhdirectory.github.io/styleMain.css">
-    <script type="application/ld+json">
+<head>
+  <script src="/head.js"></script>
+  <title></title>
+  <script type="application/ld+json" id="coaches">
     {
       "@context": "http://schema.org",
-      "@type": "IndividualProduct",
-        "name": "Distribution Board 3",
-        "category": {
-          "name": "Consumer Unit",
-          "url": "https://www.wikidata.org/wiki/Q2912534"
-        },
-        "description": "This is the board of boards and distributes the main incoming 3-phase supply around the property",
-        "productID": "DB3",
-        "image": "images/db3.jpg",
-        "isSimilarTo": "Distribution Boards",
-        "itemCondition": "Satisfactory",
-        "location": "Housekeeping Corridor"
+        "@type": "Product",
+        "@id": "https://bhdirectory.github.io/asset/electrical-register/#db5",
+          "identifier": "DB5",
+          "category": "Consumer Unit",
+          "description": "This 12-way distribution board supplies power to the gas boilers and immersion heaters and a sub-main feed to DB5a",
+          "location": {
+            "@type": "Text",
+            "@id": "https://bhdirectory.github.io/location/#main-plant-room",
+              "name": "Main Plant Room",
+              "url": "https://bhdirectory.github.io/location/0097.html"
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://bhdirectory.github.io/asset/electrical-register/db5.html",
+              "author": {
+                "@type": "Organization",
+                "@id": "https://www.datatrain.co.uk/#organisation",
+                  "name": "DataTrain",
+                  "url": "https://www.datatrain.co.uk/"
+              },
+              "dateCreated": "2019-08-28",
+              "dateModified": "2019-08-28",
+              "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+              "headline": "Consumer Unit DB5 | Main Plant Room"
+          },
+          "subjectOf": {
+            "@type": "Permit",
+            "@id": "https://bhdirectory.github.io/asset/electrical-register/qa/periodic-inspection/db5.pdf",
+              "name": "Electrical Installation Condition Report (EICR) DB5",
+              "validFrom": "2018-10-30",
+              "validUntil": "2023-10-30",
+              "url": "https://bhdirectory.github.io/asset/electrical-register/qa/periodic-inspection/db5.pdf"
+          },
+          "isRelatedTo": [
+            {
+            "@type": "ItemList",
+            "@id": "#feed",
+              "numberOfItems": "1",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": "0",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/#db3",
+                    "name": "DB3",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/db3.html"
+                  }
+                }
+              ]
+            },
+            {
+            "@type": "ItemList",
+            "@id": "#sub-main-distribution",
+              "numberOfItems": "1",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": "0",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/#db5a",
+                    "name": "DB5a",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/db5a.html"
+                  }
+                }
+              ]
+            },
+            {
+            "@type": "ItemList",
+            "@id": "#circuit-list",
+              "numberOfItems": "16",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": "0",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/#cct01",
+                    "name": "CCT01: Power circuit supplying Gas Boiler Controls",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/cct01.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "1",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/#cct02",
+                    "name": "CCT02: Power circuit supplying Gas Boiler Controls",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/cct02.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "2",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/#cct03",
+                    "name": "CCT03: Power circuit supplying Gas Boiler Controls",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/cct03.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "3",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/#cct04",
+                    "name": "CCT04: Spare",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/cct04.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "4",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/#cct05",
+                    "name": "CCT05: Spare",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/cct05.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "5",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/#cct06",
+                    "name": "CCT06: Spare",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/cct06.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "6",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/#cct07",
+                    "name": "CCT07: Sub-main distribution to DB5a",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/cct07.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "7",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/#cct08",
+                    "name": "CCT08: Power circuit supplying Immersion Heater No.1 (LHS)",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/cct08.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "8",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/#cct09",
+                    "name": "CCT09: Power circuit supplying Immersion Heater No.3 (RHS)",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/cct09.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "9",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/#cct10",
+                    "name": "CCT10: Power circuit supplying Immersion Heater No.2",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/cct10.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "10",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/#cct11",
+                    "name": "CCT11: Spare",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/cct11.html"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "11",
+                  "item": {
+                    "@id": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/#cct12",
+                    "name": "CCT12: Spare",
+                    "url": "https://bhdirectory.github.io/asset/electrical-register/circuit/db5/cct12.html"
+                  }
+                }
+              ]
+            }
+          ]
     }
-  </script>
-  <script type="application/ld+json">
-  {
-     "@context": "http://schema.org",
-     "@type": "CreativeWork",
-     "@id": "https://bhdirectory.github.io/asset/electrical-register/db3.html",
-       "author": {
-         "@type": "Organization",
-           "name": "DataTrain",
-           "url": "https://www.datatrain.co.uk/"
-       },
-       "dateCreated": "2018-11-30",
-       "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-       "headline": "Main 3-Phase Distribution Board (DB3)"
-   }
-  </script>
+    </script>
   </head>
     <body>
-
       <header>
-        <img src="https://bhdirectory.github.io/birtleyhouse.png" width="100" height="85"/>
-
-        <h3>Distribution Board (DB5)</h3>
-        <aside>
-          <p>This 3-phase board distributes power directly to the gas boilers, to three immersion heaters and to an adjacent consumer unit providing power to the boiler plant and controls in the Main Plant Room</p>
-
-        </aside>
+        <script src="/header.js"></script>
+          <h3 id="headerTitle"></h3>
       </header>
 
-      <section>
-        <p>
         <table>
           <tr>
+            <th>Asset ID</th>
+            <td id="assetId"></td>
+          </tr>
+          <tr>
+            <th>Asset Type</th>
+            <td id="category"></td>
+          </tr>
+          <tr>
+            <th>Description</th>
+            <td id="description"></td>
+          </tr>
+          <tr>
             <th>Location</th>
-            <td>Main Plant Room</td>
-          </tr>
-          <tr>
-            <th>Board Type</th>
-            <td>3-phase Distribution Board</td>
-          </tr>
-          <tr>
-            <th>Installation Date</th>
-            <td>Unknown</td>
+            <td><a href="#" id="location"></a></td>
           </tr>
           <tr>
             <th>Last Periodic Inspection</th>
-            <td><a href="qa/periodic-inspection/db5.pdf">October 2018</a></td>
+            <td><a href="#" id="inspection"></a></td>
           </tr>
           <tr>
             <th>Next Inspection Due</th>
-            <td>October 2023</td>
+            <td id="inspectionDue"></td>
           </tr>
           <tr>
             <th>Feed</th>
-            <td><a href="db3.html">DB3</a></td>
+            <td><a href="#" id="feed"></a></td>
           </tr>
           <tr>
             <th>Sub-main Distribution</th>
             <td>
               <ol>
-                <li><a href="db5a.html">DB5a</a></li>
+                <li><a href="#" id="d0"></a></li>
               </ol>
             </td>
           </tr>
@@ -89,27 +237,33 @@
             <th>Circuit Board List</th>
             <td>
               <ol>
-                <li>01 - <a href="circuit/cct501.html"></a></li>
-                <li>02 - <a href="circuit/cct502.html"></a></li>
-                <li>03 - <a href="circuit/cct503.html"></a></li>
-                <li>04 - <a href="circuit/cct504.html"></a></li>
-                <li>05 - <a href="circuit/cct505.html"></a></li>
-                <li>06 - <a href="circuit/cct506.html"></a></li>
-                <li>07 - <a href="circuit/cct507.html"></a></li>
-                <li>08 - <a href="circuit/cct508.html"></a></li>
-                <li>09 - <a href="circuit/cct509.html"></a></li>
-                <li>10 - <a href="circuit/cct510.html"></a></li>
+                <li><a href="#" id="c0"></a></li>
+                <li><a href="#" id="c1"></a></li>
+                <li><a href="#" id="c2"></a></li>
+                <li><a href="#" id="c3"></a></li>
+                <li><a href="#" id="c4"></a></li>
+                <li><a href="#" id="c5"></a></li>
+                <li><a href="#" id="c6"></a></li>
+                <li><a href="#" id="c7"></a></li>
+                <li><a href="#" id="c8"></a></li>
+                <li><a href="#" id="c9"></a></li>
+                <li><a href="#" id="c10"></a></li>
+                <li><a href="#" id="c11"></a></li>
               </ol>
             </td>
           </tr>
           <tr>
             <th>Notes</th>
-            <td></td>
+            <td  id="notes"></td>
           </tr>
         </table>
-      </p>
-      </section>
-      <script src="/footer.js"></script>
 
-    </body>
-    </html>
+      <div id="divCentre">
+        <a class="linkButton" href="qa/">QUALITY ASSURANCE RECORDS</a>
+      </div>
+
+      <script src="/footer.js"></script>
+      <script src="dataCoupler.js"></script>
+      <script src="dataCouplerCircuitList.js"></script>
+  </body>
+</html>
