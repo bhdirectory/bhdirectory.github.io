@@ -57,7 +57,6 @@ switch (d.getWeek()) {
   case  9:
   case  24:
   case  39:
-    break;
     testPoint = "L02 D076 | Main Hall Stairs & L02 D102 | Second Floor Corridor (Lakeview)";
     break;
   case  10:
