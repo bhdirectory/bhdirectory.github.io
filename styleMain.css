@@ -47,7 +47,7 @@ h4 {
 }
 
 .grid-item:hover {
-  background-color: rgba(0, 130, 113, 0.8);
+  background-color: rgba(0, 130, 116, 0.75);
   color: white;
   font-size: 1.25em;
 }
@@ -114,7 +114,7 @@ a:active {
 }
 
 a.acknowledgementButton {
-  border: 2px solid rgb(176, 66, 67, 0.75);
+  border: 2px solid rgba(176, 66, 67, 0.75);
   border-radius: 15px;
   font-family: "Open Sans", sans-serif;
   color: white;
@@ -134,11 +134,11 @@ a.acknowledgementButton:hover {
 }
 
 a.acknowledgementButton:active {
-  background-color: rgb(176, 66, 67, 0.75);
+  background-color: rgba(176, 66, 67, 0.75);
 }
 
 a.linkButton {
-  border: 2px solid rgb(0, 130, 116, 0.75);
+  border: 2px solid rgba(0, 130, 116, 0.75);
   border-radius: 15px;
   font-family: "Open Sans", sans-serif;
   color: rgb(0, 130, 116);
