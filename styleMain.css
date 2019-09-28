@@ -50,6 +50,7 @@ h4 {
   background-color: rgba(0, 130, 116, 0.75);
   color: white;
   font-size: 1.25em;
+  border: 2px solid white;
 }
 
 .subheading {
