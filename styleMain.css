@@ -4,7 +4,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3, h4, nav, .grid-item a {
+h1, h2, h3, h4, nav {
   font-family: "Open Sans", sans-serif;
   color: rgb(0, 130, 116);
 }
@@ -47,6 +47,8 @@ h4 {
 .grid-item a {
   text-decoration: none;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(0, 130, 116);
 }
 
 .subheading {
