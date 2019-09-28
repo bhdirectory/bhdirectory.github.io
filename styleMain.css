@@ -42,11 +42,11 @@ h4 {
   padding: 25px;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .grid-item a {
   text-decoration: none;
-  text-align: center;
   font-family: "Open Sans", sans-serif;
   color: rgb(0, 130, 116);
 }
