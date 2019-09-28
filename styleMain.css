@@ -37,6 +37,7 @@ h4 {
   padding: 75px;
 }
 .grid-item {
+  background-color: white;
   padding: 50px;
   font-size: 20px;
   text-align: center;
