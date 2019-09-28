@@ -36,17 +36,17 @@ h4 {
   background-color: rgba(0, 130, 116, 0.25);
   padding: 75px;
 }
+
 .grid-item {
   background-color: white;
   padding: 25px;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  text-decoration: none;
 }
 
 .grid-item a {
   text-decoration: none;
+  text-align: center;
 }
 
 .subheading {
