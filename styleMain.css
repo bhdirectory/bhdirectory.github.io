@@ -49,6 +49,7 @@ h4 {
 .grid-item:hover {
   background-color: rgba(0, 130, 113, 0.8);
   color: white;
+  font-size: 1.25em;
 }
 
 .subheading {
