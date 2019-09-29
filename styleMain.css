@@ -55,7 +55,7 @@ nav {
 .grid-container {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 200px 200px 200px 200px
   background-color: rgba(204, 167, 20, 0.2);
   padding: 45px;
