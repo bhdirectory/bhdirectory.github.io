@@ -40,12 +40,17 @@ nav {
   grid-area: nv;
 }
 
+aside {
+  grid-area: as;
+}
+
 .grid {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr;
   grid-template-areas:
     "hd"
+    "as"
     "nv"
     "ft";
   background-color: rgba(204, 167, 20, 0.2);
