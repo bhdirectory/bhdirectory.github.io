@@ -28,6 +28,8 @@ h4 {
   font-size: 1.5em;
 }
 
+
+
 .grid-container {
   display: grid;
   grid-gap: 10px;
@@ -49,7 +51,6 @@ h4 {
 .grid-item:hover {
   background-color: rgba(0, 130, 116, 0.75);
   color: white;
-  border: 5px solid purple;
 }
 
 .subheading {
