@@ -31,9 +31,9 @@ h4 {
 .grid-container {
   display: grid;
   grid-gap: 2px;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 200px 200px 200px 200px;
-  background-color: rgb(0, 130, 116);
+  background-color: white;
   padding: 45px;
 }
 
@@ -47,7 +47,7 @@ h4 {
 }
 
 .grid-item:hover {
-  background-color: grey;
+  background-color: rgba(0, 130, 116, 0.75);
   color: white;
   font-size: 1.25em;
   border: 1px solid purple;
