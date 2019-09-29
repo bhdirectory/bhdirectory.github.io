@@ -50,7 +50,7 @@ h4 {
 
 .grid-item:hover {
   background-color: white;
-  border: 5px solid rgba(204, 167, 20, 0.4);
+  border: 1.5px solid black;
 }
 
 .subheading {
