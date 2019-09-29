@@ -40,16 +40,23 @@ nav {
   grid-area: nv;
 }
 
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "hd"
+    "nv"
+    "ft";
+  background-color: rgba(204, 167, 20, 0.2);
+  padding: 45px;
+}
+
 .grid-container {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    "hd hd hd hd"
-    "nv nv nv nv"
-    "nv nv nv nv"
-    "nv nv nv nv"
-    "ft ft ft ft";
+  grid-template-rows: 200px 200px 200px 200px
   background-color: rgba(204, 167, 20, 0.2);
   padding: 45px;
 }
