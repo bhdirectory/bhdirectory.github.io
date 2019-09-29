@@ -33,7 +33,7 @@ h4 {
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 200px 200px 200px 200px;
-  background-color: white;
+  background-color: rgba(204, 167, 20, 0.2);
   padding: 45px;
 }
 
@@ -49,8 +49,7 @@ h4 {
 .grid-item:hover {
   background-color: rgba(0, 130, 116, 0.75);
   color: white;
-  font-size: 1.25em;
-  border: 1px solid purple;
+  border: 5px solid purple;
 }
 
 .subheading {
