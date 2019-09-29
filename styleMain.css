@@ -35,7 +35,7 @@ h4 {
   grid-template-rows: 200px 200px 200px 200px;
   background-color: rgba(204, 167, 20, 0.2);
   padding: 45px;
-  justify-content: space-between;
+  align-content: space-between;
 }
 
 .grid-item {
