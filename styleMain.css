@@ -28,11 +28,25 @@ h4 {
   font-size: 1.5em;
 }
 
+header {
+  grid-area: hd;
+}
+
+footer {
+  grid-area: ft;
+}
+
+nav {
+  grid-area: nv;
+}
+
 .grid-container {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-areas:
+    "hd"
+    "nv"
+    "ft";
   background-color: rgba(204, 167, 20, 0.2);
   padding: 45px;
   align-content: centre;
