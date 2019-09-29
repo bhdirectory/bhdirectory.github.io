@@ -52,14 +52,11 @@ nav {
     "ft ft ft ft";
   background-color: rgba(204, 167, 20, 0.2);
   padding: 45px;
-  align-content: space-evenly;
 }
 
 .grid-item {
   background-color: white;
   padding: 25px;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   text-decoration: none;
   border: 0.5px solid black;
