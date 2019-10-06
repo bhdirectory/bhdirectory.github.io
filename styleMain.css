@@ -85,17 +85,20 @@ aside {
 }
 
 .grid-item {
-  background-image: url("https://bhdirectory.github.io/birtleyhouse-white.jpg");
-  background-position: center; 
+  background-image: url("/birtleyhouse-white.jpg");
+  background-position: center;
   padding-top: 45px;
   padding-bottom: 45px;
   padding-left: 15px;
   padding-right: 15px;
   font-size: 24px;
-  color: rgb(0, 130, 116);
   text-align: center;
   text-decoration: none;
   border: 0.5px solid black;
+}
+
+.grid-item a {
+  color: rgb(0, 130, 116);
 }
 
 @media only screen and (max-width: 1200px) {
