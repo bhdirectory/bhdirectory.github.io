@@ -103,15 +103,36 @@ aside {
   border: 0.5px solid black;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .grid-item {
-    font-size: smaller:
+    background-color: white;
+    padding: 25px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    border: 0.5px solid black;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .grid-item {
-    font-size: larger: 
+    background-color: white;
+    padding: 25px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border: 0.5px solid black;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-item {
+    background-color: white;
+    padding: 25px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: 0.5px solid black;
   }
 }
 
