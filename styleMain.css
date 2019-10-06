@@ -98,6 +98,7 @@ aside {
   background-color: white;
   padding: 25px;
   font-size: 28px;
+  color: rgb(0, 130, 116);
   text-align: center;
   text-decoration: none;
   border: 0.5px solid black;
@@ -108,6 +109,7 @@ aside {
     background-color: white;
     padding: 25px;
     font-size: 24px;
+    color: rgb(0, 130, 116);
     text-align: center;
     text-decoration: none;
     border: 0.5px solid black;
@@ -119,6 +121,7 @@ aside {
     background-color: white;
     padding: 25px;
     font-size: 20px;
+    color: rgb(0, 130, 116);
     text-align: center;
     text-decoration: none;
     border: 0.5px solid black;
@@ -130,6 +133,7 @@ aside {
     background-color: white;
     padding: 25px;
     font-size: 16px;
+    color: rgb(0, 130, 116);
     text-align: center;
     text-decoration: none;
     border: 0.5px solid black;
