@@ -97,24 +97,13 @@ aside {
 .grid-item {
   background-color: white;
   padding: 25px;
-  font-size: 36px;
+  font-size: 28px;
   text-align: center;
   text-decoration: none;
   border: 0.5px solid black;
 }
 
 @media only screen and (max-width: 1000px) {
-  .grid-item {
-    background-color: white;
-    padding: 25px;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    border: 0.5px solid black;
-  }
-}
-
-@media only screen and (max-width: 800px) {
   .grid-item {
     background-color: white;
     padding: 25px;
@@ -125,11 +114,22 @@ aside {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .grid-item {
+    background-color: white;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 0.5px solid black;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .grid-item {
     background-color: white;
     padding: 25px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
     border: 0.5px solid black;
