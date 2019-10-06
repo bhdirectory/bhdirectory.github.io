@@ -68,23 +68,13 @@ aside {
 
 @media only screen and (max-width: 1200px) {
   .grid-container {
-    display: grid;
-    grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 200px;
-    background-color: rgba(204, 167, 20, 0.2);
-    padding: 45px;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .grid-container {
-    display: grid;
-    grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 200px;
-    background-color: rgba(204, 167, 20, 0.2);
-    padding: 45px;
   }
 }
 
@@ -106,37 +96,13 @@ aside {
 
 @media only screen and (max-width: 1200px) {
   .grid-item {
-    background-color: white;
-    padding: 25px;
     font-size: 22px;
-    color: rgb(0, 130, 116);
-    text-align: center;
-    text-decoration: none;
-    border: 0.5px solid black;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .grid-item {
-    background-color: white;
-    padding: 25px;
     font-size: 20px;
-    color: rgb(0, 130, 116);
-    text-align: center;
-    text-decoration: none;
-    border: 0.5px solid black;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .grid-item {
-    background-color: white;
-    padding: 25px;
-    font-size: 16px;
-    color: rgb(0, 130, 116);
-    text-align: center;
-    text-decoration: none;
-    border: 0.5px solid black;
   }
 }
 
