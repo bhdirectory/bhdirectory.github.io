@@ -88,6 +88,7 @@ aside {
   background-image: url("/birtleyhouse-white.jpg");
   background-size: cover;
   background-position: center;
+  opacity: 0.25;
   padding-top: 45px;
   padding-bottom: 45px;
   padding-left: 15px;
