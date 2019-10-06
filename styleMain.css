@@ -86,6 +86,7 @@ aside {
 
 .grid-item {
   background-image: url("https://bhdirectory.github.io/birtleyhouse-white.jpg");
+  background-position: center; 
   padding-top: 45px;
   padding-bottom: 45px;
   padding-left: 15px;
