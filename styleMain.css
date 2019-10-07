@@ -1,13 +1,10 @@
 /*FONTS*/
 
 body {
+  background-color: rgba(204, 167, 20, 0.2);
   font-family: "Open Sans", sans-serif;
   margin: 0px;
   padding: 0px;
-}
-
-#site {
-  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, nav {
