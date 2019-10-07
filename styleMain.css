@@ -96,6 +96,10 @@ aside {
   border: 0.5px solid black;
 }
 
+.grid-item:first-child {
+  background-color: rgba(0, 240, 19, 1);
+}
+
 a.grid-item:link, a.grid-item:visited {
   color: white;
 }
