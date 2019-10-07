@@ -97,7 +97,19 @@ aside {
 }
 
 .grid-item:first-child {
-  background-color: rgba(0, 240, 19, 1);
+  background-color: rgba(0, 130, 116, 1);
+}
+
+.grid-item:second-child {
+  background-color: rgba(0, 153, 138, 1);
+}
+
+.grid-item:third-child {
+  background-color: rgba(0, 230, 207, 1);
+}
+
+.grid-item:fourth-child {
+  background-color: rgba(32, 178, 170, 1);
 }
 
 a.grid-item:link, a.grid-item:visited {
