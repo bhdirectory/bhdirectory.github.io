@@ -85,7 +85,7 @@ aside {
 }
 
 .grid-item {
-  background-color: rgba(0, 130, 116, 0.75);
+  background-color: rgba(0, 130, 116, 0.4);
   padding-top: 45px;
   padding-bottom: 45px;
   padding-left: 15px;
@@ -113,7 +113,7 @@ a.grid-item:link, a.grid-item:visited {
 }
 
 .grid-item:hover {
-  background-color: rgba(204, 167, 20, 0.75);
+  background-color: rgba(0, 130, 116, 0.75);
   border: 2.5px solid black;
 }
 
