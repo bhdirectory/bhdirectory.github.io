@@ -96,7 +96,7 @@ aside {
   border: 0.5px solid black;
 }
 
-a.grid-item {
+a.grid-item:link {
   color: white;
 }
 
