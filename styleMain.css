@@ -4,7 +4,10 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0px;
   padding: 0px;
-  overflow-x:hidden;
+}
+
+#site {
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, nav {
