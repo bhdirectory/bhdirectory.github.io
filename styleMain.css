@@ -157,7 +157,7 @@ a.grid-item:link, a.grid-item:visited {
 }
 
 .grid-item:hover {
-  background-color: rgba(0, 130, 116, 0.4);
+  background-color: rgba(186, 185, 184, 1);
   border: 2.5px solid black;
 }
 
