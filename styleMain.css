@@ -100,15 +100,15 @@ aside {
   background-color: rgba(0, 130, 116, 1);
 }
 
-.grid-item:second-child {
+.grid-item:nth-child(2) {
   background-color: rgba(0, 153, 138, 1);
 }
 
-.grid-item:third-child {
+.grid-item:nth-child(3) {
   background-color: rgba(0, 230, 207, 1);
 }
 
-.grid-item:fourth-child {
+.grid-item:nth-child(4) {
   background-color: rgba(32, 178, 170, 1);
 }
 
