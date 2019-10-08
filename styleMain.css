@@ -251,17 +251,16 @@ a.acknowledgementButton:active {
 
 a.linkButton {
   border: 2px solid rgb(128,128,128);
-  border-radius: 15px;
   font-family: "Open Sans", sans-serif;
   color: rgb(128,128,128);
   background-color: white;
-  padding: 7.5px 16px;
+  padding: 15px, 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-variant: small-caps;
-  font-size: 12px;
-  margin: 2px 1px;
+  font-size: 24px;
+  margin: 4px 2px;
   cursor: pointer;
 }
 
