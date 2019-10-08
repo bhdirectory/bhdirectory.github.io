@@ -96,7 +96,6 @@ aside {
   font-size: 24px;
   text-align: center;
   text-decoration: none;
-  border: 0.5px solid black;
 }
 
 .grid-item:first-child {
@@ -161,7 +160,6 @@ a.grid-item:link, a.grid-item:visited {
 
 .grid-item:hover {
   background-color: rgb(190,190,190);
-  border: 2.5px solid black;
 }
 
 .subheading {
