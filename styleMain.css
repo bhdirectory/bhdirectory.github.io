@@ -250,7 +250,7 @@ a.acknowledgementButton:active {
 a.linkButton {
   font-family: "Open Sans", sans-serif;
   color: rgb(255,255,255);
-  padding: 15px, 32px;
+  padding: 32px;
   text-align: center;
   text-decoration: none;
   font-variant: small-caps;
