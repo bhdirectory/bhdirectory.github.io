@@ -34,6 +34,8 @@ function dataCouple() {
   document.getElementById('a12').href=coaches.itemListElement[12].item.url;
   document.getElementById('a13').innerText=coaches.itemListElement[13].item.name;
   document.getElementById('a13').href=coaches.itemListElement[13].item.url;
+  document.getElementById('a14').innerText=coaches.itemListElement[14].item.name;
+  document.getElementById('a14').href=coaches.itemListElement[14].item.url;
 }
 
 dataCouple();
