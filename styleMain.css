@@ -260,13 +260,7 @@ a.linkButton {
 }
 
 a.linkButton:hover {
-  background-color: rgb(128,128,128);
-  color: white;
-}
-
-a.linkButton:active {
-  background-color: rgb(128,128,128);
-  color: white;
+  color: rgb(128,128,128);
 }
 
 a.linkButton-red {
