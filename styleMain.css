@@ -491,11 +491,6 @@ caption {
 
 /*PAGE LAYOUT*/
 
-body {
-    margin-left: 3em;
-    margin-right: 3em;
-}
-
 article {
   page-break-before: always;
 }
@@ -515,7 +510,7 @@ table ol {
 }
 
 aside {
-  background-color: rgba(204, 167, 20, 0.2);
+  background-color: rgb(220,220,220);
   padding: 15px;
   padding-left: 25px;
   padding-right: 25px;
