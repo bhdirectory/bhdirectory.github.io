@@ -586,6 +586,15 @@ script {
 
 .fa-bars {
   color: rgb(0,130,116);
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding-right: 15px;
+  float: right;
+}
+
+.breadcrumb {
+  color: rgb(0,130,116);
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   padding-right: 15px;
   float: right;
