@@ -10,6 +10,7 @@ function dataCouple() {
   document.getElementById('breadcrumb').innerText=coaches.breadcrumb.name;
   document.getElementById('breadcrumb').href=coaches.breadcrumb.url;
   document.getElementById('headerTitle').innerText=coaches.headline;
+  document.getElementById('text').innerText=coaches.text;
 }
 
 dataCouple();

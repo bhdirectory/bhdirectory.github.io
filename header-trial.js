@@ -1,0 +1,1 @@
+document.write("<img src='https://bhdirectory.github.io/bh-logo.png' width='100' height='100'/><h4 class='subheading'><a href='#' id='home'></a> / <a href='#' id='breadcrumb'></a></h4><h3 id='headerTitle'></h3>")
