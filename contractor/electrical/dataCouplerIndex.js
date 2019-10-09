@@ -6,16 +6,12 @@ function dataCouple() {
   var coaches = JSON.parse(document.querySelector('#coaches').innerText);
   document.title=coaches.mainEntityOfPage.headline;
   document.getElementById('headerTitle').innerText=coaches.mainEntityOfPage.headline;
-  document.getElementById('p0').innerText=coaches.itemListElement[0].item.description;
   document.getElementById('a0').innerText=coaches.itemListElement[0].item.name;
   document.getElementById('a0').href=coaches.itemListElement[0].item.url;
-  document.getElementById('p1').innerText=coaches.itemListElement[1].item.description;
   document.getElementById('a1').innerText=coaches.itemListElement[1].item.name;
   document.getElementById('a1').href=coaches.itemListElement[1].item.url;
-  document.getElementById('p2').innerText=coaches.itemListElement[2].item.description;
   document.getElementById('a2').innerText=coaches.itemListElement[2].item.name;
   document.getElementById('a2').href=coaches.itemListElement[2].item.url;
-  document.getElementById('p3').innerText=coaches.itemListElement[3].item.description;
   document.getElementById('a3').innerText=coaches.itemListElement[3].item.name;
   document.getElementById('a3').href=coaches.itemListElement[3].item.url;
 }
