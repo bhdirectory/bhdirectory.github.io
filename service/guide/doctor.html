@@ -7,15 +7,51 @@
     {
        "@context": "http://schema.org",
        "@type": "WebPage",
-         "@id": "https://bhdirectory.github.io/information/guide/#doctor",
-         "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
-         "breadcrumb": { "name": "A Guide to Our Services", "url": "https://bhdirectory.github.io/information/guide/" },
-         "dateCreated": "2019-06-09",
-         "dateModified": "2019-06-09",
-         "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-         "headline": "Doctor",
-         "about": "Arrangements with the local GP surgery",
-         "text": "Our private GP visits on a weekly basis and is available to all our residents as part of our care package"
+         "@id": "https://bhdirectory.github.io/service/guide/#doctor",
+
+           "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
+           "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation",
+           "name": "DataTrain", "url": "https://www.datatrain.co.uk/" },
+
+           "breadcrumb": {
+             "@type": "BreadcrumbList",
+               "itemListElement":
+               [
+                {
+                 "@type": "ListItem",
+                 "position": 0,
+                 "item":
+                 {
+                  "@id": "https://bhdirectory.github.io/service/guide",
+                  "name": "A Guide to Services"
+                  }
+                },
+                {
+                 "@type": "ListItem",
+                "position": 1,
+                "item":
+                 {
+                   "@id": "https://bhdirectory.github.io/service/",
+                   "name": "Our Services"
+                 }
+                }
+                {
+                 "@type": "ListItem",
+                "position": 2,
+                "item":
+                 {
+                   "@id": "https://bhdirectory.github.io/",
+                   "name": "Directory Home"
+                 }
+                }
+               ]
+             },
+
+           "dateCreated": "2019-06-09",
+           "dateModified": "2019-10-09",
+           "headline": "Doctor",
+           "about": "Arrangements with the local GP surgery",
+           "text": "Our private GP visits on a weekly basis and is available to all our residents as part of our care package"
     }
     </script>
   </head>
