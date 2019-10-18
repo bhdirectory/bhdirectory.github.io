@@ -161,6 +161,18 @@ a.grid-item:link, a.grid-item:visited {
   color: white;
 }
 
+.grid-item:hover {
+  background-color: rgb(190,190,190);
+}
+
+a.aside-item:link, a.grid-item:visited {
+  color: white;
+}
+
+.aside-item:hover {
+  background-color: rgb(190,190,190);
+}
+
 @media only screen and (max-width: 1200px) {
   .grid-item {
     font-size: 22px;
@@ -171,10 +183,6 @@ a.grid-item:link, a.grid-item:visited {
   .grid-item {
     font-size: 20px;
   }
-}
-
-.grid-item:hover {
-  background-color: rgb(190,190,190);
 }
 
 .subheading {
