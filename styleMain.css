@@ -113,7 +113,7 @@ aside {
   padding-right: 15px;
   text-align: center;
   text-decoration: none;
-  background-color: rgb(220,220,220);
+  background-color: rgb(190,190,190);
 }
 
 .grid-item:first-child {
@@ -173,7 +173,7 @@ a.aside-item:link, a.aside-item:visited {
 }
 
 .aside-item:hover {
-  background-color: rgb(190,190,190);
+  background-color: rgb(220,220,220);
   color: white;
 }
 
