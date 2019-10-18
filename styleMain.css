@@ -107,11 +107,6 @@ aside {
 }
 
 .aside-item {
-  background-color: rgb(190,190,190);
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
   font-size: 24px;
   text-align: center;
   text-decoration: none;
