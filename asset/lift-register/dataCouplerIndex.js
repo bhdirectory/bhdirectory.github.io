@@ -18,8 +18,6 @@ function dataCouple() {
   document.getElementById('a4').href=coaches.itemListElement[4].item.url;
   document.getElementById('a5').innerText=coaches.itemListElement[5].item.name;
   document.getElementById('a5').href=coaches.itemListElement[5].item.url;
-  document.getElementById('a6').innerText=coaches.itemListElement[6].item.name;
-  document.getElementById('a6').href=coaches.itemListElement[6].item.url;
 }
 
 dataCouple();
