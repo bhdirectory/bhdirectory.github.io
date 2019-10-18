@@ -166,11 +166,12 @@ a.grid-item:link, a.grid-item:visited {
 }
 
 a.aside-item:link, a.grid-item:visited {
-  color: white;
+  color: rgb(190,190,190);
 }
 
 .aside-item:hover {
   background-color: rgb(190,190,190);
+  color: white;
 }
 
 @media only screen and (max-width: 1200px) {
