@@ -169,7 +169,7 @@ a.grid-item:link, a.grid-item:visited {
 }
 
 a.aside-item:link, a.aside-item:visited {
-  color: black;
+  color: white;
 }
 
 .aside-item:hover {
