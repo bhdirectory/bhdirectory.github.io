@@ -165,8 +165,8 @@ a.grid-item:link, a.grid-item:visited {
   background-color: rgb(190,190,190);
 }
 
-a.aside-item:link, a.grid-item:visited {
-  color: rgb(190,190,190);
+a.aside-item:link, a.aside-item:visited {
+  color: white;
 }
 
 .aside-item:hover {
