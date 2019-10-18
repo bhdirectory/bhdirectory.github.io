@@ -110,6 +110,7 @@ aside {
   padding-top: 5px;
   text-align: center;
   text-decoration: none;
+  background-color: rgb(245,245,245);
 }
 
 .grid-item:first-child {
