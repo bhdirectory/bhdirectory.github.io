@@ -77,7 +77,7 @@ aside {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 460px) {
   .grid-aside {
     grid-auto-rows: 75px;
   }
@@ -178,7 +178,7 @@ a.aside-item:link, a.aside-item:visited {
   }
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 601px) {
   .aside-item {
     font-size: 1em;
   }
