@@ -10,25 +10,7 @@ body {
 h1, h2, h3, h4, nav {
   font-family: "Open Sans", sans-serif;
   color: rgb(0, 130, 116);
-}
-
-h1 {
-  font-size: 28px;
-}
-
-h2 {
-  font-size: 2.5em;
   font-weight: lighter;
-}
-
-h3 {
-  font-size: 2em;
-  font-weight: lighter;
-}
-
-h4 {
-  font-weight: lighter;
-  font-size: 1.5em;
 }
 
 header {
