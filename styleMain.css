@@ -194,6 +194,12 @@ a.aside-item:link, a.aside-item:visited {
   }
 }
 
+@media only screen and (max-width: 601px) {
+  .aside-item {
+    font-size: 16px;
+  }
+}
+
 .subheading {
   color: grey;
   font-weight: lighter;
