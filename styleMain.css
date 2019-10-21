@@ -85,17 +85,29 @@ aside {
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .grid-item, .aside-item {
+    font-size: 22px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
   .grid-container {
     grid-template-columns: 1fr 1fr;
   }
+  .grid-item, .aside-item {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .grid-container {
     grid-template-columns: 1fr;
+  }
+  .grid-aside {
+    grid-auto-rows: 100px;
+  }
+  .aside-item {
+    font-size: 16px;
   }
 }
 
@@ -180,24 +192,6 @@ a.aside-item:link, a.aside-item:visited {
 .aside-item:hover {
   background-color: rgb(220,220,220);
   color: white;
-}
-
-@media only screen and (max-width: 1200px) {
-  .grid-item, .aside-item {
-    font-size: 22px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .grid-item, .aside-item {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 601px) {
-  .aside-item {
-    font-size: 16px;
-  }
 }
 
 .subheading {
