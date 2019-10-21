@@ -178,7 +178,7 @@ a.aside-item:link, a.aside-item:visited {
   }
 }
 
-@media only screen and (max-width: 601px) {
+@media only screen and (max-width: 460px) {
   .aside-item {
     font-size: 1em;
   }
