@@ -89,7 +89,7 @@ aside {
   padding-bottom: 45px;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 1.5em;
+  font-size: 1.75em;
   text-align: center;
   text-decoration: none;
 }
@@ -99,7 +99,7 @@ aside {
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 1.5em;
+  font-size: 1.75em;
   text-align: center;
   text-decoration: none;
 
@@ -168,13 +168,13 @@ a.aside-item:link, a.aside-item:visited {
 
 @media only screen and (max-width: 1200px) {
   .grid-item, .aside-item {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .grid-item, .aside-item {
-    font-size: 1.17em;
+    font-size: 1.25em;
   }
 }
 
