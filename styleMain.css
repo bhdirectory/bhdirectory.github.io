@@ -31,7 +31,7 @@ aside {
 
 .grid {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 1px;
   grid-template-columns: 1fr;
   grid-template-areas:
     "hd"
@@ -44,7 +44,7 @@ aside {
 
 .grid-aside {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 1px;
   grid-template-columns: 1fr;
   grid-auto-rows: 50px;
   background-color: rgb(245,245,245);
@@ -52,7 +52,7 @@ aside {
 
 .grid-container {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 1px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-auto-rows: 200px;
   background-color: rgb(245,245,245);
