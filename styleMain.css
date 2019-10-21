@@ -85,6 +85,9 @@ aside {
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+@media only screen and (max-width: 1200px) {
   .grid-item, .aside-item {
     font-size: 22px;
   }
@@ -94,6 +97,9 @@ aside {
   .grid-container {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+@media only screen and (max-width: 800px) {
   .grid-item, .aside-item {
     font-size: 20px;
   }
@@ -103,9 +109,15 @@ aside {
   .grid-container {
     grid-template-columns: 1fr;
   }
+}
+
+@media only screen and (max-width: 600px) {
   .grid-aside {
     grid-auto-rows: 100px;
   }
+}
+
+@media only screen and (max-width: 600px) {
   .aside-item {
     font-size: 16px;
   }
@@ -127,7 +139,7 @@ aside {
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 16px;
+  font-size: 24px;
   text-align: center;
   text-decoration: none;
 
