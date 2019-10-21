@@ -540,7 +540,6 @@ table ol {
 }
 
 footer {
-  font-size: 0.75em;
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 2em;
@@ -553,7 +552,6 @@ dfn {
 
 .datatrain {
   font-family: "Helvetica";
-  font-size: smaller;
 }
 
 script {
