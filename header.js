@@ -1,1 +1,1 @@
-document.write("<img src='https://bhdirectory.github.io/bh-logo.png' width='100' height='100'/><a href='../' class='fa fa-bars' style='font-size: 1.5em;'>  BACK</a><a href='/' class='fa fa-bars' style='font-size: 1.5em;'>  DIRECTORY HOME</a><h3 id='headerTitle'></h3>")
+document.write("<img src='https://bhdirectory.github.io/bh-logo.png' width='100' height='100'/><a href='../' class='fa fa-bars' style='font-size: 1.5em;'>  BACK</a><a href='/' class='fa fa-bars' style='font-size: 1.5em;'>  DIRECTORY HOME</a><h1 id='headerTitle'></h1>")
