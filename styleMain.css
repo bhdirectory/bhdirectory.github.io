@@ -68,7 +68,7 @@ aside {
   display: grid;
   grid-gap: 1px;
   grid-template-columns: 1fr;
-  grid-auto-rows: 75px;
+  grid-auto-rows: 50px;
   background-color: rgb(245,245,245);
 }
 
@@ -115,7 +115,7 @@ aside {
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 24px;
+  font-size: 75%;
   text-align: center;
   text-decoration: none;
 
