@@ -65,6 +65,7 @@ aside {
   grid-template-columns: 1fr;
   background-color: rgb(245,245,245);
   padding: 45px;
+  font-size: 1.75em;
 }
 
 @media only screen and (max-width: 1200px) {
