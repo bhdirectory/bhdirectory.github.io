@@ -61,6 +61,7 @@ aside {
 
 .grid-simple {
   display: grid;
+  visibility: hidden;
   grid-gap: 1px;
   grid-template-columns: 1fr;
   background-color: rgb(245,245,245);
