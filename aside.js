@@ -1,1 +1,1 @@
-document.write("<aside class='grid-aside'><div class='aside-item' onmouseover='displayFunction()' onmouseout='hideFunction()'>Safety Arrangements</div><div id='hidden-item'></div><a class='aside-item' href='qa/''>Quality Assurance</a></aside>")
+document.write("<aside class='grid-aside'><div class='aside-item' onmouseover='displayFunction()' onmouseout='hideFunction()'>Safety Arrangements</div><div id='hidden-item'></div><a class='aside-item' href='qa/'>Quality Assurance</a></aside>")
