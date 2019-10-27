@@ -109,7 +109,14 @@ aside {
   font-size: 1.75em;
   text-align: center;
   text-decoration: none;
+}
 
+.hidden-item {
+  background-color: rgb(245,245,245);
+  padding: 15px;
+  font-size: 1.75em;
+  text-align: left;
+  text-decoration: none;
 }
 
 .grid-item:first-child {
