@@ -111,7 +111,7 @@ aside {
   text-decoration: none;
 }
 
-.hidden-item {
+#hidden-item {
   display: none;
   background-color: rgb(245,245,245);
   padding: 15px;
