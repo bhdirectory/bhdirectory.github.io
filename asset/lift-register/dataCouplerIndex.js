@@ -13,10 +13,6 @@ function dataCouple() {
   document.getElementById('a1').href=coaches.itemListElement[1].item.url;
   document.getElementById('a2').innerText=coaches.itemListElement[2].item.name;
   document.getElementById('a2').href=coaches.itemListElement[2].item.url;
-  document.getElementById('a3').innerText=coaches.itemListElement[3].item.name;
-  document.getElementById('a3').href=coaches.itemListElement[3].item.url;
-  document.getElementById('a4').innerText=coaches.itemListElement[4].item.name;
-  document.getElementById('a4').href=coaches.itemListElement[4].item.url;
 }
 
 dataCouple();
