@@ -112,7 +112,7 @@ aside {
 }
 
 .hidden-item {
-  visibility: hidden;
+  display: none;
   background-color: rgb(245,245,245);
   padding: 15px;
   font-size: 1.25em;
