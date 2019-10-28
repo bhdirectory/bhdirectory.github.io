@@ -3,42 +3,72 @@
   <head>
     <script src="/head.js"></script>
     <title></title>
-    <script type="application/ld+json" id="coachThree">
+    <script type="application/ld+json" id="coaches">
     {
-       "@context": "http://schema.org",
-       "@type": "CreativeWork",
-       "@id": "https://bhdirectory.github.io/ladder-register/index.html",
-       "author": {
-         "@type": "Organization",
-           "name": "DataTrain",
-           "url": "https://www.datatrain.co.uk/"
-       },
-         "dateCreated": "2019-03-16",
-         "dateModified": "2019-03-16",
-         "isPartOf": { "name": "Birtley House Directory", "url": "https://bhdirectory.github.io/" },
-         "headline": "Working at Height Arrangements"
-     }
+      "@context": "http://schema.org",
+      "@type": "ItemList",
+        "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https://bhdirectory.github.io/asset/ladder-register/index.html",
+             "breadcrumb": "Birtley House Directory > Health & Safety > Ladders",
+             "author": { "@type": "Organization", "@id": "https://www.datatrain.co.uk/#organisation", "name": "DataTrain", "logo": "https://bhdirectory.github.io/datatrain-small.png", "url": "https://www.datatrain.co.uk/" },
+             "dateCreated": "2019-03-16",
+             "dateModified": "2019-10-28",
+             "isPartOf": { "@id": "https://bhdirectory.github.io/#directory", "name": "Birtley House Directory", "logo": "https://bhdirectory.github.io/bh-logo.png", "url": "https://bhdirectory.github.io/" },
+             "headline": "Working at Height",
+             "text": "The company has a Working at Height Policy and risk assessment.  Only staff who have undergone ladder training should use a ladder.  The need for the use of a ladder should be determined by a risk assessment, although for straightforward daily tasks such a changing a lightbulb, hanging a picture or storing something on a high shelf, such an assessment will be done at the time by the individual using the ladder or step-ladder.  Maintenance, Housekeeping and Kitchen staff undergo suitable training and have access to ladders and step-ladders.  For all work involving platforms, trestles or scaffolding, RAMS will be provided before work starts.  This applies to contractors working on site as well"
+        },
+        "numberOfItems": 3,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": "0",
+            "item": {
+              "@id": "https://bhdirectory.github.io/asset/ladder-register/#3001",
+              "name": "Ladder No.1",
+              "url": "https://bhdirectory.github.io/asset/ladder-register/3001.html"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": "1",
+            "item": {
+              "@id": "https://bhdirectory.github.io/asset/ladder-register/#3002",
+              "name": "Ladder No.2",
+              "url": "https://bhdirectory.github.io/asset/ladder-register/3002.html"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": "2",
+            "item": {
+              "@id": "https://bhdirectory.github.io/asset/ladder-register/#3003",
+              "name": "Ladder No.3",
+              "url": "https://bhdirectory.github.io/asset/ladder-register/3003.html"
+            }
+          }
+        ]
+    }
     </script>
   </head>
     <body>
-      <header>
-        <script src="/header.js"></script>
-        <h3 id="headerTitle"></h3>
-        <aside>
-          <p>The company has a <a href="">Working at Height Policy</a> and <a href="/risk/risk-register/working-at-height.pdf">risk assessment</a>.  Only staff who have undergone ladder training should use a ladder.  The need for the use of a ladder should be determined by a risk assessment, although for straightforward daily tasks such a changing a lightbulb, hanging a picture or storing something on a high shelf, such an assessment will be done at the time by the individual using the ladder or step-ladder.  Maintenance, Housekeeping and Kitchen staff undergo suitable training and have access to ladders and step-ladders.  For all work involving platforms, trestles or scaffolding, RAMS will be provided before work starts.  This applies to contractors working on site as well.</p>
-        </aside>
-        <div>
-          <h4>Latest update:<br /><span class="subheading"><script src="update.js"></script></span></h4>
-        </div>
-        <nav>
-          <h4>Ladder & Step-ladder Register</h4>
-          <ol>
-            <li>Register under development (see hardcopy with Maintenance Team)</li>
-          </ol>
-        </nav>
-      </header>
-
-      <script src="/footer.js"></script>
-      <script src="dataCoupler.js"></script>
-  </body>
+      <div class="grid">
+        <header>
+          <script src="/header.js"></script>
+        </header>
+          <aside class="grid-aside">
+            <script src="/aside.js"></script>
+          </aside>
+          <nav class="grid-container">
+            <a class="grid-item" href="#" id="a0"></a>
+            <a class="grid-item" href="#" id="a1"></a>
+            <a class="grid-item" href="#" id="a2"></a>
+          </nav>
+        <footer>
+          <script src="/footer.js"></script>
+          <script src="dataCouplerIndex.js"></script>
+          <script src="/hiddenItem.js"></script>
+        </footer>
+      </div>
+    </body>
 </html>
