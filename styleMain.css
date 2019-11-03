@@ -111,10 +111,9 @@ aside {
   text-decoration: none;
 }
 
-#hidden-item {
-  display: none;
+#toggle-item {
   background-color: rgb(245,245,245);
-  padding: 15px;
+  padding: 25px;
   text-align: left;
   text-decoration: none;
 }
