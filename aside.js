@@ -1,1 +1,1 @@
-document.write("<div class='aside-item' onmouseover='displayFunction()' onmouseout='hideFunction()'>Safety Arrangements</div><div id='hidden-item'></div><a class='aside-item' href='qa/'>Quality Assurance</a>")
+document.write("<button onclick='toggleFunction()'>Safety Arrangements</button><div id='toggle-item'></div><a class='aside-item' href='qa/'>Quality Assurance</a>")
