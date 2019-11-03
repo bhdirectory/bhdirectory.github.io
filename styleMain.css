@@ -285,7 +285,6 @@ a.acknowledgementButton:active {
 a.linkButton {
   font-family: "Open Sans", sans-serif;
   border: 2px solid rgba(0, 130, 116, 0.75);
-  border-radius: 15px;
   background-color: rgba(0, 130, 116, 0.75);
   color: white;
   padding: 7.5px 16px;
