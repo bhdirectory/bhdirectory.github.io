@@ -14,8 +14,7 @@ function dataCouple() {
   document.getElementById('sn').innerText=coaches.serialNumber;
   document.getElementById('condition').innerText=coaches.itemCondition;
   document.getElementById('department').innerText=coaches.isRelatedTo.identifier.description;
-  document.getElementById('extension').innerText=coaches.isRelatedTo.identifier.value;
-  document.getElementById('extension').href=coaches.isRelatedTo.identifier.url;
+  document.getElementById('assignment').innerText=coaches.isRelatedTo.identifier.value;
 }
 
 dataCouple();
