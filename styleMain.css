@@ -214,9 +214,9 @@ article > header {
   padding-bottom: 1.5em;
 }
 
-section > header {
+/* section > header {
   border-top: 1px solid black;
-}
+} */
 
 blockquote {
   font-weight: lighter;
