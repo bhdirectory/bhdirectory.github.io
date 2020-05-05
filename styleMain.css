@@ -224,7 +224,7 @@ blockquote {
 }
 
 article > footer {
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
