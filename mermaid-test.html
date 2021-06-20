@@ -21,20 +21,38 @@
     Task in sec      :2014-01-12  , 12d
     another task      : 24d
   </div>
-  <div class="mermaid">
-  line
- 	  labels: [Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday]
- 	  series:
-	   - title: Occupancy
- 	   data: [23,23,23,24,28,28,28]
- 	   - title: Staffing (All Teams)
- 	   data: [15,14,15,15,18,20,20]
-	   - title: Staffing (Care Team)
- 	   data: [6,7,7,7,8,8,8]
-	  beginAtZero: true
-	  legend: true
-  </div>
+
+  <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+  <script>
+    var xValues = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+    var yValues = [7,8,8,9,9,9,10,11,14,14,15];
+
+    new Chart("myChart", {
+      type: "line",
+      data: {
+        labels: xValues,
+        datasets: [{
+          fill: false,
+          lineTension: 0,
+          backgroundColor: "rgba(0,0,255,1.0)",
+          borderColor: "rgba(0,0,255,0.1)",
+          data: yValues
+        }]
+      },
+      options: {
+        legend: {display: false},
+        scales: {
+          yAxes: [{ticks: {min: 6, max:16}}],
+        }
+      }
+    });
+  </script>
+
+
  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
  <script>mermaid.initialize({startOnLoad:true});</script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
 </body>
 </html>
