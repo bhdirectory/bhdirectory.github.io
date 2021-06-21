@@ -1,4 +1,5 @@
-document.write("var xValues = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+document.write("
+var xValues = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 var yValues = [7,8,8,9,9,9,10,11,14,14,15];
 
 new Chart("myChart", {
@@ -19,4 +20,5 @@ new Chart("myChart", {
       yAxes: [{ticks: {min: 6, max:16}}],
     }
   }
-});")
+});
+")
