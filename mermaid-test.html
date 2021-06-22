@@ -12,61 +12,60 @@
   <h1>Dashboard</h1>
   <h3>Week 25:</h3> <i>w/c 21st June 2021</i>
 
-  <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
-  <script>
-
-    var xValues = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
-
-    new Chart("myChart", {
-      type: "line",
-      data: {
-        labels: xValues,
-        datasets: [{
-          label: "Care staff",
-          fill: false,
-          lineTension: 0,
-          backgroundColor: "rgba(0,0,255,1.0)",
-          borderColor: "rgba(0,0,255,0.1)",
-          data: [7,8,8,9,9,9,10],
+  <div id="toggle-item">
+    <h2>Staff-ration analysis</h2>
+    <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+    <script>
+      var xValues = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+      new Chart("myChart", {
+        type: "line",
+        data: {
+          labels: xValues,
+          datasets: [{
+            label: "Care staff",
+            fill: false,
+            lineTension: 0,
+            backgroundColor: "rgba(0,0,255,1.0)",
+            borderColor: "rgba(0,0,255,0.1)",
+            data: [7,8,8,9,9,9,10],
+          },
+          {
+            label: "Occupancy",
+            fill: false,
+            lineTension: 0,
+            backgroundColor: "rgba(0,0,255,1.0)",
+            borderColor: "light green",
+            data: [17,18,18,19,19,19,20]
+          },
+          {
+            label: "Agency",
+            fill: false,
+            lineTension: 0,
+            backgroundColor: "rgba(0,0,255,1.0)",
+            borderColor: "pink",
+            data: [2,2,3,1,0,0,1]
+          }
+        ]
         },
-        {
-          label: "Occupancy",
-          fill: false,
-          lineTension: 0,
-          backgroundColor: "rgba(0,0,255,1.0)",
-          borderColor: "light green",
-          data: [17,18,18,19,19,19,20]
-        },
-        {
-          label: "Agency",
-          fill: false,
-          lineTension: 0,
-          backgroundColor: "rgba(0,0,255,1.0)",
-          borderColor: "pink",
-          data: [2,2,3,1,0,0,1]
+        options: {
+          title:{
+            display: true,
+            text: "Staff-ratio analysis"
+          },
+          legend: {
+            display: true
+          },
+          scales: {
+            yAxes: [{ticks: {min: 0, max:30}}],
+          }
         }
-      ]
-      },
-      options: {
-        title:{
-          display: true,
-          text: "Staff-ratio analysis"
-        },
-        legend: {
-          display: true
-        },
-        scales: {
-          yAxes: [{ticks: {min: 0, max:30}}],
-        }
-      }
-    });
-  </script>
-
-
-  <canvas id="bar-chart-horizontal"style="width:100%;max-width:700px"></canvas>
-
-  <script>
-
+      });
+    </script>
+  </div>
+  <div id="toggle-item">
+    <h2>Occupancy</h2>
+    <canvas id="bar-chart-horizontal"style="width:100%;max-width:700px"></canvas>
+    <script>
       new Chart(document.getElementById("bar-chart-horizontal"), {
         type: 'horizontalBar',
         data: {
@@ -95,32 +94,33 @@
           }
         }
       });
-  </script>
-
-
-  <canvas id="pie-chart" style="width:100%;max-width:700px"></canvas>
-
-  <script>
-    new Chart(document.getElementById("pie-chart"), {
-      type: 'pie',
-      data: {
-        labels: ["Nursing", "Care", "Housekeeping", "Admin", "Kitchen", "Probation"],
-        datasets: [
-          {
-            label: "Employees",
-            backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","grey"],
-            data: [12,25,11,7,5,4]
+    </script>
+  </div>
+  <div id="toggle-item">
+    <h2>Employee numbers by team</h2>
+    <canvas id="pie-chart" style="width:100%;max-width:700px"></canvas>
+    <script>
+      new Chart(document.getElementById("pie-chart"), {
+        type: 'pie',
+        data: {
+          labels: ["Nursing", "Care", "Housekeeping", "Admin", "Kitchen", "Probation"],
+          datasets: [
+            {
+              label: "Employees",
+              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","grey"],
+              data: [12,25,11,7,5,4]
+            }
+          ]
+        },
+        options: {
+          title: {
+            display: true,
+            text: 'Staff numbers by team'
           }
-        ]
-      },
-      options: {
-        title: {
-          display: true,
-          text: 'Staff numbers by team'
         }
-      }
-  });
-  </script>
+      });
+    </script>
+  </div>
 
 
 
