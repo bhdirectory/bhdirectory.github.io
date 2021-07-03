@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <script type="text/javascript" src="xlsx.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource"></script>
 </head>
 <header>
   <script src="/header.js"></script>
@@ -12,28 +14,16 @@
 <body>
   <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
   <script>
-    var xValues = [50,60,70,80,90,100,110,120,130,140,150];
-    var yValues = [7,8,8,9,9,9,10,11,14,14,15];
-
-    new Chart("myChart", {
-    type: "line",
-    data: {
-      labels: xValues,
-      datasets: [{
-        fill: false,
-        lineTension: 0,
-        backgroundColor: "rgba(0,0,255,1.0)",
-        borderColor: "rgba(0,0,255,0.1)",
-        data: yValues
-      }]
-    },
+  var ctx = document.getElementById('myChart').getContext('2d');
+  var chart = new Chart(ctx, {
+    type: 'bar',
+    plugins: [ChartDataSource],
     options: {
-      legend: {display: false},
-      scales: {
-        yAxes: [{ticks: {min: 6, max:16}}],
+      datasource: {
+        url: 'sample-dataset.xlsx'
       }
     }
-    });
+  });
   </script>
 
  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
