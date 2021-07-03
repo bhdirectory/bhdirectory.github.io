@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-    <script type="text/javascript" src="xlsx.full.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource"></script>
   </head>
   <header>
     <script src="/header.js"></script>
@@ -19,11 +18,11 @@
         plugins: [ChartDataSource],
         options: {
           datasource: {
-            url: 'sample-dataset.xlsx'
+            url: 'sample-dataset.csv'
           }
         }
       });
       </script>
-      <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource"></script>
+
     </body>
 </html>
