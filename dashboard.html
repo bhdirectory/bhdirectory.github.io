@@ -12,10 +12,10 @@
       var chart = new Chart(ctx, {
         type: 'bar',
         plugins: [ChartDataSource],
-        plugins: {
-            datasource: {
-                url: 'sample-dataset.csv'
-            }
+        options: {
+          datasource: {
+            url: 'sample-dataset.xlsx'
+          }
         }
       });
       </script>
