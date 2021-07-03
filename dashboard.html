@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
   </head>
     <body>
       <canvas id="myChart"></canvas>
@@ -11,13 +12,12 @@
       var chart = new Chart(ctx, {
         type: 'bar',
         plugins: [ChartDataSource],
-        options: {
-          daatasource: {
-            url: "sample-dataset.csv"
-          }
+        plugins: {
+            datasource: {
+                url: 'sample-dataset.csv'
+            }
         }
       });
       </script>
-      <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource"></script>
     </body>
 </html>
